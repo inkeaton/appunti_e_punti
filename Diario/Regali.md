@@ -1,0 +1,27 @@
+
+# Idee Regali (Compleanno, Natale)
+- [ ] [Just a Friend Vinile - Tally Hall](https://needlejuicerecords.com/product/justafriend/)
+- [ ] Good & Evil Vinile
+- [ ] Night & Light Vinile
+- [ ] Splatune 2 (Con Plettro!)
+- [ ] Octotune
+- [x] Uncharted Collection
+- [ ] Ring Fit Adventure
+- [ ] Elden Ring
+- [ ] Dark Souls 2
+- [ ] Sekiro: Shadows Die Twice
+- [ ] Occhiali da Vista
+- [x] RAM per Laptop (16 GiB)
+- [x] SSD per Laptop (500 GiB)
+- [ ] Numeri di Kuragehime
+- [ ] Numeri di Jojonium
+- [x] Le Città Invisibili - Calvino
+- [x] Fahrenheit 451 - Brandbury
+- [x] Raspeberry Pi 400 Kit (ITA)
+- [ ] UNDERTALE Collector's Editions PC
+- [ ] [Sakura Craft Lab 005](https://www.ebay.it/itm/224339116072)
+- [ ] Clean Code book
+- [ ] L'Arte Del Refactoring
+- [x] [Jabra Elite 3](https://www.amazon.it/gp/product/B099BF141P/ref=ewc_pr_img_1?smid=A11IL2PNWYJU7H&psc=1)
+- [ ] [Cartooning The Head And Figure](https://www.amazon.it/gp/product/0399508031/ref=ox_sc_saved_title_4?smid=A11IL2PNWYJU7H&psc=1)
+- [ ] [How to Draw Animals](https://www.amazon.it/gp/product/0399508023/ref=ox_sc_saved_title_5?smid=A11IL2PNWYJU7H&psc=1)
