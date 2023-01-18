@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "3b0189b3dbfacf83",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6ecc4a2e3c6d402",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2b4e04b22b8b8c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno 2/RC/19 - Riassunto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "803dff493429658f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6f31518285507cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno 2/SO/Riassunto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d6a1ff427cffafe7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2dfcede5fb7a215",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0bff1cf136c21d0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "62e5fdd38f7de3db",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "73069164cde6efc4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno 2/AL/_ref/AL.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 284.50722885131836
+  },
+  "right": {
+    "id": "383bace37aaa2def",
+    "type": "split",
+    "children": [
+      {
+        "id": "41ea81e14c86216d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1622c789c2b4d399",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Unige/Anno 2/RC/19 - Riassunto.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0f7498100e894eed",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Apri riquadro comandi": false,
+      "markdown-importer:Apri importazione Markdown": false
+    }
+  },
+  "active": "f2b4e04b22b8b8c4",
+  "lastOpenFiles": [
+    "Unige/Anno 2/SO/Riassunto.md",
+    "Unige/Anno 2/RC/19 - Riassunto.md",
+    "Unige/Anno 2/SO/_ref/05_threading.pdf",
+    "Unige/Anno 1/AdC/28-Riassunto.md",
+    "Unige/Anno 2/SO/_ref/07_file_system.pdf",
+    "Unige/Anno 1/AdC/Data Path.md",
+    "Unige/Anno 1/AdC/Il Codice ASCII.md",
+    "Unige/Anno 1/AdC/L'Algebra Binaria.md",
+    "Unige/Anno 1/AdC/Località e Cache.md",
+    "Unige/Anno 1/AdC/Multiplexer, Demultiplexer, Decoder.md"
+  ]
+}

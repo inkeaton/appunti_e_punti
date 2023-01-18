@@ -1,0 +1,12 @@
+{
+  "baseFontSize": 16,
+  "translucency": true,
+  "cssTheme": "Things",
+  "enabledCssSnippets": [
+    "pdf_spaces"
+  ],
+  "accentColor": "#564785",
+  "nativeMenus": false,
+  "showViewHeader": true,
+  "interfaceFontFamily": "Cantarell"
+}

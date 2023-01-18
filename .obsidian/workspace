@@ -1,0 +1,114 @@
+{
+  "main": {
+    "id": "3b0189b3dbfacf83",
+    "type": "split",
+    "children": [
+      {
+        "id": "efdb22aec7fc1b0d",
+        "type": "leaf",
+        "state": {
+          "type": "pdf",
+          "state": {
+            "file": "Unige/Anno 2/AL/_ref/AL.pdf"
+          }
+        }
+      },
+      {
+        "id": "77103bc5232f6c1a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Unige/Anno 2/AL/Sistemi Lineari.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d6a1ff427cffafe7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2dfcede5fb7a215",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0bff1cf136c21d0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "62e5fdd38f7de3db",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 216.50868225097656,
+    "collapsed": true
+  },
+  "right": {
+    "id": "383bace37aaa2def",
+    "type": "split",
+    "children": [
+      {
+        "id": "41ea81e14c86216d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1622c789c2b4d399",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Unige/Anno 2/AL/Sistemi Lineari.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "77103bc5232f6c1a",
+  "lastOpenFiles": [
+    "Unige/Anno 2/AL/Matrici Invertibili.md",
+    "Unige/Anno 2/AL/Matrici.md",
+    "Unige/Anno 2/AL/_ref/AL.pdf",
+    "Unige/Anno 2/SO/_ref/03_file_e_processi.pdf",
+    "Unige/Anno 2/RC/DNS.md",
+    "Unige/Anno 2/RC/Timeout.md",
+    "Unige/Anno 2/RC/UDP e TCP.md",
+    "Unige/Anno 2/LPO/Linguaggi Funzionali.md",
+    "Unige/Anno 2/LPO/_ref/2022-10-11.pdf",
+    "Unige/Anno 2/LPO/_ref/2022-10-10.pdf"
+  ]
+}

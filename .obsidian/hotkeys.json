@@ -1,0 +1,18 @@
+{
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "/"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ]
+}
