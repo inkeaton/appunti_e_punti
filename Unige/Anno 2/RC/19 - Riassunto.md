@@ -16,15 +16,15 @@
 	* Nella versione del 1983, il clock ha una frequenza di 10 MHz, con una velocità di 10^6 bit al secondo
 * I dati arrivano a tutti gli host collegati alla rete. Essi controllano se i dati sono inviati a loro stessi, in tal caso leggono il messaggio
 ---
-* Un problema di questo meccanismo sono le __interferenze__. Se due messaggi passano allo stesso tempo, possono confondersi a vicenda
+* Un problema di questo meccanismo sono le __collisioni__. Se due messaggi passano allo stesso tempo, possono confondersi a vicenda
 * Per evitarle si usa l'algoritmo __CSMA-CD__ (Carrier Sensor Multiple Access - Collision Detection)
-	* Appena un dispositivo fra quelli connessi alla rete rileva una connessione, questi "urla" a tutti gli altri dell'avvenuto (Jamming)
-	* I due dispositivi che trasmettevano interrompono la comunicazione.
-	* Ognuno dei due riprendee dop un tempo, scelto casualmente, multiplo di T, un tempo maggiore di quello necessario perchè un messaggio si propaghi su tutto il filo. Nel caso scelgano lo stesso, si ripete l'interferenza, e si sceglie fra un numero maggiore di multipli
+	* Appena un dispositivo fra quelli connessi alla rete rileva una connessione, questi "urla" a tutti gli altri dell'avvenuto (__Jamming__)
+	* I due dispositivi che trasmettevano __interrompono__ la comunicazione.
+	* Ognuno dei due riprende dopo un tempo, scelto casualmente, multiplo di T, un tempo maggiore di quello necessario perchè un messaggio si propaghi su tutto il filo. Nel caso scelgano lo stesso, si ripete l'interferenza, e si sceglie fra un numero maggiore di multipli
 * Il tempo necessario per la propagazione è l'__intervallo di vulnerabilità__. Dopo questo tempo, ogni host riceve la trasmissione di chi comunica sul cavo
 ---
 * Esistono varie versioni del protocollo
-	* __10 Base 5__
+	* __10 Base 5__ (1983)
 		* Utilizza un cavo coassiale, ma si può usare anche al livello 1 per comunicare con i dispositivi dell'host
 	* __10 Base 2__ (1985)
 		* Si usa un connettore a t
@@ -56,12 +56,12 @@
 	* __Peer to Peer__: I due dispositivi comunicano __direttamente__ fra loro
 	* __Infrastructure__: I due dispositivi comunicano utilizzando un __Access Point__ come __intermediario__
 * La __prima__ modalità viene utilizzata molto __raramente__, in quanto Infrastructure ha il vantaggio di permettere l'aumento dell'area coperta dalla rete
-* Rispetto ad Ethernet, la __velocità__ è molto più __bassa__, si comunica all'incirca a 20 Mb al secondo
+* Rispetto ad Ethernet, la __velocità__ è molto più __bassa__, si comunica all'incirca a 20 Mb/s
 ---
 * Esistono più versioni del protocollo:
 	* __`a`__: Utilizzato in America, lavora sui 5 GHz
 	* __`b`__: Utilizzato in Europa, lavora sui 2.4 GHz
-	* __`g`__: Standard capace di raggiungere una banda di 54Mb/s
+	* __`g`__: Standard capace di raggiungere una banda di 54 Mb/s
 * Sono disponibili 11 canali di comunicazione differenti, ma a causa delle sovrapposizioni, se ne possono usare solo 3 alla volta
 ---
 * Al contrario di Ethernet, non abbiamo bisogno di usare CSMA/CD, useremo il cosiddetto CSMA/CA, __Collision Avoidance__
@@ -106,7 +106,10 @@
 		* __4__ bit che indicano quanto è __lungo__ in totale l'__header__
 		* __8__ bit indicano il __Service Type__, una feature mai utilizzata che indicava il tipo di servizio del pacchetto
 		* __16__ bit che indicano la __lunghezza totale__ del datagramma
-	* __Seconda__ riga: (SCRIVILA DOPO)
+	* __Seconda__ riga:
+		* __Identification__: Indica quale frammento stiamo inviando
+		* __IP flags__: Istruzioni per gestire la frammentazione dei pacchetti
+		* __Fragment offset__: Indica l'offset dell'inizio del payload rispetto al pacchetto originale, ora frammentato
 	* __Terza__ riga:
 		* __8__ bit chiamati __Time to Live__ (TTL), il quale è un numero diminuito ad ogni passaggio fra router. Se raggiunge 0, il datagramma viene eliminato. Questo serve ad __evitare loop__ in cui il datagramma gira all'infinito fra router
 		* __8__ bit chiamati __Next Level Protocol__ (NLP), i quali indicano il metodo di __codifica__ del __payload__ a livello L4
@@ -132,8 +135,8 @@
 ---
 * Instradamento a livello IP. Come implementarlo?
 * Abbiamo due metodi:
-	* __Link-State__: Ogni router, appena inizializzato, invia a tutti i vicini il suo indirizzo, ed ognuno li memorizza in tabelle. Attraverso questi dati, si può creare un __grafo__. Attraverso l'agoritmo __Dijkstra__, saremo poi in grado di trovare il cammino minore fra due nodi. Un problema di questo metodo è nell'__eccessiva dimensione__ del grafo, nel caso di grandi reti
-	* __Distance-Vector-Routing__: Ogni router possiede un distance-vector che indica la sua distanza da ogni altro router nella rete. Egli lo invia periodicamente ai suoi vicini. In questo modo, ogni router sarà in grado di calcolarsi le relative distanze fra ogni router, e determinare il minor cammino. Non conviene però su reti molto grandi
+	* __Link-State__: Ogni router, appena inizializzato, invia a tutti i vicini il suo indirizzo, ed ognuno li memorizza in tabelle. Attraverso questi dati, si può creare un __grafo__. Attraverso l'algoritmo __Dijkstra__, saremo poi in grado di trovare il cammino minore fra due nodi. Un problema di questo metodo è nell'__eccessiva dimensione__ del grafo, nel caso di grandi reti
+	* __Distance-Vector-Routing__: Ogni router possiede un distance-vector che indica la sua distanza da ogni altro router nella rete. Egli lo invia periodicamente ai suoi vicini. In questo modo, ogni router sarà in grado di calcolarsi le relative distanze fra ogni router, tramite l'algoritmo __Bellman-Ford__, e determinare il minor cammino. Non conviene però su reti molto grandi![[DVvsLS.png]]
 ---
 ### ICMP 
 * Si occupa di trasmettere i __messaggi d'errore__ delle comunicazioni IP
@@ -262,7 +265,7 @@
 ---
 *  Vengono usati due __algoritmi__ diversi per ritrovare i server richiesti:
 	* __Ricorsivo__: il client invia la domanda alla root. La root identifica il TLD, ed invia la richiesta al nodo relativo. Questo nodo fa lo stesso con il livello autoritativo, e così via fino all'ultimo nodo. Questi invierà l'IP necessario al client
-	* __Iterativo__: Simile al precedente, ma con la differenza che ogni nodo invia l'ip del nodo successivo al client, il quale invierà nuovamente la richeista al nuovo nodo
+	* __Iterativo__: Simile al precedente, ma con la differenza che ogni nodo invia l'ip del nodo successivo al client, il quale invierà nuovamente la richiesta al nuovo nodo
 * Il __primo__ è più __veloce__, ma __grava sui server__, mentre il __secondo__ è più __lento__, ma fa in modo che __parte del carico sia presa dal client__
 ---
 * Possiamo usare dei __server DNS locali__, che si occupano delle mansioni del client nell'algoritmo iterativo, dotati di __cache__, con timeout di __validità__
@@ -309,7 +312,7 @@
 		* La __lunghezza__ dell'__indirizzo__ precedente
 * Restituisce il numero di dati ricevuti
 	* Se il buffer è troppo __piccolo__ rispetto ai dati ricevuti, solo una __parte__ dei dati viene __trascritta__
-	* In questi casi è molto utilie la flag __`MSG_PEEK`__. Questa fa in modo che vengano __conservati__ i dati ricevuti, senza scriverli nel __buffer__. Se la `recvfrom()` viene richiamata, gli stessi dati vengono riportati
+	* In questi casi è molto utile la flag __`MSG_PEEK`__. Questa fa in modo che vengano __conservati__ i dati ricevuti, senza scriverli nel __buffer__. Se la `recvfrom()` viene richiamata, gli stessi dati vengono riportati
 	* In questo modo, potremmo utilizzare la flag nelle comunicazioni, ed in caso il buffer sia __troppo piccolo__ rispetto ad i dati, __raddoppieremo__ lo __spazio__ dedicato al buffer
 * Nel caso non riceva dati, questi si __blocca__ fino a quando non riceve informazioni
 	* Si può evitare scrivendo la flag __`MSG_DONT_WAIT`__
@@ -361,11 +364,11 @@
 * __Comunicazione__: porte TCP/20 e TCP/21
 ---
 * La porta 21 viene usata per inviare comandi, la 20 per trasferire i dati
-* Il client invia comnadi sulla porta 21. ad esempio:
+* Il client invia comandi sulla porta 21. ad esempio:
 	* __USER__, che serve per __autenticarsi__ nel server, passando lo username: Il server dorebbe rispondere 100, aspettandosi la password
 	* __PASS__, che serve a passare la __password__ dell'utente. Il server dovrebbe rispondere 200
 	* __PORT__ serve ad inviare il valore della porta effimera del client (Modalità __attiva__). Il server risponderà con 100, aspettando la richiesta di un file
-	* __PASV__ serve ad attivare la modalità __passiva__, in cui sarà il serve a creare una porta effimera su cui il client si connetterà. Utile in caso di firewall attorno al client
+	* __PASV__ serve ad attivare la modalità __passiva__, in cui sarà il server a creare una porta effimera su cui il client si connetterà. Utile in caso di firewall attorno al client
 	* __RETR__ serve a richiedere un file; dopo aver ricevuto questo comando il server comincia a trasmettere sulla porta 20, per poi chiudere la connessione a trasferimento terminato. A fine trasferimento, esso invia 200
 	* __LIST__ funziona come un ls
 	* __NOOP__ non fa niente, ma serve a mantenere la connessione sempre attiva, ed evitare che si chiuda per timeout
@@ -384,7 +387,7 @@
 * __Comunicazione__: porta TCP/25
 * __Header__:
 	* Formato da 72 caratteri.
-	* Sono presento tre sezioni:
+	* Sono presenti tre sezioni:
 		* __From__: il mittente
 		* __To__: il destinatario
 		* __Subject__: l'argomento del messaggio
@@ -398,7 +401,7 @@
 	* Questo viene fatto così che il destinatario possa ricevere il messaggio anche se la sua macchina fosse spenta
 ---
 * Ecco un esempio di comunicazione con il server per l'invio di una lettera
-	*  __MUA__ apre una connessione di tipo __STREAM__ sulla porta __25__, per comunicare con il MTA. Venivano scambiati file di testo, passando i singoli caratteri __ASCII__ su 7 bit
+	* __MUA__ apre una connessione di tipo __STREAM__ sulla porta __25__, per comunicare con il MTA. Venivano scambiati file di testo, passando i singoli caratteri __ASCII__ su 7 bit
 	* Invia il messaggio __CONNECT__ 25, richiedendo la __connessione__ sulla porta 25. 
 		* MTA risponde con __220__ (OK)
 	* MUA risponde con __HELO__ seguito dal suo __indirizzo__, in forma numerica e simbolica
@@ -497,7 +500,7 @@
 ### DHCP (Dynamic Host Configuration Protocol)
 * Si occupa di gestire la __configurazione__ __IP__ dei dispositivi in una rete, specie nei casi in cui si rimuovono ed aggiungono spesso dispositivi
 ---
-* __Comunicazione__: UDP/68 per il client, UDP/67 per il server
+* __Comunicazione__: UDP/__68__ per il client, UDP/__67__ per il server
 ---
 * Le __richieste__ avranno:
 	* Nel Frame, il MAC dell'host come mittente e Broadcast come destinatario
