@@ -213,9 +213,9 @@
 * All'invio di ogni messaggio, viene __aggiornato__ il SEQ# e l'ACK#. Quando il destinatario lo riceve, esso invia un messaggio vuoto con la flag ACK#, garantendo il corretto ricevimento dell'informazione
 * Nel caso il __mittente non riceva__ una conferma entro un tempo limite (timeout), questi __reinvierà__ il pacchetto
 * Gli host dovranno comunicare tenendo conto della __Receive Window__, e spezzare le informazioni in più pacchetti se necessario
-* Nel caso un host impieghi troppo tempo a svuotare il suo buffer, questi può inviare pacchetti __Keep Alive__, vuoti, inviati solo per impedire il timeout
+* Nel caso un host impieghi troppo tempo a svuotare il suo buffer, questi può inviare pacchetti __Keep Alive__, vuoti, inviati solo per impedire il timeout'
 * Dato che ad ogni messaggio è richiesto un ACK, spesso si inviano informazioni dentro ad un ACK che sarebbe normalmente vuoto (__Piggy Bagging__)
-*  In caso un mittente voglia inviare un numero molto grande di dati, egli dovrà farlo inviando un gran numero di datagrammi separati. In questi casi è stupido pensare di inviare ACK per ognuno di questi: possiamo pensare di __inviare ack solo ogni tot pacchetti__. 
+* In caso un mittente voglia inviare un numero molto grande di dati, egli dovrà farlo inviando un gran numero di datagrammi separati. In questi casi è stupido pensare di inviare ACK per ognuno di questi: possiamo pensare di __inviare ack solo ogni tot pacchetti__. 
 * Nel caso i pacchetti siano in disordine, possiamo __aspettare__ l'arrivo dei giusti pacchetti prima di inviare un ACK. È anche possibile comunicare la __mancata ricezione__ tramite il __rinvio__ di ACK precedentemente inviati, arrivando spesso prima di un timeout e velocizzando il rinvio di pacchetti
 ---
 *  La __connessione__ può essere __conclusa__ in due modi:

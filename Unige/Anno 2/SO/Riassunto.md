@@ -169,10 +169,10 @@
 		* Il __Kernel__
 		* Le __librerie__
 ---
-* __`dup`___ duplica un fd, restituendo un nuovo valore, che indica allo stesso file
+* __`dup`__ duplica un fd, restituendo un nuovo valore, che indica allo stesso file
 * __`dup2`__ duplica secondo uno specifico valore passato alla funzione
 ---
-* Più fd possono puntare allo stesso file, ma possono avre offset differenti, puntando allo stesso inode, ma ad una differente spazio della Open file table
+* Più fd possono puntare allo stesso file, ma possono avere offset differenti, puntando allo stesso inode, ma ad una differente spazio della Open file table
 * Dipende se l'fd è stato duplicato, o se è stato ottenuto con una seconda open sullo stesso file
 ---
 * __Pipe__
@@ -216,14 +216,14 @@
 	* La priorità viene decisa in base a come si è comportato in precedenza.
 	* Inizialmente un processo entra con priorità massima. Se sfrutta tutto il quanto di tempo (relativo alla sua priorità) ad esso riservato, cala di priorità
 	* Ogni tot, ridiamo a tutti la priorità massima, per favorire i processi più "vecchi"
-	* Se dobbiamo secegliere fra due processi
+	* Se dobbiamo scegliere fra due processi
 		* Se p(A) > p(B) gira A
 		* Se p(A) = p(B) usiamo il __RR__ 
 * __Completely Fair Scheduler__ (CFS):
 	* Assegna ad ogni processo un `vruntime`, una variabile che indica quanto tempo hanno passato in esecuzione.
 	* In base ad esso, decide di mandare in esecuzione il programma con `vruntime` più piccolo, per un tempo `sched_latency/n`, dove `n` è il numero di processi al momento
 	* Una volta eseguito, il suo `vruntime` viene aggiornato, in base al tempo passato ed in base al numero di processi in corso
-		* I processi vengono conservati in BST rossi e neri, così da ritrovare facilmente il processo con `vruntime minore`
+		* I processi vengono conservati in BST rossi e neri, così da ritrovare facilmente il processo con `vruntime` minore
 	* In caso un processo faccia molto I/O? il suo `vruntime` rimarrebbe ingiustamente basso...
 	* Quanto torna in esecuzione lo ricalcoliamo come il minimo degli altri
 		* Questo algoritmo __non__ è molto __conveniente__ per i programmi che fanno molto __I/O__
@@ -250,7 +250,7 @@
 	* Viene acquisito da un thread per accedere ai dati, e va rilasciato il prima possibile
 * Spinlock (DA VEDERE)
 ---
-* Le cosiddette funzioni "__rientranti__" vengono considerate thread safe. Sono pensate per poter essere facilemnte interrotte, e solitamente il loro funzionamento non include sezioni critiche, tramite l'utilizzo di lock o di TLS
+* Le cosiddette funzioni "__rientranti__" vengono considerate thread safe. Sono pensate per poter essere facilmente interrotte, e solitamente il loro funzionamento non include sezioni critiche, tramite l'utilizzo di lock o di TLS
 ---
 * Ci sono numerosi bug che possono verificarsi a causa dell'utilizzo di più thread. Uno di questi è il __Deadlock__:
 	* Una situzione in cui due thread attendono a vicenda un lock dall'altro
@@ -335,7 +335,7 @@
 * Infine un __superblocco__, contenente tutte le info sul FS
 ---
 * Ogni __inode__ contiene tutte le informazioni di un file, TRANNE il __nome__
-* L'inode contiene inoltre __puntatori__ ai __dati__ del del file. Ci saranno un numero piccolo di puntatori a dati veri, poi i restanti puntano ad ulteriori gruppi di puntatori, i quali potranno puntare anche ad altri blocchi, e così via
+* L'inode contiene inoltre __puntatori__ ai __dati__ del file. Ci saranno un numero piccolo di puntatori a dati veri, poi i restanti puntano ad ulteriori gruppi di puntatori, i quali potranno puntare anche ad altri blocchi, e così via
 * Le __directory__ contengono associazioni fra __nomi__ e __inode__
 * Queste associazioni sono i cosidetti __hard link__, nomi aggiunti ad un file
 * Da non confondere con i __symbolic link__, file che contengono un percorso, possibilmente inesistente

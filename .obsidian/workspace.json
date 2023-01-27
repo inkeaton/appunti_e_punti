@@ -4,29 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "f6ecc4a2e3c6d402",
+        "id": "cf6242586dffa034",
         "type": "tabs",
         "children": [
           {
-            "id": "f2b4e04b22b8b8c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unige/Anno 2/RC/19 - Riassunto.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6f31518285507cf",
+            "id": "c62af2f21a17cfce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Unige/Anno 2/SO/Riassunto.md",
-                "mode": "source",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d154fdaccf5f7991",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno 2/RC/19 - Riassunto.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno 2/SO/Riassunto.md",
+                "file": "Unige/Anno 2/RC/19 - Riassunto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,17 +138,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6f31518285507cf",
+  "active": "d154fdaccf5f7991",
   "lastOpenFiles": [
-    "Unige/Anno 2/RC/19 - Riassunto.md",
     "Unige/Anno 2/SO/Riassunto.md",
-    "Unige/Anno 2/SO/_ref/05_threading.pdf",
-    "Unige/Anno 1/AdC/28-Riassunto.md",
     "Unige/Anno 2/SO/_ref/07_file_system.pdf",
-    "Unige/Anno 1/AdC/Data Path.md",
-    "Unige/Anno 1/AdC/Il Codice ASCII.md",
-    "Unige/Anno 1/AdC/L'Algebra Binaria.md",
-    "Unige/Anno 1/AdC/Località e Cache.md",
-    "Unige/Anno 1/AdC/Multiplexer, Demultiplexer, Decoder.md"
+    "Unige/Anno 2/SO/_ref/03_file_e_processi.pdf",
+    "Unige/Anno 2/SO/_ref/05_threading.pdf",
+    "Unige/Anno 2/RC/19 - Riassunto.md",
+    "Unige/Anno 2/SO/_ref/04_scheduling.pdf",
+    "Unige/Anno 2/AL/Riassunto Varbaro.md",
+    "Unige/Anno 2/AL/_ref/AL.pdf",
+    "Unige/Anno 2/AL/Domande.md",
+    "Unige/Anno 2/AL/Tipi di Esercizi.md"
   ]
 }
