@@ -159,6 +159,7 @@ val add : int * int -> int = <fun>
 1,[true] = 1,true::[]
 ```
 
+* Possiedono un modulo, `List`, contenente una serie di funzioni built-in da usare sulle liste
 ---
 * __Differenze__ fra liste e tuple:
 	* Le liste devono avere tipi omogenei, le tuple no
@@ -197,4 +198,105 @@ val add : int * int -> int = <fun>
 
 ---
 #### Pattern Matching
-* 
+* I pattern sono delle sequenze costruite tramite costruttori (__non__ operatori) usate per identificare valori tramite la decomposizione
+```ocaml
+let add (x,y) = x+y;;
+add (3,5);; (* does (3,5) match with pattern (x,y)? *)
+```
+
+* Possiamo usare in queste definizioni la wild card `_` , usata per indicare un dato di cui non ci importa il valore
+```ocaml
+let hd (h::t) = h;; (* returns the head of the list *)
+
+let hd (h::_) = h;; (* head of the list, with wildcard ’_’ *)
+```
+
+* Possiamo usare questi pattern per creare degli "switch-case", creando funzioni capaci di variare a seconda del tipo di pattern, e sfruttare la decomposizione 
+* Usiamo le parole `match` e `with`. `|` divide i casi
+* Si può anche usare `as` per riferirsi alla variabile che viene scomposta nei casi 
+```ocaml
+let swap l = match l with
+	[] -> []
+	| [x] -> [x] (* x is a local variable for this case *)
+	| x::y::t -> y::x::t;; (* x, y and t are local variables for this case *)
+
+let mynot = function (* simplified syntax *)
+	false -> true 
+	| _ -> false;;
+
+let ord_swap = function (* ls shorter than x::y::tl *)
+	x::y::tl as ls -> if x>y then y::x::tl else ls
+	| other -> other;;
+```
+
+#### Stringhe
+* Hanno il tipo primitivo `string`, e si cotruiscono tramite `"`
+* `""` è la stringa vuota.
+* Esiste la concatenazione `^`, anche essa può essere usata in modo curried
+* Le stringhe possiedono un __modulo__, `String`, il quale contiene varie funzioni predefinite da usare su di esse
+
+---
+#### Accumulatori
+* Nella ricorsione possiamo usare degli __accumulatori__, variabili che contengono valori intermedi e vengono passati ad ogni ricorsione 
+* Questo permette di implementare, per esempio, la tail recursion, nella quale l'ultima operazione eseguita è sempre la chiamata ricorsiva. Questo permette anche di ottimizzare il tempo d'esecuzione di queste funzioni
+* Per far ciò serviranno delle funzioni ausiliarie (locali)
+```ocaml
+# let rec reverse = function 
+	hd::tl -> reverse tl @ [hd] (* inductive case *) 
+	| _ -> [];; (* base case [] *) 
+
+# let acc_rev ls = (* parameter ls needed to get a polymorphic function *)
+	let rec aux acc = function
+		hd::tl -> aux (hd::acc) tl
+		| _ -> acc
+		in aux [] ls;;
+```
+
+---
+#### Funzioni Polimorfiche
+* Sono funzioni capaci di accettare argomenti differenti. Ad esempio, la `acc_rev` precedente può accettare `int list`, `bool list`, etc
+
+---
+#### Eccezioni
+* Le eccezioni sono di tipo `exn`, e vengono generate con `raise`
+* Sono dichiarate come `exception`
+* La gestione avviene tramite `try` e `with`
+```ocaml
+exception Fault;; (* constant constructor *)
+exception Fault1 of string;; (* a unary constructor *)
+exception Fault2 of string*exn;; (* a binary constructor *)
+
+let exc=Fault;;
+let exc1=Fault1 "error message";;
+let exc2=Fault2 ("msg",exc);;
+```
+
+* Esiste la funzione predefinita `failwith` che prende un argomento stringa e fa `raise` con essa
+
+---
+#### Float
+* I float usano come operatori i "soliti", ma con il punto dopo. Per le tuple si usa `**`
+* float e int __non__ sono compatibili
+* Esiste un modulo, `Float`, con alcune funzioni
+
+---
+#### Tipi Varianti
+* Usando `type`, possiamo definire __nuovi tipi__
+	* L'identificatore di tipo deve iniziare con una lettera minuscola
+	* I costruttori devono iniziare con una lettera maiuscola
+	```ocaml
+	type color = Red | Green | Blue;; (* just constant constructors *)
+	
+	let to_string = function (* to_string : color -> string *)
+	  Red -> "red"
+    | Green -> "green"
+    | Blue -> "blue";;
+
+	List.map to_string [Red; Blue; Green; Blue];;
+	- : string list = ["red"; "blue"; "green"; "blue"]
+	```
+
+* Le dichiarazioni di tipi varianti possono essere __ricorsive__. Solitamente usato per creare strutture ad albero, come degli AST
+* Un tipo variante built-in è `option`, composto da `None` e `Some of 'a`
+	* Nel modulo `Option` sono definite alcune funzioni da usare con essi
+* Potremmo implementare dei BST!
