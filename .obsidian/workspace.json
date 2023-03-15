@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "53b4df00d48ddb66",
+        "id": "31ee09e948f2b106",
         "type": "tabs",
         "children": [
           {
-            "id": "59b8bcceb01cdc2f",
+            "id": "d17b61a5add36c20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno 2/APA/1 - Correttezza e Complessità.md",
+                "file": "Unige/Anno 2/BD/3 - Modello Concettuale.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.50587844848633,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno 2/APA/1 - Correttezza e Complessità.md",
+                "file": "Unige/Anno 2/BD/3 - Modello Concettuale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,17 +124,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "59b8bcceb01cdc2f",
+  "active": "d17b61a5add36c20",
   "lastOpenFiles": [
+    "Unige/Anno 2/APA/6 - Dijkstra.md",
+    "Unige/Anno 2/APA/5 - Grafi.md",
+    "Unige/Anno 2/BD/1 - Modello Relazionale.md",
+    "Unige/Anno 2/BD/3 - Modello Concettuale.md",
+    "Unige/Anno 2/BD/C - Gestore delle strutture di Memorizzazione.md",
+    "Unige/Anno 2/LPO/Java Cheatsheet.md",
+    "Unige/Anno 2/TII/3 - Probabilità Condizionata e Bayes.md",
+    "Unige/Anno 2/LPO/_ref/state.zip",
+    "Unige/Anno 2/LPO/_ref/Pokemon - Versione Smeraldo .jg0",
+    "Unige/Anno 2/LPO/_ref/Pokemon - Versione Smeraldo .jsa",
+    "Unige/Anno 2/LPO/_ref/Pokemon - Versione Smeraldo .jga",
+    "Unige/Anno 2/LPO/_ref/Pokemon - Versione Smeraldo .sav",
+    "Unige/Anno 2/LPO/_ref/Pokemon - Versione Smeraldo.sav",
+    "Unige/Anno 2/BD/B - Servizi.md",
+    "Unige/Anno 2/BD/A - DBMS.md",
+    "Unige/Anno 2/LPO/23-03-09.md",
+    "Senza nome.canvas",
+    "Il matrimonio.md",
+    "Unige/Anno 2/LPO/_ref/2023-03-09.pdf",
+    "Diario/Regali.md",
+    "Senza nome 1.canvas",
+    "Unige/Anno 2/LPO/_ref/2023-03-02.pdf",
+    "Unige/Anno 2/LPO/_ref/2022-12-21.pdf",
+    "Unige/Anno 2/BD/2 - Chiavi e Superchiavi.md",
+    "Unige/Anno 2/BD/_ref/01ModelloRelazionale.pdf",
+    "Unige/Anno 2/APA/4 - Algoritmi Iterativi.md",
+    "Unige/Anno 2/APA/2 - Tipi di Problemi.md",
+    "Unige/Anno 2/APA/3 - Alberi e Hanoi.md",
+    "Unige/Anno 2/TII/1 - Combinatoria.md",
+    "Unige/Anno 2/TII/2 - Definizione Assiomica Probabilità.md",
+    "Unige/Anno 2/LPO/23-03-02.md",
+    "Unige/Anno 2/APA/1 - Correttezza e Complessità.md",
     "Unige/Anno 2/Senza nome.md",
     "Pasted image 20230214122903.png.md",
-    "Unige/Anno 2/LPO/Java Cheatsheet.md",
     "Unige/Anno 2/LPO/Variabili.md",
-    "Unige/Anno 2/LPO/_ref/2022-10-10.pdf",
-    "Unige/Anno 2/LPO/_ref/2022-10-07.pdf",
-    "Unige/Anno 2/LPO/_ref/2022-10-06.pdf",
-    "Unige/Anno 2/LPO/_ref/2022-10-03.pdf",
-    "Unige/Anno 2/LPO/_ref/2022-09-29.pdf",
     "Unige/Anno 2/LPO/Ocaml CheatSheet.md"
   ]
 }

@@ -5,8 +5,10 @@
   "enabledCssSnippets": [
     "pdf_spaces"
   ],
-  "accentColor": "#564785",
+  "accentColor": "#478565",
   "nativeMenus": false,
   "showViewHeader": true,
-  "interfaceFontFamily": "Cantarell"
+  "interfaceFontFamily": "Cantarell,Latina Essential",
+  "textFontFamily": "Cantarell,Cambria",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font"
 }

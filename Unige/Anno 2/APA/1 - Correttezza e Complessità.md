@@ -1,4 +1,4 @@
-* Un __Problema__ viene descritto, in modo formale, come una relazione $P$ su $I \times S$, dove $I$ è l'insieme degli input, e $S$ l'insieme delle soluzioni
+* Un __problema__ viene descritto, in modo formale, come una relazione $P$ su $I \times S$, dove $I$ è l'insieme degli input, e $S$ l'insieme delle soluzioni
 	* $\forall i \in I \; \exists s \in S$, soluzione o insieme di soluzioni che si vogliono ottenere
 * Come troviamo queste soluzioni? Tramite gli __Algoritmi__!
 * Un Algoritmo è un __procedimento di calcolo meccanico__, atto allo scopo di risolvere una problema, descritto in modo preciso e disambiguo
@@ -35,3 +35,9 @@
 	* Caso __medio__
 * La complessità di quest'ultimo verrà calcolata tramite una media __pesata__, considerando le probabilità di avvenimento dei diversi casi
 	* Solitamente ci __interesseremo__ del caso __peggiore__, in quanto ci da la garanzia che l'algoritmo non può "andar peggio" di così
+* Diremo che un algoritmo ha __complessità__:
+	* $O(f(n))$ se $T_{worst} = O(f(n))$
+	* $\Omega(f(n))$ se $T_{best} =\Omega(f(n))$
+	* $\Theta(f(n))$ se $T_{worst} = T_{best} =\Theta(f(n))$
+---
+* Esistono anche algoritmi __randomizzati__, la cui __complessità__ dipende in parte dalla scelta di un valore __randomico__ all'interno dello stesso. Ne parleremo maggiormente in seguito

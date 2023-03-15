@@ -1,7 +1,5 @@
-let rec dup x :
-  [] -> [];;
-| h:t -> h:h:(dup x);;#### Programmazione ad oggetti
-* Java è un linguaggio di __programmazione ad oggetti__![[Pasted image 20230214122903.png]]
+#### Programmazione ad oggetti
+* Java è un linguaggio di __programmazione ad oggetti__!
 * Esso è strutturato tramite l'astrazione degli oggetti e dei metodi:
 	* Un __oggetto__ è una struttura dati, accessibile tramite dei __metodi__, delle "funzioni" specifiche a quell' oggetto
 	* Un __istanza__ è, appunto, un'istanza di quell'oggetto, ovvero una "variabile" unica, creata sulla base quell'oggetto. Una __classe__ è una blueprint, le istanze sono gli oggetti creati con quelle blueprint

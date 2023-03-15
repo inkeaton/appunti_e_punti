@@ -7,7 +7,7 @@
 - [ ] Octotune
 - [x] Uncharted Collection
 - [ ] Ring Fit Adventure
-- [ ] Elden Ring
+- [x] Elden Ring
 - [ ] Dark Souls 2
 - [ ] Sekiro: Shadows Die Twice
 - [ ] Occhiali da Vista
