@@ -29,3 +29,13 @@
 	* __Semplici__: formati da una __sola__ proprietà
 	* __Composti__: formati da __più__ proprietà
 * Gli identificatori __misti__ sono tutti __composti__
+---
+* Le __gerarchie di ereditarietà__ sono una componente presente nell'__extended__ ER
+* Consistono in una relazione fra entità che indica alcune come __sottoinsiemi__ o specializzazioni di un altra.
+	* Vengono rappresentate graficamente con delle __frecce__
+* Esse si classificano in:
+	* __Esclusiva__: Se i sottoinsiemi possiedono __intersezioni__
+	* __Condivisa__: Se i sottoinsiemi __non__ possiedono intersezioni
+* Oppure in:
+	* __Totale__: Se tutti gli elementi del padre vengono __suddivisi__ nei figli
+	* __Parziale__: Se __non__ __tutti__ gli elementi del padre vengono suddivisi

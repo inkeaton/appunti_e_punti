@@ -10,8 +10,10 @@
 	* $P(E) = P(E|F)P(F) + P(E|F^C)P(F^C)$ 
 * Possiamo descriverla come l'unione della probabilità di tutti i casi in cui avviene l'evento $E$
 ---
-* Un teorema fondamentale della probabilità è il teorema di __Bayes__:
+* Un concetto fondamentale della probabilità è la formula di __Bayes__:
 	* $P(F|E) = \frac{P(E|F)P(F)}{P(E)}$ 
 * In esso, $P(F|E)$ è la cosiddetta probabilità a __posteriori__, $P(F)$ è la probabilità a __priori__ 
+* Una formula derivata è il cosiddetto __teorema__ di Bayes
+	* $P(F|E) = \frac{P(E|F)P(F)}{P(E|F)P(F) + P(E|F^C)P(F^C)}$ 
 * Questo teorema ci permette di sfruttare tutte le informazioni che possiamo ottenere
 * Potremmo usarlo per risolvere, ad esempio, il problema delle tre carte, o di __Monty Hall__

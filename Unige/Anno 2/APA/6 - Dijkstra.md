@@ -8,3 +8,5 @@
 * Avrò alla fine le __distanze minime__
 ---
 * Allo scopo di garantire la __correttezza__ dell'algoritmo, è necessario che tutti i __pesi__ del grafo siano __positivi__
+---
+* Ha complessità $\Theta ((m+n)\log{n})$ 
