@@ -4,40 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "0f62c58c5285173e",
+        "id": "131d8539a53af07b",
         "type": "tabs",
         "children": [
           {
-            "id": "f02f726546b86d39",
+            "id": "a83b41eba185e14c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno 2/BD/D - Gestore del Buffer.md",
+                "file": "Unige/Anno 2/BD/3 - Modello Concettuale.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "84bd4e6f1ccf210d",
+            "id": "a75a075fc021f5bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno 2/BD/E - Indici Ordinati.md",
+                "file": "Unige/Anno 2/BD/0 - Riassunto.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4b7bd59d2910158d",
+            "id": "748970cd80e64cde",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno 2/BD/F - Indici Hash.md",
+                "file": "Unige/Anno 2/BD/0 - Riassunto.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno 2/BD/F - Indici Hash.md",
+                "file": "Unige/Anno 2/BD/0 - Riassunto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,44 +149,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4b7bd59d2910158d",
+  "active": "748970cd80e64cde",
   "lastOpenFiles": [
+    "Unige/Anno 2/BD/Z - Riassunto.md",
+    "Unige/Anno 2/BD/0 - Riassunto.md",
+    "Unige/Anno 2/BD/D - Gestore del Buffer.md",
+    "Unige/Anno 2/BD/C - Gestore delle strutture di Memorizzazione.md",
+    "Unige/Anno 2/BD/B - Servizi.md",
+    "Unige/Anno 2/BD/E - Indici Ordinati.md",
+    "Unige/Anno 2/BD/4 - Progettazione di una Base Dati.md",
+    "Unige/Anno 2/BD/A - DBMS.md",
+    "Unige/Anno 2/BD/1 - Modello Relazionale.md",
+    "Unige/Anno 2/BD/3 - Modello Concettuale.md",
+    "Unige/Anno 2/BD/2 - Chiavi e Superchiavi.md",
+    "Unige/Anno 2/BD/6 - Interrogazioni e Query.md",
     "Unige/Anno 2/BD/5 - Basi di SQL.md",
     "Unige/Anno 2/BD/F - Indici Hash.md",
-    "Unige/Anno 2/BD/E - Indici Ordinati.md",
-    "Unige/Anno 2/APA/9 - Programmazione Dinamica.md",
-    "Unige/Anno 2/BD/D - Gestore del Buffer.md",
-    "Unige/Anno 2/APA/8 - Ordinamento Topologico.md",
     "Unige/Anno 2/TII/6 - Variabili Aleatorie Continue.md",
-    "Unige/Anno 2/TII/5 - Bernoulli & Friends.md",
-    "Unige/Anno 2/TII/4 - Variabili Aleatorie Discrete.md",
-    "Unige/Anno 2/TII/3 - Probabilità Condizionata e Bayes.md",
-    "Unige/Anno 2/BD/4 - Progettazione di una Base Dati.md",
-    "Unige/Anno 2/LPO/23-03-23.md",
+    "Unige/Anno 2/APA/10 - Teoria della NP-Completezza.md",
+    "Il matrimonio.md",
+    "NoteProgetto.md",
+    "Unige/Anno 2/AL/Complementi Algebrici.md",
+    "Unige/Anno 2/AL/Determinanti.md",
+    "Unige/Anno 2/AL/Basi Particolari.md",
+    "Unige/Anno 1/Calculus 1/Teoremi sui Limiti.md",
+    "Unige/Anno 1/Calculus 1/Trasformazioni Geometriche ed Algebriche.md",
+    "Unige/Anno 1/Calculus 1/Monotonia.md",
+    "Unige/Anno 1/Calculus 1/Limiti.md",
+    "Unige/Anno 1/Calculus 1/Limiti Fondamentali.md",
+    "Unige/Anno 1/Calculus 1/2022-Calculus1.pdf",
+    "NoteProgetto.md.save",
     "Unige/Anno 2/LPO/_ref/2023-03-23.pdf",
-    "Unige/Anno 2/APA/7 - Alberi minimi.md",
-    "Unige/Anno 2/APA/6 - Dijkstra.md",
-    "Unige/Anno 2/APA/5 - Grafi.md",
-    "Unige/Anno 2/APA/4 - Algoritmi Iterativi.md",
-    "Unige/Anno 2/APA/3 - Alberi e Hanoi.md",
-    "Unige/Anno 2/APA/2 - Tipi di Problemi.md",
-    "Unige/Anno 2/APA/1 - Correttezza e Complessità.md",
-    "Unige/Anno 2/BD/3 - Modello Concettuale.md",
-    "Unige/Anno 2/BD/C - Gestore delle strutture di Memorizzazione.md",
     "Unige/Anno 2/BD/_ref/gestore delle strutture di memorizzazione e di accesso.pdf",
     "Unige/Anno 2/LPO/_ref/2023-03-02.pdf",
     "Unige/Anno 2/LPO/_ref/2023-03-09.pdf",
-    "Unige/Anno 2/BD/1 - Modello Relazionale.md",
-    "Unige/Anno 2/LPO/Java Cheatsheet.md",
     "Unige/Anno 2/LPO/_ref/state.zip",
     "Unige/Anno 2/LPO/_ref/Pokemon - Versione Smeraldo .jg0",
     "Unige/Anno 2/LPO/_ref/Pokemon - Versione Smeraldo .jsa",
     "Unige/Anno 2/LPO/_ref/Pokemon - Versione Smeraldo .jga",
-    "Unige/Anno 2/LPO/_ref/Pokemon - Versione Smeraldo .sav",
-    "Unige/Anno 2/LPO/_ref/Pokemon - Versione Smeraldo.sav",
-    "Unige/Anno 2/BD/B - Servizi.md",
-    "Unige/Anno 2/BD/A - DBMS.md",
-    "Unige/Anno 2/LPO/23-03-09.md",
     "Senza nome.canvas",
     "Senza nome 1.canvas"
   ]

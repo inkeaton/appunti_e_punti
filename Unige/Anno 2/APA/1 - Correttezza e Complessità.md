@@ -15,12 +15,12 @@
 * Un modo per indicarla è tramite il paragone con alcune funzioni elementari, caratterizzate da comportamento __asintotico__
 * In ordine di complessità, abbiamo:
 	* $\log n$    -> logaritmica
-	* $n^{\frac{1}{2}}$       -> radice quadrata
-	* $n$         -> lineare
+	* $n^{\frac{1}{2}}$        -> radice quadrata
+	* $n$           -> lineare
 	* $n \log n$ -> pseudo lineare
-	* $n^2$        -> quadratica
-	* $n^3$        -> cubica
-	* $2^{n}$        -> esponenziale
+	* $n^2$         -> quadratica
+	* $n^3$         -> cubica
+	* $2^{n}$         -> esponenziale
 	* $n^{n}$        
 * Per indicare il __rapporto__ fra la complessità del nostro __algoritmo__ e queste __funzioni__ elementari, in funzione del numero di valori in input $n$ useremo i seguenti __operatori__:
 	* $O(f(n))$ -> La complessità cresce __non più__ di un funzione $f$

@@ -12,3 +12,8 @@
 ---
 * Una classica funzione di hash è la funzione modulo.
 	* Si è notato che la funzione è maggiormente efficace nella distribuzione uniforme se il valore di modulo utilizzato è numero primo oppure è composto da fattori primi maggiori di 20
+---
+* Anche gli indici hash possono essere primari/secondari, mono o multiattributo
+	* Nel caso dei multiattributo potrebbe essere importante l'ordine dei dati
+* Un poco differente è la definizione di indice clusterizzato. Viene detto clusterizzato quando gli attributi con valori simili sono tutti nello stesso bucket. 
+* Questo effetto viene normalemente ottenuto tramite la funzione di hash, ma solo per uno degli indici. Nel caso di indici secondari, sarà necessario un secondo set di bucket, contenenti puntatori ai dati. Questo viene detto indice multilivello

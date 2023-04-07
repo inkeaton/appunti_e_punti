@@ -19,7 +19,7 @@
 	* Indicati come __grossi pallini__ bianchi
 ---
 * Un __identificatore__ è un insieme di attributi o associazioni capaci di identificare univocamente un' istanza di un entità
-	* Vengono idicati graficamente da __pallini neri__
+	* Vengono indicati graficamente da __pallini neri__
 * Si suddividono in:
 	* __Interni__: basati sui valori degli __attributi__
 	* __Esterni__: basati sui valori delle __associazioni__
