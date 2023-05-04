@@ -3,8 +3,8 @@
 - [ ] [Just a Friend Vinile - Tally Hall](https://needlejuicerecords.com/product/justafriend/)
 - [ ] Good & Evil Vinile
 - [ ] Night & Light Vinile
-- [ ] Splatune 2 (Con Plettro!)
-- [ ] Octotune
+- [x] Splatune 2 
+- [x] Octotune
 - [x] Uncharted Collection
 - [ ] Ring Fit Adventure
 - [x] Elden Ring
@@ -19,6 +19,7 @@
 - [x] Fahrenheit 451 - Brandbury
 - [x] Raspeberry Pi 400 Kit (ITA)
 - [ ] UNDERTALE Collector's Editions PC
+- [ ] UNDERTALE LP Soundtrack
 - [ ] [Sakura Craft Lab 005](https://www.ebay.it/itm/224339116072)
 - [ ] Clean Code book
 - [ ] L'Arte Del Refactoring

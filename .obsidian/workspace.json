@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "131d8539a53af07b",
+        "id": "dc25256bd30c010e",
         "type": "tabs",
         "children": [
           {
-            "id": "a83b41eba185e14c",
+            "id": "8c0410e4c6384dd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno 2/BD/3 - Modello Concettuale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a75a075fc021f5bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unige/Anno 2/BD/0 - Riassunto.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "748970cd80e64cde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unige/Anno 2/BD/0 - Riassunto.md",
+                "file": "Unige/Anno 2/BD/6 - Interrogazioni e Query.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno 2/BD/0 - Riassunto.md",
+                "file": "Unige/Anno 2/BD/6 - Interrogazioni e Query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,44 +124,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "748970cd80e64cde",
+  "active": "8c0410e4c6384dd6",
   "lastOpenFiles": [
-    "Unige/Anno 2/BD/Z - Riassunto.md",
-    "Unige/Anno 2/BD/0 - Riassunto.md",
-    "Unige/Anno 2/BD/D - Gestore del Buffer.md",
-    "Unige/Anno 2/BD/C - Gestore delle strutture di Memorizzazione.md",
-    "Unige/Anno 2/BD/B - Servizi.md",
-    "Unige/Anno 2/BD/E - Indici Ordinati.md",
-    "Unige/Anno 2/BD/4 - Progettazione di una Base Dati.md",
-    "Unige/Anno 2/BD/A - DBMS.md",
-    "Unige/Anno 2/BD/1 - Modello Relazionale.md",
-    "Unige/Anno 2/BD/3 - Modello Concettuale.md",
-    "Unige/Anno 2/BD/2 - Chiavi e Superchiavi.md",
-    "Unige/Anno 2/BD/6 - Interrogazioni e Query.md",
-    "Unige/Anno 2/BD/5 - Basi di SQL.md",
-    "Unige/Anno 2/BD/F - Indici Hash.md",
+    "Unige/Anno 2/TII/10 - Teoria dell'Informazione.md",
+    "Unige/Anno 2/TII/9 - Legge dei Grandi Numeri.md",
+    "Diario/Regali.md",
+    "Unige/Anno 2/TII/8 - Media Campionaria.md",
+    "Unige/Anno 2/APA/12 - Guardaroba e QuickSort Las Vegas.md",
     "Unige/Anno 2/TII/6 - Variabili Aleatorie Continue.md",
+    "Unige/Anno 2/AN/Problemi.md",
+    "Unige/Anno 2/APA/11 - Algoritmi Randomizzati.md",
     "Unige/Anno 2/APA/10 - Teoria della NP-Completezza.md",
-    "Il matrimonio.md",
+    "Unige/Anno 2/LPO/_ref/2023-04-20.pdf",
+    "Unige/Anno 2/BD/6 - Interrogazioni e Query.md",
+    "Unige/Anno 2/BD/Z - Riassunto.md",
+    "Modello Concettuale.md",
+    "Unige/Anno 2/LPO/23-04-20.md",
+    "Unige/Anno 2/LPO/Esercizi 6-10.md",
+    "Nuovo Modello E-R.md",
+    "Unige/Anno 2/LPO/_ref/2023-04-13.pdf",
+    "Unige/Anno 2/LPO/23-04-13.md",
+    "Unige/Anno 2/LPO/_ref/craiyon_154424_Modern_day_jesus_without_beard_working_with_a_laptop.png",
+    "Unige/Anno 2/LPO/_ref/craiyon_154239_Edoardo_Maria_Vassallo_.png",
+    "Unige/Anno 2/LPO/_ref/craiyon_154233_Edoardo_Maria_Vassallo_.png",
+    "Unige/Anno 2/LPO/_ref/craiyon_154026_Afro_italian_second_year_computer_scientist_noob_gabriel_monti.png",
+    "Unige/Anno 2/LPO/_ref/craiyon_153807_Gabriel_Monti.png",
+    "Unige/Anno 2/LPO/_ref/craiyon_153758_Gabriel_Monti.png",
+    "Unige/Anno 2/LPO/_ref/craiyon_153637_Francesco_Matano.png",
+    "Unige/Anno 2/LPO/_ref/craiyon_153409_Arun_Raj_Mathiyalakan_.png",
+    "Unige/Anno 2/LPO/_ref/craiyon_153406_Arun_Raj_Mathiyalakan_.png",
+    "Unige/Anno 2/LPO/_ref/craiyon_153401_Arun_Raj_Mathiyalakan_.png",
+    "Unige/Anno 2/LPO/_ref/launcherfull-shiginima-v4400-mac.zip",
+    "Unige/Anno 2/LPO/23-03-23.md",
+    "Unige/Anno 2/LPO/23-03-09.md",
+    "Schema E-R da valutare.md",
     "NoteProgetto.md",
-    "Unige/Anno 2/AL/Complementi Algebrici.md",
-    "Unige/Anno 2/AL/Determinanti.md",
-    "Unige/Anno 2/AL/Basi Particolari.md",
-    "Unige/Anno 1/Calculus 1/Teoremi sui Limiti.md",
-    "Unige/Anno 1/Calculus 1/Trasformazioni Geometriche ed Algebriche.md",
-    "Unige/Anno 1/Calculus 1/Monotonia.md",
-    "Unige/Anno 1/Calculus 1/Limiti.md",
-    "Unige/Anno 1/Calculus 1/Limiti Fondamentali.md",
+    "Unige/Anno 2/TII/7 - Variabili Aleatorie Multiple.md",
+    "Unige/Anno 2/TII/5 - Bernoulli & Friends.md",
+    "Unige/Anno 2/TII/4 - Variabili Aleatorie Discrete.md",
+    "Unige/Anno 2/TII/3 - Probabilità Condizionata e Bayes.md",
+    "Unige/Anno 2/TII/2 - Definizione Assiomica Probabilità.md",
+    "Unige/Anno 2/TII/1 - Combinatoria.md",
+    "Unige/Anno 2/TII/_ref/noteTdII.pdf",
     "Unige/Anno 1/Calculus 1/2022-Calculus1.pdf",
     "NoteProgetto.md.save",
     "Unige/Anno 2/LPO/_ref/2023-03-23.pdf",
     "Unige/Anno 2/BD/_ref/gestore delle strutture di memorizzazione e di accesso.pdf",
     "Unige/Anno 2/LPO/_ref/2023-03-02.pdf",
     "Unige/Anno 2/LPO/_ref/2023-03-09.pdf",
-    "Unige/Anno 2/LPO/_ref/state.zip",
-    "Unige/Anno 2/LPO/_ref/Pokemon - Versione Smeraldo .jg0",
-    "Unige/Anno 2/LPO/_ref/Pokemon - Versione Smeraldo .jsa",
-    "Unige/Anno 2/LPO/_ref/Pokemon - Versione Smeraldo .jga",
     "Senza nome.canvas",
     "Senza nome 1.canvas"
   ]
