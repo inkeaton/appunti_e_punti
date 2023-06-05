@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dc25256bd30c010e",
+        "id": "de4186e976b50471",
         "type": "tabs",
         "children": [
           {
-            "id": "8c0410e4c6384dd6",
+            "id": "927cfa16f60ef45c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno 2/BD/6 - Interrogazioni e Query.md",
+                "file": "Unige/Anno 2/2-SEM/BD/0 - Riassunto.md",
                 "mode": "source",
                 "source": false
               }
@@ -58,20 +58,19 @@
             }
           },
           {
-            "id": "73069164cde6efc4",
+            "id": "761f23df08a75088",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unige/Anno 2/AL/_ref/AL.pdf"
-              }
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno 2/BD/6 - Interrogazioni e Query.md",
+                "file": "Unige/Anno 2/2-SEM/BD/0 - Riassunto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,26 +123,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8c0410e4c6384dd6",
+  "active": "927cfa16f60ef45c",
   "lastOpenFiles": [
-    "Unige/Anno 2/TII/10 - Teoria dell'Informazione.md",
-    "Unige/Anno 2/TII/9 - Legge dei Grandi Numeri.md",
-    "Diario/Regali.md",
-    "Unige/Anno 2/TII/8 - Media Campionaria.md",
-    "Unige/Anno 2/APA/12 - Guardaroba e QuickSort Las Vegas.md",
-    "Unige/Anno 2/TII/6 - Variabili Aleatorie Continue.md",
-    "Unige/Anno 2/AN/Problemi.md",
-    "Unige/Anno 2/APA/11 - Algoritmi Randomizzati.md",
-    "Unige/Anno 2/APA/10 - Teoria della NP-Completezza.md",
-    "Unige/Anno 2/LPO/_ref/2023-04-20.pdf",
-    "Unige/Anno 2/BD/6 - Interrogazioni e Query.md",
-    "Unige/Anno 2/BD/Z - Riassunto.md",
-    "Modello Concettuale.md",
-    "Unige/Anno 2/LPO/23-04-20.md",
-    "Unige/Anno 2/LPO/Esercizi 6-10.md",
-    "Nuovo Modello E-R.md",
-    "Unige/Anno 2/LPO/_ref/2023-04-13.pdf",
-    "Unige/Anno 2/LPO/23-04-13.md",
+    "Unige/Anno 2/2-SEM/BD/I - Stime.md",
+    "Unige/Anno 2/2-SEM/BD/0 - Riassunto.md",
+    "Unige/Anno 2/2-SEM/BD/J - Gestione Privilegi.md",
+    "Unige/Anno 2/2-SEM/BD/K - Modifiche.md",
+    "Unige/Anno 2/2-SEM/BD/H - Physical Optimizer.md",
+    "Unige/Anno 2/2-SEM/BD/6 - Interrogazioni e Query.md",
+    "Unige/Anno 2/2-SEM/BD/G - Query Processor.md",
+    "Unige/Anno 2/2-SEM/BD/5 - Basi di SQL.md",
+    "Unige/Anno 2/2-SEM/BD/4 - Progettazione di una Base Dati.md",
+    "Unige/Anno 2/2-SEM/BD/F - Indici Hash.md",
+    "Unige/Anno 2/2-SEM/BD/E - Indici Ordinati.md",
+    "Unige/Anno 2/2-SEM/BD/D - Gestore del Buffer.md",
+    "Unige/Anno 2/2-SEM/BD/3 - Modello Concettuale.md",
+    "Unige/Anno 2/2-SEM/BD/2 - Chiavi e Superchiavi.md",
+    "Unige/Anno 2/2-SEM/BD/C - Gestore delle strutture di Memorizzazione.md",
+    "Unige/Anno 2/2-SEM/BD/1 - Modello Relazionale.md",
+    "Unige/Anno 2/2-SEM/BD/B - Servizi.md",
+    "Unige/Anno 2/2-SEM/BD/_res/DBMS.png",
+    "Unige/Anno 2/2-SEM/BD/A - DBMS.md",
+    "Unige/Anno 2/2-SEM/TII/0 - Riassunto.md",
+    "Unige/Anno 2/1-SEM/AL/Determinanti.md",
+    "Unige/Anno 2/1-SEM/AL/Matrici Invertibili.md",
+    "Unige/Anno 2/2-SEM/TII/10 - Teoria dell'Informazione.md",
+    "Unige/Anno 2/2-SEM/TII/11 - Entropia, congiunta, condizionata, etc.md",
+    "Unige/Anno 2/2-SEM/TII/9 - Legge dei Grandi Numeri.md",
+    "Unige/Anno 2/2-SEM/TII/8 - Media Campionaria.md",
+    "Unige/Anno 2/2-SEM/TII/13 - Compressione.md",
+    "Unige/Anno 2/2-SEM/APA/_ref/Note.pdf",
+    "Unige/Anno 2/1-SEM",
+    "Unige/Anno 2/2-SEM",
+    "Unige/Anno 2/RC.zip",
+    "Unige/Anno 2/zi0VOLVR",
+    "Unige/Anno 2/2-SEM/LPO/_ref/2023-05-04.pdf",
+    "Unige/Anno 2/1-SEM/AL/_ref/AL.pdf",
+    "Unige/Anno 2/2-SEM/LPO/_ref/2023-04-20.pdf",
+    "Unige/Anno 2/2-SEM/LPO/_ref/2023-04-13.pdf",
     "Unige/Anno 2/LPO/_ref/craiyon_154424_Modern_day_jesus_without_beard_working_with_a_laptop.png",
     "Unige/Anno 2/LPO/_ref/craiyon_154239_Edoardo_Maria_Vassallo_.png",
     "Unige/Anno 2/LPO/_ref/craiyon_154233_Edoardo_Maria_Vassallo_.png",
@@ -153,25 +170,7 @@
     "Unige/Anno 2/LPO/_ref/craiyon_153637_Francesco_Matano.png",
     "Unige/Anno 2/LPO/_ref/craiyon_153409_Arun_Raj_Mathiyalakan_.png",
     "Unige/Anno 2/LPO/_ref/craiyon_153406_Arun_Raj_Mathiyalakan_.png",
-    "Unige/Anno 2/LPO/_ref/craiyon_153401_Arun_Raj_Mathiyalakan_.png",
     "Unige/Anno 2/LPO/_ref/launcherfull-shiginima-v4400-mac.zip",
-    "Unige/Anno 2/LPO/23-03-23.md",
-    "Unige/Anno 2/LPO/23-03-09.md",
-    "Schema E-R da valutare.md",
-    "NoteProgetto.md",
-    "Unige/Anno 2/TII/7 - Variabili Aleatorie Multiple.md",
-    "Unige/Anno 2/TII/5 - Bernoulli & Friends.md",
-    "Unige/Anno 2/TII/4 - Variabili Aleatorie Discrete.md",
-    "Unige/Anno 2/TII/3 - Probabilità Condizionata e Bayes.md",
-    "Unige/Anno 2/TII/2 - Definizione Assiomica Probabilità.md",
-    "Unige/Anno 2/TII/1 - Combinatoria.md",
-    "Unige/Anno 2/TII/_ref/noteTdII.pdf",
-    "Unige/Anno 1/Calculus 1/2022-Calculus1.pdf",
-    "NoteProgetto.md.save",
-    "Unige/Anno 2/LPO/_ref/2023-03-23.pdf",
-    "Unige/Anno 2/BD/_ref/gestore delle strutture di memorizzazione e di accesso.pdf",
-    "Unige/Anno 2/LPO/_ref/2023-03-02.pdf",
-    "Unige/Anno 2/LPO/_ref/2023-03-09.pdf",
     "Senza nome.canvas",
     "Senza nome 1.canvas"
   ]
