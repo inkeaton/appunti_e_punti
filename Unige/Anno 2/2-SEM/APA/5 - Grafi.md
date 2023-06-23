@@ -27,7 +27,7 @@
 	* __Debolmente__ connesso se esiste un cammino fra ogni nodo
 ---
 * Un __albero__ libero è un grafo non orientato aciclico connesso ($m = n-1$)
-* Un albero __ricoprente__ di un grafo è un __sottografo__ possediente le proprietà di un albero libero
+* Un albero __ricoprente__ di un grafo è un __sotto-grafo__ possedente le proprietà di un albero libero
 	* Nel caso di grafi pesati, è interessante considerare il minimo albero ricoprente, dotato degli archi con peso minore
 ---
 * Un grafo può essere __rappresentato__ in più modi:
@@ -35,7 +35,8 @@
 	* Liste d'__adiacenza__
 	* __Matrici__ d'adiacenza
 * Ognuno di essi ha proprietà diverse, e ha costi differenti
- | Operazioni              | Liste d'archi | Liste d'adiacenza           | Matrici d'adiacenza |
+
+ | Operazioni             | Liste d'archi | Liste d'adiacenza           | Matrici d'adiacenza |
  | ---------------------- | ------------- | --------------------------- | ------------------- |
  | Spazio Richiesto       | n + m         | n + m                       | n^2                 |
  | Grado di un nodo       | m             | $\delta(u)$                 | n                   |
@@ -43,8 +44,8 @@
  | Esiste Arco            | m             | $min(\delta(u), \delta(v))$ | 1                   |
  | Aggiungo Arco          | 1             | 1                           | 1                   |
  | Tolgo Arco             | m             | $\delta(u) + \delta(v)$     | 1                   |
- | Aggiungo Nodo          | 1             | 1                           | $n^2$                 |
- | Tolgo Nodo                       |m               |m                             |$n^2$                     |
+ | Aggiungo Nodo          | 1             | 1                           | $n^2$               |
+ | Tolgo Nodo             | m             | m                           | $n^2$               |
 
 * Possiamo vedere che le liste d'adiacenza sono convenienti nel caso di visite, le matrici nel caso di modifica degli archi
 ---

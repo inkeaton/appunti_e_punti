@@ -3,7 +3,7 @@
 	* Algoritmo di __Prim__:
 		* L'idea principale è molto __simile al Dijkstra__. Ad ogni ciclo salviamo le distanze minori del nodo che analizziamo, fino a svuotare l'heap
 		* Ha complessità __equivalente__ a Dijkstra
-	* Algoritmo di __Kuskal__:
+	* Algoritmo di __Kruskal__:
 		* L'idea consiste nello scorrere una lista contenente tutti gli __archi__ del grafo. A ogni ciclo, consideriamo gli archi minori, e nel caso escano archi maggiori, non li consideriamo
 		* Nonostante la maggior semplicità, può avere un __costo molto grande__, a seconda del controllo di connessione fra due nodi
 		* Questo si può __risolvere__ tramite le __Union-Find__

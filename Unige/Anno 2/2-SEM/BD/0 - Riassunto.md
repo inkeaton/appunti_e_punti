@@ -245,6 +245,35 @@
 ---
 * Rimane infine l'attività di Progettazione Fisica (PAG 75)
 
+## Gestore dell'Accesso
++ All'interno di una BD, non tutti devono poter accedere a tutti
++ L'amministratore (DBA) ha il compito di conferire agli utenti i giusti **privilegi**
++ Può farlo usando il **DCL**, un estensionde del SDL
+---
++ Il controllo dell'accesso si basa sulla definizione di opportune **politiche di sicurezza**, regole ad alto livello che esprimono come si è scelto di proteggere i dati
++ La specifica di politiche ha come protagonisti
+	+ Oggetti
+	+ Soggetti
+	+ Privilegi
+---
++ Il sistema memorizza ogni singolo permesso come una **tripla** (utente, relazione, privilegio) nei cataloghi di sistema
+	+ Ogni volta che un utente effettua un'operazione, il Gestore guarderà se esso ha il permesso di effettuarla, e in caso contrario, negherà l'accesso
++ Il modello realizza una politica di tipo **discrezionale** adottando il paradigma di **sistema chiuso**:  
+	+ Un accesso è concesso solo se esiste un'esplicita autorizzazione per esso
++ L'amministrazione dei privilegi è **decentralizzata** mediante **ownership**: 
+	+ l'utente che crea una relazione, riceve tutti i privilegi su di essa ed anche la possibilità di delegare ad altri tali privilegi
++ I privilegi possono essere concessi con **grant option**, ovvero la possibilità di concedere a sua volta il privilegio agli altri
+---
++ I permessi possono essere visti come un insieme di **grafi** orientati, uno per ogni permesso
+	+ Ogni **nodo** è un **utente**
+	+ Un **arco** da un nodo ad un altro indica che il primo **concede il permesso** all'altro
+	+ Questi archi possono essere etichettati per indicare la presenza della **GRANT OPTION**
++ Data la struttura di questi grafi, è facile capire che in alcuni casi di cancellazione, si può agire in due modi:
+	+ **RESTRICT**: Se dipendono altri utenti dal permesso che si vuole rimuovere, non facciamo niente
+	+ **CASCADE**: Se dipendono altri utenti dal permesso che si vuole rimuovere, Rimuoviamo anche il permesso ad essi
+---
++ Oltre agli utenti, i permessi possono essere concessi anche ai **ruoli**, classi di utenti. In questo modo, è ben più facile gestire i permessi per numerosi utenti
+
 # 2 - Modello Concettuale
 ## ER
 + Per quanto il modello relazionale sia ottimale per costruire basi di dati, non è facilmente comprensibile
@@ -320,6 +349,42 @@
 * Questo permette di creare un __associazione__ fra diversi elementi di diverse relazioni
 
 ---
+# 4 - Progettazione Logica
+## Normalizzazione
++ Come facciamo a capire se uno schema relazionale è di qualità?
++ Diciamo che è di qualità se è **normalizzato**, ovvero possiede delle specifiche proprietà, basate su dei modelli, le forme normali, che ne garantiscono la qualità
+---
++ In generale, **non** è **normalizzato** se:
+	+ Presenta **ridondanze**
+	+ Possiede **anomalie** (ha comportamenti scomodi durante gli aggiornamenti)
++ Solitamente accade se lo schema è **eterogeneo**, rappresenta più informazioni
+---
++ Per comprendere come migliorare, introduciamo il concetto di **dipendenza funzionale** (FD)
+	+ Esiste una dipendenza funzionale se un insieme di valori A implica un insieme di valori B, in tutte le tuple con gli stessi valore A
++ Queste dipendenze derivano dai vincoli d'integrità dello schema
++ Le **anomalie** **dipendono** dal fatto che l'insieme A **non** sia formato da **chiavi**
+---
++ La **Forma Normale di Boyce-Codd** (BCNF) richiede che:
+	+ Per ogni FD, A deve contenere una chiave della relazione
++ Questo implica l'omogeneità della relazione
++ Per farlo, dobbiamo dedurre le chiavi della relazione (calcolando le **chiusure** dei vari attributi presenti nelle FD)
+---
++ Se una relazione non soddisfa la BCNF, la **decomponiamo** in relazioni equivalenti che la soddisfano
+	+ Unifichiamo le dipendenze con la stessa parte sinistra
+	+ Creiamo una relazione per ogni dipendenza
++ Bisogna stare attenti: Se nessuna relazione creata contiene la chiave della relazione originale, bisogna crearne una nuova che la contenga, così da non perdere informazioni
++ In generale, la decomposizione deve sempre soddisfare:
+	+ La **decomposizione senza perdita** (lossless join), che garantisce la ricostruzione delle informazioni originarie
+	+ La **conservazione delle dipendenze**, che garantisce il mantenimento dei vincoli di integrità originari
++ Questo però **non è sempre possibile**.
+---
++ Introduciamo quindi un'ulteriore forma normale, la **terza forma normale** (3NF). Essa vale se vale una delle seguenti condizioni:
+	+ Soddisfa BCNF
+	+ Ogni attributo in B di ogni FD è contenuto in almeno una chiave
++ Questa forma aumenta la ridondanza rispetto alla precedente, ma è **sempre raggiungibile**
+
+
+
 # 5 - Progettazione Fisica
 + Dato un carico di lavoro, l'attività di progettazione fisica si preoccupa di progettare uno schema fisico, ovvero l'insieme degli indici creati, che faciliti l'esecuzione delle operazioni appartenenti al workload
 + Come facciamo?
@@ -329,7 +394,9 @@
 	+ Si valuta empiricamente se questi indici sono utili
 	+ Se non lo sono, si valuta se rimuoverli e modificarli
 	+ Si controlla se questi indici sono **compatibili** con quelli creati in precedenza
-
+---
++ Abbiamo poi le seguenti **euristiche**: ![[Pasted image 20230605160050.png]]
++ Sono presenti altre regole, più specifiche
 # 6  - Algebra Relazionale
 ##### Ridenominazione
 * Quest'operazione riporta gli attributi richiesti nel formato indicato
@@ -380,6 +447,13 @@ FROM Film, Cinema
 ```
 ---
 * Possiamo gestire la presenza di attributi omonimi tramite l'utilizzo di una denominazione. Questa accortezza non è necessaria in SQL, in quanto il sistema etichetta automaticamente gli attributi con la relazione a cui sono associati
+
+##### Differenza
++ Si chiama così perché è un’**inversa** del prodotto cartesiano
+	+ $R = (R\times S) \div S$ 
++ Serve a selezionare le tuple che su un sottoinsieme degli attributi (il divisore) compaiono con tutte le possibili combinazioni di valori
++ Si definisce togliendo le tuple per cui manca almeno un completamento
+	+ $R ÷ S = Π_D (R) - Π_D ((Π_D (R) \times S) - R)$
 
 ##### Unione
 * Anche questa operazione binaria viene definita in modo equivalente alla corrispettiva insiemistica, e scritta come:
@@ -443,5 +517,637 @@ ON Noleggio.Colloc = Video.Colloc
 * Questa è una variante del Join, in cui vengono unite le righe sulla base di attributi comuni. Questo viene solitamente utilizzato per navigare chiavi esterne
 * Bisogna fare attenzione perchè unisce TUTTI gli attributi comuni, sono solo quelli che vogliamo, ed è quindi utile utilizzarlo in comune ad una Ridenominazione
 
-##### Differenza
+
 # 7 - SQL
++ Vediamo ora le basi dei comandi di SQL
++ SQL è sia un **DDL** che un **DML**
+## Tipi
++ I tipi sono suddivisibili in 
+	+ **Numerici**
+		+ SMALLINT
+		+ INTEGER
+		+ BIGINT
+		+ **NUMERIC**
+		+ DECIMAL
+		+ REAL
+		+ DOUBLE PRECISION
+		+ FLOAT
+	+ **Carattere**
+		+ CHAR
+		+ VARCHAR
+	+ **Temporali**
+		+ DATE
+		+ TIME
+		+ TIMESTAMP
+		+ INTERVAL
+	+ BOOLEAN
+		+ TRUE
+		+ FALSE
+		+ UNKNOWN (Rappresenta il NULL nelle operazioni booleane)
+
+---
+## Gestione Relazioni
++ Le relazioni vengono **create** tramite il comando **CREATE** **TABLE**, nel seguente modo:
+```SQL
+CREATE TABLE Video
+	(colloc DECIMAL(4),  
+	 titolo VARCHAR(30),  
+	 regista VARCHAR(20),  
+	 tipo CHAR DEFAULT 'd');
+```
++ Nel farlo, si possono inserire diversi vincoli di integrità sugli attributi:
+	+ obbligatorietà di colonne (**NOT NULL**)  
+		+ Di default, ogni attributo può avere valore nullo
+	+ chiavi (**UNIQUE** e **PRIMARY KEY**)  
+		+ Se chiavi formate da più attributi, vengono segante in fondo alla definizione
+	+ chiavi esterne (**FOREIGN KEY**)  
+		+ Bisogna segnare a cosa si riferisce tramite **REFERENCES**
+		+ Bisogna segnare come gestire cancellazioni e modifiche tramite **ON DELETE/UPDATE**:
+			+ **NO ACTION**: La tupla riferita non viene modificata
+			+ **CASCADE**: Le tuple che riferiscono la tupla vengono modificate a sua volta
+			+ **SET NULL**: Le tuple che riferiscono la tupla settono la chiave a NULL
+			+ **SET DEFAULT**: Le tuple che riferiscono la tupla settono la chiave ai valori di default
+	+ vincoli **CHECK** (su colonna o su tupla)
+		+ Quest'ultimi saranno visti in seguito
+---
++ Le relazioni vengono cancellate tramite il comando **DROP TABLE**
+```SQL
+DROP TABLE Video {RESTRICT | CASCADE};
+```
++ Con le clausole:
+	+ **RESTRICT**: La relazione viene cancellata solo se non riferita da nessuna relazione
+	+ **CASCADE**: L'operazione cancellerà anche tutte le relazioni che riferiscono la relazione da eliminare 
+---
++ Le relazioni vengono modificate tramite il comando **ALTER TABLE**
+```SQL
+ALTER TABLE Video {OPERAZIONE}
+```
++ Le modifiche effettuabili sono:
+	+ Aggiunta colonne (**ADD COLUMN** {nome})
+	+ Modifica valori di default (**ALTER COLUMN** {nome} **SET DEFAULT** {valore})
+	+ Rimozione colonne (**DROP COLUMN** {RESTRICT | CASCADE} {nome})
+
+---
+## Interrogazioni
++ La struttura base di un interrogazione è la seguente:
+```SQL
+SELECT A, B
+FROM R, S
+WHERE F
+```
++ Questa ritorna i valori delle colonne A, B dalle istanze in cui vale F, dalle relazioni R, S
++ In ordine, il sistema esegue:
+	+ FROM : Clausola di **Accesso**
+	+ WHERE : Clausola di **Selezione**
+	+ SELECT : Clausola di **Proiezione**
+---
++ Nelle query, è possibili utilizzare diverse funzioni ed operatori all'interno delle espressioni atomiche
++ Operatori comuni sono
+	+ Standard matematici (=, >, <, >=, <=, <>)
+	+ **BETWEEN** min **AND** max: Indica che il valore deve essere maggiore di min e minore di max
+		+ Da usare sui tipi con ordinamento totale
+	+ **IN** $\{a, \cdots , b\}$: Il valore deve essere uno di quelli elencati 
+	+ **LIKE** pattern : seleziona stringhe che seguono il pattern indicato
+		+ Il pattern può essere scritto come stringhe in cui _ indica un singolo qualsiasi, % una qualsiasi squenza di caratteri
+---
++ È possibile applicare la clausola **DISTINCT** al SELECT, così da ottenere valori non duplicati.
++ È possibili assegnare nomi differenti alle colonne ritornate tramite il comando **AS** {nome}
++ È possibile effettuare **operazioni** anche all'interno della clausola di proiezione:
+```SQL
+SELECT colloc, (dataRest - dataNol) DAY  
+FROM Noleggio 
+WHERE codCli = 6635;
+```
+---
++ Le seguenti **costanti** contengono dati utili per le **date**:
+	+ CURRENT_DATE
+	+ CURRENT_TIME  
+	+ CURRENT_TIMESTAMP
+---
++ Esistono le operazioni insiemistiche:
+	+ **UNION**
+	+ **INTERSECT**
+	+ **MINUS**
++ Queste vengono usate fra diverse tabelle o query, **eliminando i duplicati**
+```SQL
+SELECT regista  
+FROM Film  
+UNION  
+SELECT nome || ' ' || cognome  
+FROM Cliente;
+```
+---
++ Il risultato di una query può essere ordinato tramite la clausola **ORDER BY** {attributo} {ASC | DESC}, posta alla fine dell'interrogazione
++ In caso lavori su operazioni insiemistiche, va messo in fondo alla query, dopo delle parentesi. L'attributo viene riferito via posizione, non nome
+---
++ È possibile effettuare operazioni di JOIN, di vario tipo, nella clausola FROM
+	+ **CROSS JOIN**: Prodotto Cartesiano
+	+ **JOIN ON** F: Prodotto Cartesiano Filtrato, rimangono solo le tuple che soddisfano F 
+	+ **NATURAL JOIN**: Join Naturale
+	+ **JOIN USING** F: Join Naturale solo sugli attributi in F
++ A parte il CROSS JOIN, è possibile applicare la clausola **OUTER**, che permette di memorizzare parte delle tuple non partecipanti al JOIN, sulla base delle clausole:
+	+ **FULL**: Tutte le tuple di R ed S
+	+ **LEFT**: le tuple di R
+	+ **RIGHT**: le tuple di S
+
+```SQL
+SELECT colloc, titolo, codCli
+FROM Film NATURAL JOIN Video
+NATURAL LEFT OUTER JOIN Noleggio
+WHERE regista = 'tim burton' 
+	AND genere = 'fantastico';
+```
+---
++ Si può usare la keyword **IS NULL** per cercare tuple che possiedono valori nulli
+
+---
+## Gruppi
++ È possibile eseguire funzioni di gruppo, che riportano valori calcolati su un insieme di tuple (media) o attributi
++ Queste sono
+	+ **COUNT**
+	+ **MIN**
+	+ **AVG**
+	+ **MAX**
++ Queste possono essere usate insieme a **DISTINCT**.
++ Possono essere usate solo nella clausola di proiezione
+```SQL
+SELECT COUNT(*), 
+	COUNT(DISTINCT regista),  
+	MIN(valutaz), 
+	AVG(valutaz), 
+	MAX(valutaz)  
+FROM Film
+```
++ È possibili raggruppare insiemi di tuple, così da applicare più facilmente le funzioni di gruppo su di essi
++ Questo viene fatto tramite la clausola **GROUP BY**, simile all'ORDER BY
++ Bisogna stare attenti al fatto che, per restituire un valore, questo deve essere nel group by
+```SQL
+SELECT regista, COUNT(*) AS numeroFilmBuoni  
+FROM Film  
+WHERE valutaz >= 3  
+GROUP BY regista;  
+```
++ È possibile usare insieme la clausola **HAVING**, così da filtrare quali gruppi vengono memorizzati
+```SQL
+SELECT regista, COUNT(*) AS numF,  
+	COUNT(DISTINCT genere) AS numG,  
+	MIN(valutaz) AS minV, 
+	AVG(valutaz) AS avgV,
+	MAX(valutaz) AS maxV  
+FROM Film  
+WHERE anno < 2000  
+GROUP BY regista  
+HAVING COUNT(*) >= 2;  
+```
+
+---
+## Sotto-interrogazioni
++ Si può usare una query per rappresentare un valore in un espressione atomica
+```SQL
+SELECT titolo 
+FROM Film  
+WHERE valutaz = ( SELECT valutaz 
+				 FROM Film  
+				 WHERE titolo = 'le iene' AND regista = 'quentin tarantino'); 
+```
++ Queste sono sotto-interrogazioni **scalari**, che restituiscono un unico valore
++ Esistono anche sotto-interrogazioni che riportano una **tabella**. Non essendo un unico valore, dobbiamo usare insieme dei quantificatori:
+	+ **ANY** Q: Esiste q in Q per cui vale?
+	+ **ALL** Q: Vale per ogni q in Q?
+
+```SQL
+SELECT titolo, regista, anno
+FROM Film
+WHERE anno < ANY ( SELECT anno 
+				  FROM Film
+				  WHERE regista = 'quentin tarantino');
+```
++ Attraverso ANY viene definita l'**appartenenza insiemistica**, scrivibile tramite le parole:
+	+ **IN**
+	+ **NOT IN**
+```SQL
+SELECT titolo
+FROM Film
+WHERE regista = 'quentin tarantino'
+AND anno IN (SELECT anno 
+			 FROM Film 
+			 WHERE regista = 'tim burton');
+```
++ È possibile effettuare quest operazioni su più colonne, scrivendolo nel seguente modo:
+```SQL
+SELECT titolo 
+FROM Film
+WHERE regista <> 'tim burton' 
+AND (anno,genere) IN ( SELECT anno, genere 
+				  FROM Film
+				  WHERE regista = 'tim burton');
+```
+
+## Sotto-interrogazioni Correlate
++ Sarebbe bello effettuare sotto-interrogazioni che dipendono dalla tupla che stiamo analizzando in quel momento, così da valutare valori specifici relativi ad essa
++ In questo caso bisogna usare **sub-query correlate** 
++ Bisogna usare alias di relazione, creati come **AS** per identificare la nostra tupla nella sottoquery
+
+```SQL
+SELECT titolo, regista, anno 
+FROM Film AS X
+WHERE valutaz > ( SELECT AVG(valutaz)
+				 FROM Film
+				 WHERE regista = X.regista);
+```
++ Si usano spesso insieme alle keyword **EXISTS** e **NOT EXISTS**
+```SQL
+SELECT DISTINCT regista 
+FROM Film X  
+WHERE EXISTS ( SELECT * 
+			  FROM Film  
+			  WHERE regista = X.regista  
+			  AND anno = X.anno  
+			  AND titolo <> X.titolo);
+```
+---
++ L'operazione di **Divisione non esiste in SQL**, in quanto è ottenibile attraverso l'utilizzo di altre formule
++ Si definisce togliendo le tuple per cui manca almeno un completamento
++ Ad esempio, tramite EXISTS e sottoquery:
+```SQL
+SELECT DISTINCT codCli 
+FROM Noleggio X
+WHERE NOT EXISTS (SELECT * 
+				  FROM Film F
+				  WHERE regista = 'tim burton' 
+				  AND NOT EXISTS (SELECT *
+								  FROM Noleggio NATURAL JOIN Video
+								  WHERE codCli = X.codCli
+								  AND titolo = F.titolo
+								  AND regista = F.regista));
+```
++ O tramite funzioni di gruppo:
+```SQL
+SELECT codCli 
+FROM Noleggio NATURAL JOIN Video
+WHERE regista = 'tim burton'
+GROUP BY codCli
+HAVING COUNT(DISTINCT titolo) = (SELECT COUNT(DISTINCT titolo)
+								 FROM Film
+								 WHERE regista = 'tim burton');
+```
+
+## Gestione Accesso
++ Si possono concedere e rimuovere permessi tramite i comandi **GRANT** e **REVOKE**
+```sql
+GRANT PRIVILEGIO | ALL PRIVILEGES
+ON Relazione
+TO Utente | Ruolo | PUBLIC
+{WITH GRANT OPTION}
+```
+
+```SQL
+REVOKE {GRANT OPTION FOR} PRIVILEGIO
+ON Relazione
+FROM Utente | Ruolo
+{RESTRICT | CASCADE}
+```
+
++ Le opzioni GRANT OPTION permettono di concedere o rimuovere tale opzione. È possibile anche solo rimuovere la GRANT OPTION
+---
++ I ruoli possono essere gestiti tramite **CREATE**, **DROP** e **SET**
+```SQL
+CREATE ROLE Professore
+
+DROP ROLE Professore
+
+SET ROLE Professore
+```
++ L'ultimo setta il ruolo indicato all'utente della sessione, nel caso abbia il permesso di usarlo
++ È possibile gestire i permessi di assunzione dei ruoli sempre tramite GRANT e REVOKE
+```SQL
+GRANT <lista ruoli concessi>  
+TO {<lista utenti> | <lista ruoli> | PUBLIC}  
+[WITH ADMIN OPTION];
+```
+
++ Questo stesso comando, applicato ad un **ruolo** invece che ad un utente, permette di stabilire una **gerarchia di ruoli**: dando il ruolo A al ruolo B, B avrà tutti i privilegi di A in automatico
+
+---
+## Modifiche
++ Le modifiche vengono effettuate tramite i comandi **INSERT**, **UPDATE** e **DELETE**
++ Usano clausole simili a quelle delle query
+---
+```SQL
+INSERT INTO <relazione>(<lista colonne>)
+VALUES (<lista valori>) | (<query>)
+```
++ I valori devono essere listati nello stesso ordine della lista colonne
++ Se non si inseriscono dei valori per delle colonne, verrà usato il valore di default. Se non lo possiede, viene segnalato errore
++ È possibile usare, al posto di VALUES, il risultato di una query, a patto che le colonne siano compatibili
+---
+```SQL
+DELETE FROM R   
+[WHERE F];
+```
++ La clausola WHERE è utilizzabile in modo analogo a quella delle query
++ Se non inseriamo la clausola di qualificazione, verranno cancellate tutte le tuple di R
++ È possibile usare gli alias nella prima espressione
+---
+```SQL
+UPDATE R 
+SET C1={e1 | NULL}, ...., Cn={en | NULL}
+[WHERE F];
+```
++ Viene segnato il nuovo valore per ogni colonna
++ Il valore di una colonna può essere calcolato tramite una query
+---
++ Le modifiche avvengono in modalità **Set-Oriented**:
+	+ La clausola WHERE ed i valori di SET vengono valutati una sola volta, prima di effettuare modifiche
+	+ Le assegnazioni avvengono contemporaneamente su ogni tupla
+
+## Vincoli CHECK
++ Questo genere di vincolo **statico** permette di effettuare **controlli** sui valori di colonne e tabelle
++ Questi vengono segnati durante la creazione della relazione, ma possono essere modificati anche in seguito
++ Possono essere usati insieme ad altri vincoli
+---
++ Esempio su colonna
+```SQL
+CREATE TABLE Film ( ...
+valutaz DECIMAL(3,2) NOT NULL DEFAULT 100.00
+				   CHECK (valutaz BETWEEN 0.00 AND 5.00),
+...);
+```
+
++ Esempio su tabella
+```SQL
+CREATE TABLE Noleggio  
+( ...  
+CHECK (dataRest >= dataNol)  
+);
+```
++ Questi vengono segnati in seguito alla creazione degli attributi coinvolti
+---
++ Questi vincoli vengono **verificati** solo nel mentre di modifiche dei valori delle tuple o delle singole colonne
++ In caso di errore, l'operazione non viene eseguita
+---
++ È possibile assegnare un **nome** a questi controlli, così da poterli riferire in seguito, tramite il comando **CONSTRAINT**.
++ Si possono dare nomi anche agli altri vincoli (NOT NULL, FOREIGN KEY, etc.)
+```SQL
+CONSTRAINT <nomeC> CHECK (<condizione>)
+```
++ In questo modo, si potranno poi **aggiungere** o **eliminare** da una relazione
+```SQL
+ALTER TABLE <nomeT> 
+ADD CONSTRAINT <nomeC> CHECK (<condizione>)
+```
+
+```SQL
+ALTER TABLE <nomeT> 
+DROP CONSTRAINT <nomeC>
+```
+## Dati Derivati e Viste
++ È possibile **generare automaticamente** valori di attributi e relazioni.
+```SQL
+ALTER TABLE Noleggio 
+ADD COLUMN durata INTEGER  
+GENERATED ALWAYS AS ((dataRest-dataNol) DAY);
+```
+
+```SQL
+CREATE TABLE ClienteV
+(LIKE Cliente,
+bonus NUMERIC(4,2));
+```
+---
++ È a sua volta possibile **generare relazioni** a partire dal risultato di una **query**.
++ Tramite la flag **WITH NO DATA** è possibile specificare se riempire la relazione col risultato oppure solamente copiare lo schema dell'interrogazione
+```SQL
+CREATE TABLE NoleggioC 
+AS SELECT * FROM Noleggio
+WHERE dataRest IS NOT NULL
+WITH DATA;
+```
+---
++ Queste relazioni sono oggetti completamente diversi dai dati da cui derivano
++ Se invece volessimo semplicemente un modo diverso per interagire con i dati già presenti?
++ Dobbiamo usare le **viste**
++ Sono relazioni "virtuali", basate sul risultato di un' interrogazione, che può essere usata come una relazione normale
++  I valori che contiene saranno aggiornati assieme ai valori della relazione derivante
++ Queste permettono di pre-filtrare i dati, astrarre la loro rappresentazione per gli utenti
+```SQL
+CREATE VIEW <nome vista> [(<lista nomi colonne>)]  
+AS <interrogazione>  
+[WITH [{LOCAL| CASCADED}] CHECK OPTION];
+```
++ **CHECK OPTION** permette di inserire nella vista solo tuple che soddisfano l'interrogazione di definizione
+---
++ Un esempio:
+```SQL
+CREATE VIEW Nol3gg(codiceCliente, dataNoleggio, Video) AS SELECT codCli, dataNol, colloc  
+		FROM Noleggio  
+		WHERE dataRest IS NULL 
+		AND (CURRENT_DATE - dataNol) DAY > INTERVAL '3' DAY;
+```
+---
++ È possibile effettuare **interrogazioni** sulle viste
++ Bisogna stare attenti al fatto che non si possono effettuare funzioni di gruppo su valori definiti tramite funzioni di gruppo
+---
++ La situazione è più **complessa** nel caso di **inserimenti** o **aggiornamenti** della vista
+![[Pasted image 20230606173853.png]] ![[Pasted image 20230606173910.png]] ![[Pasted image 20230606173927.png]]
+---
++ Come vengono gestiti i **permessi** sulle viste?
++ Una persona può **creare** una vista su R se possiede il permesso di **SELECT** su di essa
++ Essa possederà sulla vista i privilegi che possiede sulla relazione originale, a patto che siano permessi per questa vista
+	+ Discorso simile per la GRANT OPTION: Solo se ha il privilegio sulla relazione originale
++ Se l'utente perde il permesso di SELECT, la vista verrà **cancellata**
+
+## Accoppiamento Interno
++ Allo scopo di permettere operazioni più complesse, possiamo estendere il linguaggio SQL, così da permettere nuove procedure
+#### PL/pgSQL
++ Questo linguaggio permette di creare routine (procedure o funzioni) da poter usare in seguito
++ Si possono creare con:
+```PLSQL
+CREATE [ OR REPLACE ] FUNCTION <nome routine>
+( [<lista parametri>] )
+[ RETURNS <tipo ritorno> ]
+AS
+$$ <corpo routine>$$
+LANGUAGE plpgsql ;
+```
+---
++ I parametri nella lista sono definiti come:
+```PLSQL
+< PARAMETRO > = [<MODO>] [< NOME PARAMETRO >]  
+< TIPO PARAMETRO >
+```
++ Il modo si riferisce a come viene utilizzato nella funzione. Può essere
+	+ **IN**
+	+ **OUT**
+	+ **INOUT**
++ Se non conosciamo il tipo a priori, possiamo scrivere come tipo `%TYPE`
+---
++ Il tipo di ritorno può essere non messo, implicando una procedura, oppure si può segnare `RETURNS VOID`
+---
++ Le funzioni vengono chamate in modo classico `(<nome funzione>)(<lista argomenti>)`
++ Non bisogna passare i parametri di output
++ La funzione ritorna sempre una tupla, formata da
+	+ Un solo elemento se non ci sono parametri INOUT/OUT
+	+ I valori assegnati ai parametri, nell'ordine in cui sono scritti
++ Esempio di funzione:
+```PLSQL
+CREATE FUNCTION AggiornaVal1 (IN ilGenere CHAR(15) )  
+RETURNS void AS  
+$$  
+<aggiorna la valutazione dei film di genere uguale ad ilGenere>  
+$$ LANGUAGE plpgsql;
+```
+---
++ Il corpo della funzione è separato in due sezioni:
+	+ Sezione di **dichiarazione**  
+		+ Dichiarazioni di tutte le variabili del programma  
+		+ Opzionale
+	+ Sezione di **esecuzione**  
+		+ Codice da eseguire  
+			+ Costrutti procedurali (istruzioni) + statement SQL  
+		+ Obbligatorio
++ Esempio di sezione di dichiarazione:
+```PLSQL
+DECLARE
+	valutaz NUMERIC(3,2) DEFAULT 2.50;
+	regista VARCHAR(20) := 'quentin tarantino';
+	genere CONSTANT CHAR(15) := 'drammatico';
+	codCli DECIMAL(4) NOT NULL :=0000;
+``` 
++ Esempio di sezione di esecuzione;
+```PLSQL
+BEGIN
+	regista := 'tim burton';
+	genere := (SELECT genere 
+			   FROM Film 
+			   WHERE titolo = ‘pulp fiction’ 
+			   AND regista = ‘quentin tarantino’);
+	RAISE NOTICE 'Il genere considerato e`` %’' genere;
+	UPDATE Film  
+	SET valutaz = valutaz * 1.1  
+	WHERE titolo = ilTitolo 
+	AND regista = ilRegista;
+END
+```
++ In essa si possono effettuare **assegnazioni**, sia con valori che con query
++ Si può stampare nella sezione messaggi dell'output, tramite **RAISE NOTICE**
+---
++ Se un comando restituisce una sola tupla, è possibile inserire il risultato direttamente in una variabile con la seguente sintassi:
+```PLSQL
+DECLARE  
+	laValutaz NUMERIC(3,2);  
+BEGIN  
+	SELECT valutaz INTO laValutaz  
+	FROM Film  
+	WHERE titolo = 'Mediterraneo' AND regista = 'gabriele salvatores';  
+END;
+```
++ Se si mette la clausola **STRICT** dopo INTO, cogliamo tutti i casi di errore possibili nell'utilizzo di INTO
+---
++ È possibile usare **IF**
+```PLSQL
+DECLARE
+	infoNoleggi INTEGER;
+	laValutaz NUMERIC(3,2);
+BEGIN
+	IF infoNoleggi > 5000 
+		THEN laValutaz := 3.00;
+	ELSEIF infoNoleggi > 3000 
+		THEN laValutaz := 2.00;
+	ELSE laValutaz := 1.00;
+	END IF;
+	INSERT INTO Film
+	VALUES ('kill bill I','quentin tarantino', 2003, 'thriller' ,laValutaz);
+END;
+```
+
++ Si possono usare **WHILE** e **FOR**
++ Hanno sintassi:
+```PLSQL
+[WHILE <expr booleana>] 
+LOOP <istruzioni> 
+END LOOP;
+```
++ È possibile usare all'interno **EXIT** e **CONTINUE**, anche assieme ad un WHEN
+```PLSQL
+FOR <var indice> IN [ REVERSE ] <expr> .. <expr>
+[ BY <expr> ] LOOP <istruzioni> 
+END LOOP;
+```
++ La clausola **BY** indica il passo, ovvero quanto andare avanti ad ogni ciclo
+---
++ Un **cursore** è un puntatore ad una tupla contenuta nel risultato di una interrogazione
++ Esso va prima **dichiarato**
+```PLSQL  
+<nome cursore> CURSOR FOR <select statement>
+```
++ Poi **aperto**, ovvero viene eseguita la query di riferimento e memorizzato il risultato
+```PLSQL
+OPEN <nome cursore>
+```
++ Può essere poi fatto **scorrere** sul risultato, passando da tupla a tupla
+```PLSQL
+FETCH <nome cursore> [INTO <lista variabili>]
+```
++ Infine, viene chiuso. Se si vuole usare nuovamente, va riaperto, rieseguendo la query
+```PLSQL
+CLOSE <nome cursore>
+```
+---
++ Esiste la variabile globale **FOUND**, che indica lo stato di un operazione.
++ Viene posta a TRUE dalle seguenti operazioni  
+	+ SELECT INTO, se viene restituita una tupla  
+	+ UPDATE, INSERT, DELETE, se almeno una tupla viene aggiornata  
+	+ FETCH, se dopo lo spostamento il cursore punta ad una tupla (non ha quindi raggiunto la fine del result set)  
+	+ Ciclo FOR, se viene eseguita almeno una iterazione
+---
++ PL/pgSQL dinamico permette di eseguire comandi a runtime, scritti come stringa, tramite **EXECUTE**
+```PLSQL
+EXECUTE <espressione di tipo stringa>
+[ INTO [STRICT] <lista variabili> ]
+```
++ La stringa **non** può contenere comandi **SELECT INTO**
+--- 
++ Gli errori vengono gestiti tramite le **eccezioni**
+```PLSQL
+BEGIN  
+	<istruzioni>  
+	EXCEPTION  
+		WHEN <condizione> [ OR <condizione> ... ] 
+			THEN <handler_statements>  
+		[ WHEN <condizione> [ OR <condizione> ... ]
+			THEN <handler_statements> ... ]  
+END;
+```
++ Funziona in modo **simile** alla gestione delle eccezioni di **Java**
+	+ Le eccezioni, se non gestite, fanno abortire la funzione
++ La gestione delle eccezioni è costosa, ha senso eseguirla solo in caso di errori probabili
++ Il tipo di eccezione di deduce dalla variabile globale **SQL_STATE** (tipo l'errno), ed in base al suo valore capiamo come gestirla
+
+## Accoppiamento Esterno
++ Invece di estendere SQL, si può pensare di "accoppiarlo" ad un linguaggio già esistente
++ Per far ciò dobbiamo essere in grado di
+	+ Connetterci
+	+ Eseguire comandi
+	+ Disconnetterci
++ Tutto ciò dal linguaggio generico a cui ci accoppiamo
+---
++ Ci sono due approcci principali:
+	+ Utilizzare **librerie specifiche**:
+		+ Avremo comandi speciali all'interno di una libreria, tradotti in linguaggio SQL attraverso un driver
+	+ Usiamo delle **estensioni** del linguaggio
+		+ Useremo i comandi in modo diretto. 
+		+ Il precompilatore dovrà poi occuparsi di tradurli
++ Bisogna comunque stare attenti alle differenze fra questi linguaggi, come il modo in cui sono organizzati i tipi di dato, l'elaborazione, etc.
+## Transazioni
++ Certe volte abbiamo bisogno che un insieme di operazioni vengano eseguite all'instante, atomicamente
++ Questo permette di evitare, in caso di problemi, la corruzione della base di dati
++ Conviene quindi "impacchettare" queste operazioni in una Transazione, un'insieme di operazioni eseguite atomicamente, tutte insieme, dalla base di dati
+---
++ Queste sono eseguite nel rispetto delle proprietà ACID:
+	+ Atomicità  
+	+ Consistenza  
+	+ Isolamento : Le transazioni non si influenzano fra loro se concorrenti
+	+ Durabilità (persistenza) : I risultati devono essere resi permanenti in ogni frangente
+---
++ Da finire...

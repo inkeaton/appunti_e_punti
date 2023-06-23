@@ -1,4 +1,4 @@
-* Un albero __binario__ viene definito __induttivamente__ nel seguente modo:ù
+* Un albero __binario__ viene definito __induttivamente__ nel seguente modo:
 	* Passo __Base__: l'albero vuoto
 	* Passo __Induttivo__: Un nodo con due figli
 * Vale la seguente proprietà:

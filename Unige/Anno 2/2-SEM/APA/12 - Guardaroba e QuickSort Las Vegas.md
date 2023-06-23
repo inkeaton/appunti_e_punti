@@ -1,5 +1,5 @@
 * Un classico problema è quello del **guardarobiere distratto**:
-	* **N** persone vanno ad una festa, tutti con un cappello differente, e lo consegniano all'ingresso al guardarobiere. All'uscita, ne ricevano uno casuale. 
+	* **N** persone vanno ad una festa, tutti con un cappello differente, e lo consegnano all'ingresso al guardarobiere. All'uscita, ne ricevano uno casuale. 
 	* **Quante persone ricevono il proprio cappello?**
 * Si risolve facilmente tramite le proprietà delle **VA**
 	* Consideriamo ogni persona come una VA indicatrice di Bernoulli. La possibilità che valga 1, ovvero che abbia il suo cappello, è $\frac{1}{N}$, e corrisponde al suo valore atteso

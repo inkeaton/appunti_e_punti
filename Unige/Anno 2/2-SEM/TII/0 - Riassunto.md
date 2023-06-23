@@ -358,4 +358,4 @@
 * Se una TM è regolare, essa ammette un **unica** distribuzione stazionaria
 * Una **distribuzione limite** è un vettore $\lambda$, tale che 
 	* $P^t \to_{t \to +\infty} \begin{pmatrix}\lambda_1 & \lambda_2 & \cdots  & \lambda_n \\ \vdots \\ \lambda_1 & \lambda_2 & \cdots  & \lambda_n \end{pmatrix}$
-* Una TM regolare ha un unica distribuzione limite, corrispondente alla distribuzione standard
+* Una TM regolare ha un unica distribuzione limite, corrispondente alla distribuzione stazionaria

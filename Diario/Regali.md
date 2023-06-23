@@ -23,6 +23,7 @@
 - [ ] [Sakura Craft Lab 005](https://www.ebay.it/itm/224339116072)
 - [ ] Clean Code book
 - [ ] L'Arte Del Refactoring
+- [ ] https://www.redbubble.com/i/t-shirt/SPY-X-FAMILY-Anya-Forger-Cute-Anya-Anya-Heh-Anya-Meme-Anime-by-LARSOGAN/134180999.EK5A1.XYZ
 - [x] [Jabra Elite 3](https://www.amazon.it/gp/product/B099BF141P/ref=ewc_pr_img_1?smid=A11IL2PNWYJU7H&psc=1)
 - [ ] [Cartooning The Head And Figure](https://www.amazon.it/gp/product/0399508031/ref=ox_sc_saved_title_4?smid=A11IL2PNWYJU7H&psc=1)
 - [ ] [How to Draw Animals](https://www.amazon.it/gp/product/0399508023/ref=ox_sc_saved_title_5?smid=A11IL2PNWYJU7H&psc=1)
