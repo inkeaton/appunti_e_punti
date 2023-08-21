@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "abdd822ea28b9d27",
+        "id": "e9a655ef59a2f08b",
         "type": "tabs",
         "children": [
           {
-            "id": "60e5dd6637dff2e5",
+            "id": "b463c157a2fb965c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vari/Test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b21428177f043df5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Unige/Anno 2/2-SEM/APA/0 - Riassunto.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -123,55 +135,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "60e5dd6637dff2e5",
+  "active": "b21428177f043df5",
   "lastOpenFiles": [
-    "Unige/Anno 1/ASD/LibroASD.pdf",
-    "Unige/Anno 1/ASD/Riassunto ASD.md",
+    "Vari/Test.md",
+    "Unige/Anno 3/2-SEM",
+    "Unige/Anno 3/1-SEM",
+    "Unige/Anno 3",
     "Unige/Anno 2/2-SEM/APA/0 - Riassunto.md",
+    "Diario/Regali.md",
+    "Modello Concettuale.md",
+    "Vari/Il matrimonio.md",
+    "Vari",
+    "Unige/Anno 2/2-SEM/BD/_progetto/Nuovo Modello E-R.md",
+    "Unige/Anno 2/2-SEM/BD/_progetto/NoteProgetto.md.save",
+    "Unige/Anno 2/2-SEM/BD/_progetto/Modello Concettuale.md_",
+    "Unige/Anno 2/2-SEM/BD/_progetto/Progetto BD.md",
+    "Unige/Anno 2/2-SEM/BD/_progetto/Schema E-R da valutare.md",
+    "Il matrimonio.md",
+    "Unige/Anno 1/Calculus 1/Insiemi Numerici e Funzioni.md",
+    "Unige/Anno 1/Calculus 1/Funzioni Elementari.md",
+    "Unige/Anno 2/2-SEM/APA/_ref/Note.pdf",
+    "Unige/Anno 2/2-SEM/TII/0 - Riassunto.md",
+    "Nuovo Modello E-R.md",
+    "Test.md",
+    "Progetto BD.md",
+    "Schema E-R da valutare.md",
+    "Unige/Anno 2/2-SEM/BD/6 - Interrogazioni e Query.md",
+    "Unige/Anno 2/2-SEM/BD/A - DBMS.md",
+    "Unige/Anno 2/2-SEM/BD/B - Servizi.md",
+    "Unige/Anno 2/2-SEM/BD/K - Modifiche.md",
+    "Unige/Anno 2/2-SEM/BD/D - Gestore del Buffer.md",
+    "Unige/Anno 2/2-SEM/BD/C - Gestore delle strutture di Memorizzazione.md",
+    "Unige/Anno 2/2-SEM/BD/8 - Subquery e Divisione.md",
+    "Unige/Anno 2/2-SEM/BD/5 - Basi di SQL.md",
+    "Unige/Anno 2/2-SEM/BD/4 - Progettazione di una Base Dati.md",
+    "Senza nome.canvas",
+    "Unige/Anno 2/2-SEM/BD/_progetto/consegna.pdf",
+    "Unige/Anno 2/2-SEM/BD/_res/Pasted image 20230605160050.png",
+    "Unige/Anno 2/2-SEM/BD/_res/Pasted image 20230606173910.png",
+    "Unige/Anno 2/2-SEM/BD/_res/Pasted image 20230606173853.png",
+    "Unige/Anno 2/2-SEM/BD/_progetto",
+    "Unige/Anno 1/ASD/LibroASD.pdf",
     "Unige/Anno 2/2-SEM/APA/_res/tree-base.png",
-    "Pasted image 20230614110010.png",
-    "Pasted image 20230606173927.png",
-    "Pasted image 20230606173910.png",
-    "Pasted image 20230606173853.png",
-    "Pasted image 20230605160050.png",
+    "Unige/Anno 2/2-SEM/BD/_res/Pasted image 20230614110010.png",
+    "Unige/Anno 2/2-SEM/BD/_res/Pasted image 20230606173927.png",
     "Unige/Anno 2/2-SEM/APA/_res/giocotree.png",
     "Unige/Anno 1/Calculus 1/Pasted image 20230614160029.png",
-    "Unige/Anno 2/2-SEM/APA/13 - Programmazione Lineare.md",
-    "Unige/Anno 2/2-SEM/APA/18 - Verifica di Uguaglianza.md",
-    "Unige/Anno 2/2-SEM/APA/16 - Accordo Bizantino.md",
-    "Unige/Anno 2/2-SEM/APA/15 - MinCut.md",
-    "Unige/Anno 2/2-SEM/APA/14 - Teoria dei Giochi.md",
-    "Unige/Anno 2/2-SEM/APA/12 - Guardaroba e QuickSort Las Vegas.md",
-    "Unige/Anno 2/2-SEM/APA/11 - Algoritmi Randomizzati.md",
-    "Unige/Anno 2/2-SEM/TII/0 - Riassunto.md",
-    "Unige/Anno 2/2-SEM/APA/10 - Teoria della NP-Completezza.md",
-    "Unige/Anno 2/2-SEM/APA/9 - Programmazione Dinamica.md",
     "Unige/Anno 2/2-SEM/APA/_res/lcs2.png",
     "Unige/Anno 2/2-SEM/APA/_res/lcs.jpg",
-    "Unige/Anno 2/2-SEM/APA/8 - Ordinamento Topologico.md",
-    "Unige/Anno 2/2-SEM/APA/7 - Alberi minimi.md",
-    "Unige/Anno 2/2-SEM/APA/6 - Dijkstra.md",
-    "Unige/Anno 2/2-SEM/APA/5 - Grafi.md",
-    "Senza nome.canvas",
-    "Unige/Anno 2/2-SEM/APA/4 - Algoritmi Iterativi.md",
-    "Unige/Anno 2/1-SEM/AL/Matrici.md",
-    "Unige/Anno 2/1-SEM/AL/Matrici Invertibili.md",
-    "Unige/Anno 2/1-SEM/AL/Domande.md",
-    "Unige/Anno 2/1-SEM/AL/Determinanti.md",
-    "Unige/Anno 2/1-SEM/AL/Complementi Algebrici.md",
-    "Unige/Anno 2/1-SEM/AL/Basi Particolari.md",
-    "Unige/Anno 2/2-SEM/APA/3 - Alberi e Hanoi.md",
-    "Unige/Anno 2/2-SEM/APA/2 - Tipi di Problemi.md",
-    "Unige/Anno 2/2-SEM/APA/_ref/Note.pdf",
-    "Unige/Anno 2/1-SEM",
-    "Unige/Anno 2/2-SEM",
-    "Unige/Anno 2/RC.zip",
-    "Unige/Anno 2/zi0VOLVR",
-    "Unige/Anno 2/2-SEM/LPO/_ref/2023-05-04.pdf",
-    "Unige/Anno 2/1-SEM/AL/_ref/AL.pdf",
-    "Unige/Anno 2/2-SEM/LPO/_ref/2023-04-20.pdf",
-    "Unige/Anno 2/2-SEM/LPO/_ref/2023-04-13.pdf",
-    "Unige/Anno 2/LPO/_ref/launcherfull-shiginima-v4400-mac.zip",
     "Senza nome 1.canvas"
   ]
 }

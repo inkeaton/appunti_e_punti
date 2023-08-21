@@ -6,7 +6,7 @@
 - [x] Splatune 2 
 - [x] Octotune
 - [x] Uncharted Collection
-- [ ] Ring Fit Adventure
+- [x] Ring Fit Adventure
 - [x] Elden Ring
 - [ ] Dark Souls 2
 - [ ] Sekiro: Shadows Die Twice

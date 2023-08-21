@@ -1,6 +1,7 @@
 + In questo documento, proveremo a riassumere i concetti principali del corso di **Analisi e Progettazione Algoritmi** (APA)
 ---
-# 1 - Analisi Algoritmi Deterministici
+# 1 - Analisi Algoritmi Deterministici 
+
 ## Complessità di un Algoritmo
 + La **complessità** di un algoritmo indica il __tempo__ necessario affinché si ritrovi la soluzione. Esso varia in base al numero di valori in input
 * Un modo per indicarla è tramite il paragone con alcune funzioni elementari, caratterizzate da comportamento __asintotico__

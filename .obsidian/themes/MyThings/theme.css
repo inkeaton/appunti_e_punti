@@ -19,7 +19,7 @@ body {
   /* Colors */
   --base-h: 212; /* Base hue */
   --base-s: 15%; /* Base saturation */
-  --base-d: 0%; /* Base lightness Dark Mode  - 0 is black */
+  --base-d: 17%; /* Base lightness Dark Mode  - 0 is black */
   --base-l: 97%; /* Base lightness Light Mode  - 100 is white */
   --accent-h: 215; /* Accent hue */
   --accent-s: 75%; /* Accent saturation */

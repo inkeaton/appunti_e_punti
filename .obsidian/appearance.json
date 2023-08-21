@@ -1,14 +1,14 @@
 {
   "baseFontSize": 16,
   "translucency": true,
-  "cssTheme": "Things",
+  "cssTheme": "MyThings",
   "enabledCssSnippets": [
     "pdf_spaces"
   ],
-  "accentColor": "#478565",
+  "accentColor": "#c33161",
   "nativeMenus": false,
   "showViewHeader": true,
-  "interfaceFontFamily": "Cantarell,Latina Essential",
-  "textFontFamily": "Cantarell,Cambria",
-  "monospaceFontFamily": "JetBrainsMono Nerd Font"
+  "interfaceFontFamily": "SF Pro Rounded,Cantarell",
+  "textFontFamily": "SF Pro Rounded,Cantarell,Symbols Nerd Font",
+  "monospaceFontFamily": "Gintronic,JetBrainsMono Nerd Font"
 }
