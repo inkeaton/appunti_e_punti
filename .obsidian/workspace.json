@@ -4,35 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "e9a655ef59a2f08b",
+        "id": "d4d5bfa6368561f2",
         "type": "tabs",
         "children": [
           {
-            "id": "b463c157a2fb965c",
+            "id": "bcb77b790f282579",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Vari/Test.md",
-                "mode": "source",
-                "source": false
+                "file": "Unige/Anno III/1-SEM/SAW/_ref/13_php5.pdf"
               }
             }
           },
           {
-            "id": "b21428177f043df5",
+            "id": "21c699a77236e496",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno III/1-SEM/SAW/_ref/16_php8.pdf"
+              }
+            }
+          },
+          {
+            "id": "6283d62ad07f9349",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno 2/2-SEM/APA/0 - Riassunto.md",
+                "file": "Unige/Anno II/2-SEM/BD/0 - Riassunto.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 289.50271224975586
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -98,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno 2/2-SEM/APA/0 - Riassunto.md",
+                "file": "Unige/Anno II/2-SEM/BD/0 - Riassunto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +123,16 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "5dd92497fda0262d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -135,54 +153,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b21428177f043df5",
+  "active": "6283d62ad07f9349",
   "lastOpenFiles": [
-    "Vari/Test.md",
-    "Unige/Anno 3/2-SEM",
-    "Unige/Anno 3/1-SEM",
-    "Unige/Anno 3",
-    "Unige/Anno 2/2-SEM/APA/0 - Riassunto.md",
-    "Diario/Regali.md",
-    "Modello Concettuale.md",
-    "Vari/Il matrimonio.md",
-    "Vari",
-    "Unige/Anno 2/2-SEM/BD/_progetto/Nuovo Modello E-R.md",
-    "Unige/Anno 2/2-SEM/BD/_progetto/NoteProgetto.md.save",
-    "Unige/Anno 2/2-SEM/BD/_progetto/Modello Concettuale.md_",
-    "Unige/Anno 2/2-SEM/BD/_progetto/Progetto BD.md",
-    "Unige/Anno 2/2-SEM/BD/_progetto/Schema E-R da valutare.md",
-    "Il matrimonio.md",
-    "Unige/Anno 1/Calculus 1/Insiemi Numerici e Funzioni.md",
-    "Unige/Anno 1/Calculus 1/Funzioni Elementari.md",
-    "Unige/Anno 2/2-SEM/APA/_ref/Note.pdf",
-    "Unige/Anno 2/2-SEM/TII/0 - Riassunto.md",
-    "Nuovo Modello E-R.md",
-    "Test.md",
-    "Progetto BD.md",
-    "Schema E-R da valutare.md",
-    "Unige/Anno 2/2-SEM/BD/6 - Interrogazioni e Query.md",
-    "Unige/Anno 2/2-SEM/BD/A - DBMS.md",
-    "Unige/Anno 2/2-SEM/BD/B - Servizi.md",
-    "Unige/Anno 2/2-SEM/BD/K - Modifiche.md",
-    "Unige/Anno 2/2-SEM/BD/D - Gestore del Buffer.md",
-    "Unige/Anno 2/2-SEM/BD/C - Gestore delle strutture di Memorizzazione.md",
-    "Unige/Anno 2/2-SEM/BD/8 - Subquery e Divisione.md",
-    "Unige/Anno 2/2-SEM/BD/5 - Basi di SQL.md",
-    "Unige/Anno 2/2-SEM/BD/4 - Progettazione di una Base Dati.md",
+    "Unige/Anno III/1-SEM/SAW/_ref/13_php5.pdf",
+    "Unige/Anno III/1-SEM/SAW/_ref/16_php8.pdf",
+    "Unige/Anno II/2-SEM/BD/0 - Riassunto.md",
+    "Unige/Anno III/1-SEM/SAW/_ref/17_php9.pdf",
+    "Unige/Anno III/1-SEM/SAW/_ref/12_php4.pdf",
+    "Unige/Anno III/1-SEM/FESI/_ref/04_processing1D.pdf",
+    "Unige/Anno III/1-SEM/FESI/_ref/05_sound.pdf",
+    "Unige/Anno III/1-SEM/FESI/_ref/07_immagini.pdf",
+    "Unige/Anno III/1-SEM/FESI/_ref/08_colore.pdf",
+    "Unige/Anno III/1-SEM/FESI/_ref/09_operazioni_pixel.pdf",
+    "Unige/Anno II/2-SEM/BD/5 - Basi di SQL.md",
+    "Unige/Anno III/1-SEM/FIS/_ref/lezione10_Sequence_UML-2023-2024.pdf",
+    "Unige/Anno III/1-SEM/TAC/A - Calcolabilità.md",
+    "Unige/Anno III/1-SEM/TAC/1 - Stringhe e Linguaggi.md",
+    "Unige/Anno III/1-SEM/TAC/10 - Proprietà Chiusura CF.md",
+    "Unige/Anno III/1-SEM/CS/10 - Security Protocol.md",
+    "Unige/Anno III/1-SEM/FIS/10 - Sequence e Communication Diagram.md",
+    "Unige/Anno III/1-SEM/TAC/6 - mDFA e Linguaggi Regolari.md",
+    "Unige/Anno III/1-SEM/FIS/_res/SD-operators.png",
+    "Unige/Anno III/1-SEM/FESI/9 - Colori.md",
+    "Unige/Anno III/1-SEM/FESI/8 - Immagini Digitali.md",
+    "Unige/Anno III/1-SEM/TAC/9 - Corrispondenze CF e Pumping Lemma.md",
+    "Unige/Anno III/1-SEM/TAC/7 - Linguaggi Context-Free.md",
+    "Unige/Anno III/1-SEM/TAC/8 - Automi a Pila.md",
+    "Unige/Anno III/1-SEM/FIS/8 - Class e Object Diagram.md",
+    "Unige/Anno III/1-SEM/SAW/6 - PHP e Database.md",
+    "Unige/Anno III/1-SEM/SAW/5 - PHP.md",
+    "Unige/Anno III/1-SEM/SAW/4 - Design e Accessibilità.md",
+    "Unige/Anno III/1-SEM/FESI/10 - Trasformazioni su Variabili Dipendenti.md",
+    "Unige/Anno III/1-SEM/FESI/7 - Serie Temporali.md",
+    "Unige/Anno III/1-SEM/FESI/6 - Segnali Audio.md",
+    "Unige/Anno III/1-SEM/Senza nome.md",
+    "Unige/Anno III/1-SEM/FESI/5 - Filtri.md",
+    "Unige/Anno III/1-SEM/TAC/2 - Automi a Stati Finiti Deterministici.md",
+    "Unige/Anno III/1-SEM/TAC/3 - Automi Non-Deterministici.md",
+    "Unige/Anno III/1-SEM/TAC/4 - Automi Epsilon Non Deterministici.md",
+    "Unige/Anno III/1-SEM/FESI/_res/Butterworth.png",
+    "Unige/Anno III/1-SEM/CS/_res/hashProperties.png",
+    "Unige/Anno III/1-SEM/CS/_res/Diffie-Hellman.png",
+    "Unige/Anno III/1-SEM/FIS/_res/VantDesContr.png",
+    "Unige/Anno III/1-SEM/FIS/_res/Dsign.png",
+    "Pasted image 20231021101431.png",
     "Senza nome.canvas",
-    "Unige/Anno 2/2-SEM/BD/_progetto/consegna.pdf",
-    "Unige/Anno 2/2-SEM/BD/_res/Pasted image 20230605160050.png",
-    "Unige/Anno 2/2-SEM/BD/_res/Pasted image 20230606173910.png",
-    "Unige/Anno 2/2-SEM/BD/_res/Pasted image 20230606173853.png",
-    "Unige/Anno 2/2-SEM/BD/_progetto",
-    "Unige/Anno 1/ASD/LibroASD.pdf",
-    "Unige/Anno 2/2-SEM/APA/_res/tree-base.png",
-    "Unige/Anno 2/2-SEM/BD/_res/Pasted image 20230614110010.png",
-    "Unige/Anno 2/2-SEM/BD/_res/Pasted image 20230606173927.png",
-    "Unige/Anno 2/2-SEM/APA/_res/giocotree.png",
-    "Unige/Anno 1/Calculus 1/Pasted image 20230614160029.png",
-    "Unige/Anno 2/2-SEM/APA/_res/lcs2.png",
-    "Unige/Anno 2/2-SEM/APA/_res/lcs.jpg",
+    "Unige/Anno III/1-SEM/FESI/_res/CambiDIFase.png",
+    "Unige/Anno III/1-SEM/FESI/_res/DFT-1.png",
+    "Unige/Anno III/1-SEM/FESI/_res/DFT.png",
     "Senza nome 1.canvas"
   ]
 }
