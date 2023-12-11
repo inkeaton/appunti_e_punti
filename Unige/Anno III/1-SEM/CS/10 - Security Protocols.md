@@ -1,5 +1,9 @@
 + A **protocol** is a set of rules used to coordinate a communication
 	+ It can be seen as a **distributed algorithm**
++ Security protocols are:
+	+ key to secure distributed systems 
+	+ ubiquitous: they span virtually all application domains and the whole protocol stack 
+	+ (deceptively) simple: use established protocols when available/possible, but be ready to design/develop/use a new one if necessary needed
 + A **Security** or **Cryptographic Protocol** can be used to achieve the various security objectives necessary
 + The messages may use various components and operations:
 	+ Names
@@ -97,3 +101,11 @@
 	3. $A \to B: \quad C_A, C_B, \{\{T_A, K_{AB}\}_{K_A^{-1}}\}_{K_B}$
 + It may be  subject to **man-in-the-middle attacks**
 + The solution is still to specify the principals' identities in the messages
+---
++ The **Needham-Schroeder Shared Key Authentication Protocol** (NSSK) has the goal to share a key in an authenticated matter:
+	1. $A → KDC : \quad A, B, N_A$
+	2. $KDC → A : \quad \{N_A, B, K_{AB},\{K_{AB}, A\}_{K_{BS}}\}_{K_{AS}}$
+	3. $A → B : \quad \{K_{AB}, A\}_{K_{BS}}$
+	4. $B → A : \quad \{N_B\}_{K_{AB}}$
+	5. $A \to B : \quad \{N_B-1\}_{K_{AB}}$ 
++ This protocol is still subject to **replay** attacks, which can be solved by adding **timestamps** to the messages

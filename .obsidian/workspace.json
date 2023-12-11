@@ -4,43 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d4d5bfa6368561f2",
+        "id": "27ca6e3ed60c505f",
         "type": "tabs",
         "children": [
           {
-            "id": "bcb77b790f282579",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unige/Anno III/1-SEM/SAW/_ref/13_php5.pdf"
-              }
-            }
-          },
-          {
-            "id": "21c699a77236e496",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unige/Anno III/1-SEM/SAW/_ref/16_php8.pdf"
-              }
-            }
-          },
-          {
-            "id": "6283d62ad07f9349",
+            "id": "b200f4a3b03abc20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno II/2-SEM/BD/0 - Riassunto.md",
+                "file": "Unige/Anno III/1-SEM/TAC/H - Riduzione.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -90,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.50271224975586
+    "width": 408.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -106,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno II/2-SEM/BD/0 - Riassunto.md",
+                "file": "Unige/Anno III/1-SEM/TAC/H - Riduzione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,8 +115,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -153,54 +132,55 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6283d62ad07f9349",
+  "active": "b200f4a3b03abc20",
   "lastOpenFiles": [
-    "Unige/Anno III/1-SEM/SAW/_ref/13_php5.pdf",
-    "Unige/Anno III/1-SEM/SAW/_ref/16_php8.pdf",
-    "Unige/Anno II/2-SEM/BD/0 - Riassunto.md",
-    "Unige/Anno III/1-SEM/SAW/_ref/17_php9.pdf",
-    "Unige/Anno III/1-SEM/SAW/_ref/12_php4.pdf",
-    "Unige/Anno III/1-SEM/FESI/_ref/04_processing1D.pdf",
-    "Unige/Anno III/1-SEM/FESI/_ref/05_sound.pdf",
-    "Unige/Anno III/1-SEM/FESI/_ref/07_immagini.pdf",
-    "Unige/Anno III/1-SEM/FESI/_ref/08_colore.pdf",
-    "Unige/Anno III/1-SEM/FESI/_ref/09_operazioni_pixel.pdf",
-    "Unige/Anno II/2-SEM/BD/5 - Basi di SQL.md",
-    "Unige/Anno III/1-SEM/FIS/_ref/lezione10_Sequence_UML-2023-2024.pdf",
-    "Unige/Anno III/1-SEM/TAC/A - Calcolabilità.md",
-    "Unige/Anno III/1-SEM/TAC/1 - Stringhe e Linguaggi.md",
-    "Unige/Anno III/1-SEM/TAC/10 - Proprietà Chiusura CF.md",
-    "Unige/Anno III/1-SEM/CS/10 - Security Protocol.md",
+    "Unige/Anno III/1-SEM/TAC/G - Caratterizzazioni degli insiemi RE.md",
+    "Unige/Anno III/1-SEM/TAC/F - Insiemi di Funzioni.md",
+    "Unige/Anno III/1-SEM/TAC/H - Riduzione.md",
+    "Unige/Anno III/1-SEM/FIS/_ref/lezione13_UML_Component-Package-Deployment-2023-2024.pdf",
+    "Unige/Anno III/1-SEM/FIS/_ref/lezione14_DesignPatterns2023-2024_parte_1.ppt_",
+    "Unige/Anno III/1-SEM/FIS/_ref/lezione12_Activity_UML-2023-2024.pdf",
+    "Unige/Anno III/1-SEM/FIS/12 - Activity Diagram.md",
+    "Unige/Anno III/1-SEM/FIS/_res/ADNodi.png",
+    "Unige/Anno III/1-SEM/FIS/11 - State Machine Diagram.md",
+    "Unige/Anno III/1-SEM/FIS/_ref/lezione11_UML_State_machine-2023-2024.pdf",
+    "Unige/Anno III/1-SEM/FIS/_res/StateMachine.png",
     "Unige/Anno III/1-SEM/FIS/10 - Sequence e Communication Diagram.md",
-    "Unige/Anno III/1-SEM/TAC/6 - mDFA e Linguaggi Regolari.md",
-    "Unige/Anno III/1-SEM/FIS/_res/SD-operators.png",
-    "Unige/Anno III/1-SEM/FESI/9 - Colori.md",
-    "Unige/Anno III/1-SEM/FESI/8 - Immagini Digitali.md",
-    "Unige/Anno III/1-SEM/TAC/9 - Corrispondenze CF e Pumping Lemma.md",
-    "Unige/Anno III/1-SEM/TAC/7 - Linguaggi Context-Free.md",
-    "Unige/Anno III/1-SEM/TAC/8 - Automi a Pila.md",
-    "Unige/Anno III/1-SEM/FIS/8 - Class e Object Diagram.md",
-    "Unige/Anno III/1-SEM/SAW/6 - PHP e Database.md",
-    "Unige/Anno III/1-SEM/SAW/5 - PHP.md",
-    "Unige/Anno III/1-SEM/SAW/4 - Design e Accessibilità.md",
-    "Unige/Anno III/1-SEM/FESI/10 - Trasformazioni su Variabili Dipendenti.md",
-    "Unige/Anno III/1-SEM/FESI/7 - Serie Temporali.md",
-    "Unige/Anno III/1-SEM/FESI/6 - Segnali Audio.md",
-    "Unige/Anno III/1-SEM/Senza nome.md",
-    "Unige/Anno III/1-SEM/FESI/5 - Filtri.md",
-    "Unige/Anno III/1-SEM/TAC/2 - Automi a Stati Finiti Deterministici.md",
-    "Unige/Anno III/1-SEM/TAC/3 - Automi Non-Deterministici.md",
+    "Unige/Anno III/1-SEM/FIS/15 - Refactoring.md",
+    "Unige/Anno III/1-SEM/FIS/13 - Component, Deployment and Package Diagram.md",
+    "Unige/Anno III/1-SEM/FIS/14 - Design Patterns.md",
+    "Unige/Anno III/1-SEM/CS/14 - Web Security.md",
+    "Unige/Anno III/1-SEM/CS/13 - Buffer Overflows.md",
+    "Unige/Anno III/1-SEM/TAC/E - Definizione di Calcolabilità.md",
+    "Unige/Anno III/1-SEM/CS/12 - Internet Security and IPSec.md",
+    "Unige/Anno III/1-SEM/CS/11 - Kerberos.md",
     "Unige/Anno III/1-SEM/TAC/4 - Automi Epsilon Non Deterministici.md",
+    "Unige/Anno III/1-SEM/TAC/3 - Automi Non-Deterministici.md",
+    "Unige/Anno III/1-SEM/TAC/2 - Automi a Stati Finiti Deterministici.md",
+    "Unige/Anno III/1-SEM/TAC/D - Macchine di Turing come Calcolatori.md",
+    "Unige/Anno III/1-SEM/TAC/C - Macchine di Turing come Riconoscitori.md",
+    "Unige/Anno III/1-SEM/TAC/8 - Automi a Pila.md",
+    "Unige/Anno III/1-SEM/TAC/B - Primitive-Ricorsive.md",
+    "Unige/Anno III/1-SEM/TAC/A - Calcolabilità.md",
+    "Unige/Anno III/1-SEM/CS/_res/IPSec.png",
+    "Unige/Anno III/1-SEM/CS/_ref/8-ipsec.pdf",
+    "Unige/Anno III/1-SEM/CS/10 - Security Protocols.md",
+    "Unige/Anno III/1-SEM/CS/_ref/7-security-protocols.pdf",
+    "Unige/Anno III/1-SEM/SAW/_ref/21_javascript4.pdf",
+    "Unige/Anno III/1-SEM/SAW/_ref/20_javascript3.pdf",
+    "Unige/Anno III/1-SEM/CS/1 - Introduction.md",
+    "Unige/Anno III/1-SEM/Orario.png",
+    "Unige/Anno III/1-SEM/FESI/11 - Trasformazioni Geometriche.md",
+    "Unige/Anno III/1-SEM/FESI/_ref/10_trasformazioni_geometriche.pdf",
+    "Unige/Anno III/1-SEM/SAW/_ref/19_javascript2.pdf",
+    "Unige/Anno III/1-SEM/FIS/8 - Class e Object Diagram.md",
+    "Unige/Anno III/1-SEM/FIS/_res/SD-operators.png",
     "Unige/Anno III/1-SEM/FESI/_res/Butterworth.png",
     "Unige/Anno III/1-SEM/CS/_res/hashProperties.png",
     "Unige/Anno III/1-SEM/CS/_res/Diffie-Hellman.png",
     "Unige/Anno III/1-SEM/FIS/_res/VantDesContr.png",
     "Unige/Anno III/1-SEM/FIS/_res/Dsign.png",
-    "Pasted image 20231021101431.png",
     "Senza nome.canvas",
-    "Unige/Anno III/1-SEM/FESI/_res/CambiDIFase.png",
-    "Unige/Anno III/1-SEM/FESI/_res/DFT-1.png",
-    "Unige/Anno III/1-SEM/FESI/_res/DFT.png",
     "Senza nome 1.canvas"
   ]
 }
