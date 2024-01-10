@@ -9,3 +9,4 @@
 	+ $B$ ricorsivamente enumerabile $\to$ $A$ ricorsivamente enumerabile
 	+ $A$ non ricorsivamente enumerabile $\to$ $B$ non ricorsivamente enumerabile
 + Possiamo quindi **sfruttare** l'idea per dimostrare la ricorsività o non ricorsività di un insieme
++ 5/12/23

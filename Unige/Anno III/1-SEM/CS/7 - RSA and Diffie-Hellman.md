@@ -28,7 +28,7 @@
 	+ More over, RSA is **malleable**. As such, some other padding methods are used for support
 ---
 + Public key encryption is really secure, but not really efficient
-+ As such, it is usually used as support for asymmetrical encryption
++ As such, it is usually used as support for symmetrical encryption
 + An example, is securing the **key-exchange**!
 	+ An example is in SSL/TLS, in which RSA is used
 + Still, if the private key was known, all the past messages would be broken

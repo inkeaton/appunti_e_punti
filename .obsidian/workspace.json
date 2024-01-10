@@ -4,22 +4,75 @@
     "type": "split",
     "children": [
       {
-        "id": "27ca6e3ed60c505f",
+        "id": "074ee5e4041ef6aa",
         "type": "tabs",
         "children": [
           {
-            "id": "b200f4a3b03abc20",
+            "id": "d495ce29ad12db45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno III/1-SEM/TAC/H - Riduzione.md",
+                "file": "Unige/Anno III/1-SEM/CS/0 - Summary.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4735512460b5eda2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno III/1-SEM/CS/_ref/9-buffer-overflow.pdf"
+              }
+            }
+          },
+          {
+            "id": "b3e5ff5d3e76faa2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno III/1-SEM/CS/_ref/92 - websec.pdf"
+              }
+            }
+          },
+          {
+            "id": "69e9ea698ad0d0ad",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno III/1-SEM/CS/_ref/8-ipsec.pdf"
+              }
+            }
+          },
+          {
+            "id": "79bd4f5eeecce95d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno III/1-SEM/TAC/0 - Riassunto.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "68cf81953497f6c5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno III/1-SEM/SAW/_ref/25_javascript8.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -69,7 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5026054382324,
+    "width": 282.5026054382324,
     "collapsed": true
   },
   "right": {
@@ -86,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno III/1-SEM/TAC/H - Riduzione.md",
+                "file": "Unige/Anno III/1-SEM/CS/_ref/8-ipsec.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +164,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -132,54 +187,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b200f4a3b03abc20",
+  "active": "69e9ea698ad0d0ad",
   "lastOpenFiles": [
-    "Unige/Anno III/1-SEM/TAC/G - Caratterizzazioni degli insiemi RE.md",
-    "Unige/Anno III/1-SEM/TAC/F - Insiemi di Funzioni.md",
-    "Unige/Anno III/1-SEM/TAC/H - Riduzione.md",
-    "Unige/Anno III/1-SEM/FIS/_ref/lezione13_UML_Component-Package-Deployment-2023-2024.pdf",
-    "Unige/Anno III/1-SEM/FIS/_ref/lezione14_DesignPatterns2023-2024_parte_1.ppt_",
-    "Unige/Anno III/1-SEM/FIS/_ref/lezione12_Activity_UML-2023-2024.pdf",
-    "Unige/Anno III/1-SEM/FIS/12 - Activity Diagram.md",
-    "Unige/Anno III/1-SEM/FIS/_res/ADNodi.png",
-    "Unige/Anno III/1-SEM/FIS/11 - State Machine Diagram.md",
-    "Unige/Anno III/1-SEM/FIS/_ref/lezione11_UML_State_machine-2023-2024.pdf",
-    "Unige/Anno III/1-SEM/FIS/_res/StateMachine.png",
-    "Unige/Anno III/1-SEM/FIS/10 - Sequence e Communication Diagram.md",
-    "Unige/Anno III/1-SEM/FIS/15 - Refactoring.md",
-    "Unige/Anno III/1-SEM/FIS/13 - Component, Deployment and Package Diagram.md",
-    "Unige/Anno III/1-SEM/FIS/14 - Design Patterns.md",
-    "Unige/Anno III/1-SEM/CS/14 - Web Security.md",
-    "Unige/Anno III/1-SEM/CS/13 - Buffer Overflows.md",
-    "Unige/Anno III/1-SEM/TAC/E - Definizione di Calcolabilità.md",
-    "Unige/Anno III/1-SEM/CS/12 - Internet Security and IPSec.md",
-    "Unige/Anno III/1-SEM/CS/11 - Kerberos.md",
-    "Unige/Anno III/1-SEM/TAC/4 - Automi Epsilon Non Deterministici.md",
-    "Unige/Anno III/1-SEM/TAC/3 - Automi Non-Deterministici.md",
-    "Unige/Anno III/1-SEM/TAC/2 - Automi a Stati Finiti Deterministici.md",
-    "Unige/Anno III/1-SEM/TAC/D - Macchine di Turing come Calcolatori.md",
-    "Unige/Anno III/1-SEM/TAC/C - Macchine di Turing come Riconoscitori.md",
-    "Unige/Anno III/1-SEM/TAC/8 - Automi a Pila.md",
-    "Unige/Anno III/1-SEM/TAC/B - Primitive-Ricorsive.md",
-    "Unige/Anno III/1-SEM/TAC/A - Calcolabilità.md",
-    "Unige/Anno III/1-SEM/CS/_res/IPSec.png",
-    "Unige/Anno III/1-SEM/CS/_ref/8-ipsec.pdf",
-    "Unige/Anno III/1-SEM/CS/10 - Security Protocols.md",
-    "Unige/Anno III/1-SEM/CS/_ref/7-security-protocols.pdf",
+    "Unige/Anno III/1-SEM/CS/_ref/92 - websec.pdf",
+    "Unige/Anno III/1-SEM/CS/_ref/9-buffer-overflow.pdf",
+    "Unige/Anno III/1-SEM/CS/0 - Summary.md",
+    "Unige/Anno III/1-SEM/TAC/0 - Riassunto.md",
+    "Unige/Anno III/1-SEM/CS/_ref/2-crypto-intro.pdf",
+    "Unige/Anno III/1-SEM/CS/_ref/3-crypto-symm.pdf",
+    "Unige/Anno III/1-SEM/FIS/0 - Riassunto.md",
+    "Unige/Anno III/1-SEM/SAW/_ref/25_javascript8.pdf",
+    "Unige/Anno III/1-SEM/SAW/_ref/24_javascript7.pdf",
+    "Unige/Anno III/1-SEM/SAW/_ref/23_javascript6.pdf",
+    "Unige/Anno III/1-SEM/SAW/_ref/22_javascript5.pdf",
     "Unige/Anno III/1-SEM/SAW/_ref/21_javascript4.pdf",
     "Unige/Anno III/1-SEM/SAW/_ref/20_javascript3.pdf",
-    "Unige/Anno III/1-SEM/CS/1 - Introduction.md",
-    "Unige/Anno III/1-SEM/Orario.png",
-    "Unige/Anno III/1-SEM/FESI/11 - Trasformazioni Geometriche.md",
-    "Unige/Anno III/1-SEM/FESI/_ref/10_trasformazioni_geometriche.pdf",
-    "Unige/Anno III/1-SEM/SAW/_ref/19_javascript2.pdf",
+    "Unige/Anno II/2-SEM/TII/0 - Riassunto.md",
+    "Unige/Anno III/1-SEM/CS/_ref/Esami Vari/Settembre2022/settembre.png",
+    "Unige/Anno III/1-SEM/CS/_ref/Esami Vari/PrimoAppello2023/4aDomanda.jpg",
+    "Unige/Anno III/1-SEM/CS/_ref/Esami Vari/PrimoAppello2023/3aDomanda.jpg",
+    "Unige/Anno III/1-SEM/CS/_ref/Esami Vari/PrimoAppello2023/2aDomanda.jpg",
+    "Unige/Anno III/1-SEM/CS/_ref/Esami Vari/PrimoAppello2023/1aDomanda.jpg",
+    "Unige/Anno III/1-SEM/CS/_ref/Esami Vari/SecondoAppello2023/4.jpg",
+    "Unige/Anno III/1-SEM/CS/_ref/Esami Vari/SecondoAppello2023/4.1.jpg",
+    "Unige/Anno III/1-SEM/CS/_ref/Esami Vari/SecondoAppello2023/3.jpg",
+    "Unige/Anno III/1-SEM/CS/_ref/Esami Vari/SecondoAppello2023/3.2.jpg",
+    "Unige/Anno III/1-SEM/CS/_ref/Esami Vari/SecondoAppello2023/3.3.jpg",
+    "Unige/Anno III/1-SEM/FIS/13 - Component, Deployment and Package Diagram.md",
+    "Unige/Anno III/1-SEM/FIS/14 - Design Patterns.md",
+    "Unige/Anno III/1-SEM/FIS/15 - Refactoring.md",
+    "Unige/Anno III/1-SEM/FIS/16 - Testing.md",
+    "Unige/Anno III/1-SEM/FIS/17 - Extreme Programming.md",
+    "Unige/Anno III/1-SEM/FIS/12 - Activity Diagram.md",
+    "Unige/Anno III/1-SEM/FIS/11 - State Machine Diagram.md",
+    "Unige/Anno III/1-SEM/FIS/10 - Sequence e Communication Diagram.md",
     "Unige/Anno III/1-SEM/FIS/8 - Class e Object Diagram.md",
-    "Unige/Anno III/1-SEM/FIS/_res/SD-operators.png",
-    "Unige/Anno III/1-SEM/FESI/_res/Butterworth.png",
-    "Unige/Anno III/1-SEM/CS/_res/hashProperties.png",
-    "Unige/Anno III/1-SEM/CS/_res/Diffie-Hellman.png",
-    "Unige/Anno III/1-SEM/FIS/_res/VantDesContr.png",
-    "Unige/Anno III/1-SEM/FIS/_res/Dsign.png",
+    "Unige/Anno III/1-SEM/FIS/7 - UML.md",
+    "Unige/Anno III/1-SEM/FIS/6 - Design by Contract.md",
+    "Unige/Anno III/1-SEM/FIS/5 - Design Architetturale.md",
+    "Unige/Anno III/1-SEM/FIS/4 - UseCases.md",
+    "Unige/Anno III/1-SEM/FIS/3 - Raccolta Requisiti.md",
+    "Unige/Anno III/1-SEM/FIS/2 - Modelli di Sviluppo.md",
+    "Unige/Anno III/1-SEM/FIS/1 - Introduzione.md",
+    "Unige/Anno III/1-SEM/TAC/4 - Automi Epsilon Non Deterministici.md",
+    "Unige/Anno III/1-SEM/TAC/H - Riduzione.md",
+    "Unige/Anno III/1-SEM/TAC/G - Caratterizzazioni degli insiemi RE.md",
+    "Unige/Anno III/1-SEM/TAC/F - Insiemi di Funzioni.md",
+    "Unige/Anno III/1-SEM/TAC/I - Teorema di Rice.md",
     "Senza nome.canvas",
     "Senza nome 1.canvas"
   ]
