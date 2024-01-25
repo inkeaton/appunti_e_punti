@@ -1,7 +1,7 @@
 +  In this file, we'll try to summarize the main concepts of the **Computer Security** course
 ---
 # 1 - Introduction
-+ The main objective of a cyber-security expert is **risk assessment**: One must be able to recognize the main attacks possible on a computer system, and asses the specific risks
++ The main objective of a cyber-security expert is **risk assessment**: One must be able to recognize the main attacks possible on a computer system, and assess the specific risks
 + It is usually calculated with the following formula:
 	+ $risk = f(P_E, I_E)$ 
 		+ $P_E$ is the **probability** of the event occurring
@@ -99,7 +99,7 @@
  In **Simple Substitution Ciphers**, the letters are substituted with some other symbols from the alphabet
 + Some notable ones are
 	+ ***Caesar*** Cipher
-		+  Each letter is replaced by the character three to the right modulo 26
+		+ Each letter is replaced by the character 3 to the right modulo 26
 	+ ***ROT*** Cipher
 		+ Each letter is replaced by the character 13 to the right modulo 26
 	+ ***Alphanumeric*** Cipher
@@ -128,7 +128,7 @@
 	+ Else, the **malleability** of the XOR makes it so that you can recover the messages
 + The only problem is **exchanging very big keys**
 ---
-+ + Another class of ciphers are **Transposition Ciphers**, in which the symbols are rearranged
++ Another class of ciphers are **Transposition Ciphers**, in which the symbols are rearranged
 	+ One famous example is the ***Lacedemonic Scytale***
 + They're not more secure than substitution-based ones...
 ---

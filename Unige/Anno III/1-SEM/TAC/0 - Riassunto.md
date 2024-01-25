@@ -68,7 +68,7 @@
 + Ridefinizione di $\delta^*$
 	+ $\delta^{*} : Q \times \Sigma^* \to \mathcal{P}(Q)$
 	+ $\delta^{*}(q, \varepsilon) = \{q\}$ 
-	+ $\delta^{*}(q, u \sigma) = \bigcup_{q' \in \delta^{*}(q, u)} \delta^* (q, \sigma)$  
+	+ $\delta^{*}(q, u \sigma) = \bigcup_{q' \in \delta^{*}(q, u)} \delta^* (q', \sigma)$  
 + Linguaggio Riconosciuto
 	+  $L(\mathcal{M}) = \{u \; | <q_0, u> \; \xrightarrow{*} \; <q_f, \varepsilon>, \; q_f \in F\}$ 
 		+ *È virtualmente uguale ad un DFA, ma adesso indica "se esiste una computazione accettabile"*
@@ -106,7 +106,7 @@
 	+ Viene ridefinita tramite il seguente nuovo concetto
 		+ $\textcolor{Apricot}{\varepsilon\text{-closure}} : \quad Q \to \mathcal{P}(Q)$ 
 		+ Dato uno stato, vengono restituiti tutti gli stati raggiungibili solo con transizioni **silenti**
-	+ $\delta^{*} : Q \times \Sigma^* \to \mathcal{P}(Q)$
+	+ $\hat{\delta} : Q \times \Sigma^* \to \mathcal{P}(Q)$
 		+ $\hat{\delta}(q, \varepsilon) = \varepsilon\text{-closure}(q)$ 
 		+ $\hat{\delta}(q, u\sigma) = \bigcup_{q^{'}\in \hat{\delta}(q,u)}\varepsilon\text{-closure}(\hat{\delta}(q^{'}, \sigma))$ 
 + Linguaggio Accettato
@@ -338,7 +338,7 @@ Esse possono essere trasformate in $\varepsilon$-NFA che riconoscono stringhe ap
 ---
 + L'insieme delle funzioni descritte in PR può essere definito in maniera **induttiva**
 + Passo **Base**:
-	+ $z(x_1, x_n) = 0 \; \forall n \geq 0 \quad$ (tutte le funzioni costanti zero) 
+	+ $z(x_1, \cdots, x_n) = 0 \; \forall n \geq 0 \quad$ (tutte le funzioni costanti zero) 
 	+ $S(x) = x + 1 \quad$ (la funzione successore) 
 	+ $\Pi_n(x_1, \cdots, x_n) = x_i\quad$ (proiezione)
 + Passo **Induttivo**

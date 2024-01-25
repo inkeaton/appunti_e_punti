@@ -14,7 +14,7 @@
 	+ Impulso **Discreto**
 		+ $\delta(x) = \begin{dcases} 1 \qquad x = 0 \\ 0 \qquad x \neq 0 \end{dcases}$
 + La Delta in particolare è molto utile
-+ Una sua variante traslata, il **Treno d'Impulsi**, può essere usato come **campionatore**, moltiplicando la funzione che vogliamo campionare per esso
++ Una sua variante traslata, il **Treno d'Impulsi**, può essere usato come **campionatore**, moltiplicando la funzione che vogliamo campionare per esso, [come qui](https://www.matematicamente.it/forum/viewtopic.php?t=135579)
 ---
 + Tutte le funzioni continue e periodiche possono essere scritte come **somme pesate** di sinusoidi
 + Questo è possibile grazie alla cosiddetta **Serie di Fourier**

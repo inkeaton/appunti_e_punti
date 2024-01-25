@@ -29,7 +29,7 @@ Un **modello di sviluppo** è una modellazione astratta del processo di sviluppo
 + Questo è uno dei **metodi** di sviluppo **più famosi** ed **utilizzati**
 + Fu cominciato da utilizzare negli anni 50 a livello militare, fu definito a livello scientifico negli anni 70, e si è diffuso negli anni 70-80
 + Strutturato in 5 fasi:
-	0. **Studio di Fattibilità**
++ 0. **Studio di Fattibilità**
 		+ Fase **facoltativa**
 		+ Prevede un'analisi della fattibilità del progetto, tenendo conto del budget e del tempo necessario
 	1. **Raccolta, analisi e specifica requisiti**
@@ -236,7 +236,7 @@ Un **modello di sviluppo** è una modellazione astratta del processo di sviluppo
 	+ Requirements **Management**
 		+ Viene tenuto aggiornato il documento, valutando possibili proposte di modifica
 			+ Sono fattibili? Che impatto hanno?
-![[R-Eng.png]]
++ ![[R-Eng.png]]
 ---
 + Le proprietà che dovrebbero essere possedute da ogni requisito sono:
 	+ **Correttezza**
@@ -313,13 +313,7 @@ Un **modello di sviluppo** è una modellazione astratta del processo di sviluppo
 + Ognuno di essi è definito da
 	+ Un insieme di tipologie di **componenti**
 	+ Un insieme di tipologie di **connettori**
-+ Ci sono numerosi stili
-	+ Layered
-	+ Repository
-	+ Client/Server (Two Tier o Three Tier)
-	+ Pipe and Filter
-	+ Microservice
-+ Sono suddivisibili in 
++ Ci sono numerosi stili, suddivisibili in 
 	+ **Strutturali**: Danno solo un idea di come **organizzare** il sistema
 	+ **Di Controllo**: Danno anche idee su come **controllare** il sistema
 ---
@@ -438,7 +432,7 @@ Un **modello di sviluppo** è una modellazione astratta del processo di sviluppo
 4. **Information Hiding**
 	+ Proprio per evitare l'accoppiamento cattivo, l'information hiding fa in modo di nascondere i dati di un modulo agli altri, evitando l'accesso diretto
 5. **Alto Fan-in, Basso Fan-out**
-	+ Costruendo il grafo delle dipendenze din un programma, si deve fare in modo che ci siano poche dipendenze (fan-out) e tanti utilizzi (fan-in) di ogni modulo
+	+ Costruendo il grafo delle dipendenze di un programma, si deve fare in modo che ci siano poche dipendenze (fan-out) e tanti utilizzi (fan-in) di ogni modulo
 6. **Generalità**
 	+ Ogni modulo deve essere strutturato in modo da essere generale e riutilizzabile
 7. **In Generale:**

@@ -1,0 +1,31 @@
+1a) Disegnare il grafico di un segnale continuo a tempo continuo, un 
+segnale continuo a tempo discreto, un segnale discretizzato a tempo discreto.
+
+1b) Definire l'operazione di quantizzazione.
+
+1c) Definire la delta di dirac e spiegare come può essere usata nell'operazione
+di campionamento.
+
+[sound-processing]
+2a) Spiegare cos'è la STFT (Short-Time Fourier Transform).
+
+2b) Dato il seguente grafico, indicare quali sono le basse e alte frequenze e
+dire che suono potrebbe essere.
+
+2c) Descrivere un filtro passa alto e applicarlo al grafico, che cosa si ottiene?
+
+[images]
+3a) Data la seguente immagine filtrata nei 3 colori RGB, definire cos'è lo spazio 
+RGB e stabilire di che colore è l'immagine originale.
+
+3b) Se si volesse separare l'immagine dell'oggetto dallo sfondo, che algoritmo
+si potrebbe usare? fornirlo elencando i passi.
+
+3c) Definire la tecnica addittiva e sottrattiva, fornire esempi di entrambe.
+
+[transformations]
+4a) Cosa sono le trasformazioni geometriche? fornire esempio.
+
+4b) Qual è la differenza tra trasformazione geometrica e non geometrica? fornire esempi.
+
+4c) Data una trasformazione a scelta, fornire algoritmo che la implementi elencando i passi.
