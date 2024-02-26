@@ -4,73 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "074ee5e4041ef6aa",
+        "id": "3aece7d1c6c45a14",
         "type": "tabs",
         "children": [
           {
-            "id": "ec8b89b2051e2811",
+            "id": "ea2038bca5d51581",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unige/Anno III/1-SEM/FIS/0 - Riassunto.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "550d07136845950b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unige/Anno III/1-SEM/FIS/_ref/Lezione2_IS-modelliProcesso-2023-2024_unrolled.pdf"
-              }
-            }
-          },
-          {
-            "id": "82eb225b5c59a3b7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unige/Anno III/1-SEM/FIS/_ref/Lezione3_IS_Requisiti_2023-2024.pdf"
-              }
-            }
-          },
-          {
-            "id": "6b68103f9f35585d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unige/Anno III/1-SEM/FIS/_ref/lezione21_ExtremeProgramming2023-2024.pdf"
-              }
-            }
-          },
-          {
-            "id": "5df6a022c82341dd",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unige/Anno III/1-SEM/FIS/_ref/lezione5_IS-HLDesign-2023-2024.pdf"
-              }
-            }
-          },
-          {
-            "id": "e272b1d37e74e4b7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unige/Anno III/1-SEM/FIS/_ref/Lezione17_Refactoring_unfolded.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.5026054382324,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -137,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno III/1-SEM/FIS/_ref/lezione21_ExtremeProgramming2023-2024.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,19 +128,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6b68103f9f35585d",
+  "active": "ea2038bca5d51581",
   "lastOpenFiles": [
-    "Unige/Anno III/1-SEM/FIS/_ref/Lezione2_IS-modelliProcesso-2023-2024_unrolled.pdf",
-    "Unige/Anno III/1-SEM/FIS/_ref/lezione5_IS-HLDesign-2023-2024.pdf",
-    "Unige/Anno III/1-SEM/FIS/_ref/lezione21_ExtremeProgramming2023-2024.pdf",
+    "Unige/Anno III/2-SEM/PCAD/1 - Programmazione Concorrente.md",
+    "Unige/Anno III/2-SEM/ECA/Senza nome.md",
+    "Unige/Anno III/2-SEM/ECA/_res",
+    "Unige/Anno III/2-SEM/CLS2/1 - Polinomio di Taylor.md",
+    "Unige/Anno III/2-SEM/FCQ/_res",
+    "Unige/Anno III/2-SEM/IDS/_res",
+    "Unige/Anno III/2-SEM/PCAD/_res",
+    "Unige/Anno III/2-SEM/Orario.png",
+    "Unige/Anno III/2-SEM/CLS2/_res",
+    "Unige/Anno III/1-SEM/Orario.png",
+    "Unige/Anno III/2-SEM/2024-02-25_14-54-42.png",
+    "Unige/Anno III/1-SEM/SAW/_ref/25_javascript8.pdf",
+    "Unige/Anno III/1-SEM/SAW/_ref/24_javascript7.pdf",
+    "Unige/Anno III/1-SEM/SAW/_ref/23_javascript6.pdf",
+    "Unige/Anno III/1-SEM/SAW/_ref/22_javascript5.pdf",
+    "Unige/Anno III/1-SEM/SAW/_ref/21_javascript4.pdf",
+    "Unige/Anno III/1-SEM/TAC/0 - Riassunto.md",
+    "Unige/Anno III/1-SEM/SAW/0 - Riassunto.md",
     "Unige/Anno III/1-SEM/FIS/0 - Riassunto.md",
-    "Unige/Anno III/1-SEM/FIS/_ref/Lezione3_IS_Requisiti_2023-2024.pdf",
-    "Unige/Anno III/1-SEM/FIS/_ref/Esami FIS/Domande/Domanda Gruppo TEAMSs Possibile Risposta.pdf",
-    "Unige/Anno III/1-SEM/FIS/_ref/Lezione17_Refactoring_unfolded.pdf",
-    "Unige/Anno III/1-SEM/FIS/_ref/lezione15_DesignPatterns2023-2024_parte_2.pdf",
-    "Unige/Anno III/1-SEM/FIS/_ref/lezione14_DesignPatterns2023-2024_parte_1.pdf",
-    "Unige/Anno III/1-SEM/FIS/_ref/lezione19_IS_Software_Testing_2021-2022.pdf",
-    "Unige/Anno III/1-SEM/FIS/_ref/Esami FIS/Esercizi/Vari/2012-2013/ISfebbraio2013_soluzioni.pdf",
     "Unige/Anno III/1-SEM/SAW/_ref/Esami SAW/test230606.jpeg",
     "Unige/Anno III/1-SEM/SAW/_ref/Esami SAW/2024-01-16_16-01-23.png",
     "Unige/Anno III/1-SEM/SAW/_ref/Esami SAW/2024-01-13_14-26-08.png",
@@ -205,11 +156,7 @@
     "Unige/Anno III/1-SEM/FIS/_ref/Esami FIS/FIS/Teams.PNG",
     "Unige/Anno III/1-SEM/FIS/_ref/Esami FIS/FIS/Sort.PNG",
     "Unige/Anno III/1-SEM/FIS/_ref/Esami FIS/FIS/Modello a spirale.PNG",
-    "Unige/Anno III/1-SEM/FIS/_ref/Esami FIS/FIS/InsertionSort_FR.PNG",
-    "Unige/Anno III/1-SEM/FIS/_ref/Esami FIS/FIS/IMG_20220227_174024344.jpg",
-    "Unige/Anno III/1-SEM/FIS/_ref/Esami FIS/FIS/Gruppo 1.PNG",
     "Unige/Anno III/1-SEM/CS/0 - Summary.md",
-    "Unige/Anno III/1-SEM/TAC/0 - Riassunto.md",
     "Unige/Anno III/1-SEM/FESI/9 - Colori.md",
     "Unige/Anno III/1-SEM/FESI/8 - Immagini Digitali.md",
     "Unige/Anno III/1-SEM/FESI/7 - Serie Temporali.md",
@@ -229,9 +176,6 @@
     "Unige/Anno III/1-SEM/FIS/15 - Refactoring.md",
     "Unige/Anno III/1-SEM/FIS/16 - Testing.md",
     "Unige/Anno III/1-SEM/FIS/17 - Extreme Programming.md",
-    "Unige/Anno III/1-SEM/FIS/12 - Activity Diagram.md",
-    "Unige/Anno III/1-SEM/FIS/11 - State Machine Diagram.md",
-    "Unige/Anno III/1-SEM/FIS/10 - Sequence e Communication Diagram.md",
     "Senza nome.canvas",
     "Senza nome 1.canvas"
   ]
