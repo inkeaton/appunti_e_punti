@@ -4,15 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "3aece7d1c6c45a14",
+        "id": "adf3e9e10ecc7586",
         "type": "tabs",
+        "dimension": 52.18631178707224,
         "children": [
           {
-            "id": "ea2038bca5d51581",
+            "id": "80ed828416e3cbcc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno III/2-SEM/FCQ/_ref/7-Corso_chap7.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f8a86694e3fbf021",
+        "type": "tabs",
+        "dimension": 47.81368821292776,
+        "children": [
+          {
+            "id": "da039dbcd6d4bd72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno III/2-SEM/FCQ/0 - Riassunto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c9593131b90bd3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno III/2-SEM/FCQ/5 - Algoritmi Quantistici.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Riassunto",
+                "query": "hermi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -81,6 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Unige/Anno III/2-SEM/FCQ/0 - Riassunto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,55 +164,55 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ea2038bca5d51581",
+  "active": "da039dbcd6d4bd72",
   "lastOpenFiles": [
+    "Unige/Anno III/2-SEM/CLS2/_ref/_ref.zip",
+    "Unige/Anno III/2-SEM/CLS2/_ref/zia3jZa6",
+    "Unige/Anno III/2-SEM/FCQ/_ref/7-Corso_chap7.pdf",
+    "Unige/Anno III/2-SEM/FCQ/_ref/6-Corso_chap6.pdf",
+    "Unige/Anno III/2-SEM/FCQ/0 - Riassunto.md",
+    "Unige/Anno III/2-SEM/FCQ/_res/rotazione_grover.png",
+    "Unige/Anno III/2-SEM/FCQ/_ref/5-Corso_chap5.pdf",
+    "Unige/Anno III/2-SEM/FCQ/5 - Algoritmi Quantistici.md",
+    "Unige/Anno III/2-SEM/FCQ/_ref/4-Corso_chap4.pdf",
+    "Unige/Anno III/2-SEM/FCQ/4 - Superdense Coding e Teletrasporti.md",
+    "Unige/Anno III/2-SEM/FCQ/_ref/3-Corso_chap3.pdf",
+    "Unige/Anno III/2-SEM/FCQ/3 - Operatori Quantistici.md",
+    "Unige/Anno III/2-SEM/FCQ/2 - Teoria della Misura.md",
+    "Unige/Anno III/2-SEM/FCQ/1 - Basi Matematiche.md",
+    "Unige/Anno III/2-SEM/FCQ/_ref/2-Corso_chap2.pdf",
+    "Unige/Anno III/2-SEM/FCQ/_ref/1-Capitolo_1.pdf",
+    "Unige/Anno III/2-SEM/FCQ/_ref/9-Corso_chap9.pdf",
+    "Unige/Anno III/2-SEM/FCQ/_ref/8-Corso_chap8.pdf",
+    "Unige/Anno III/2-SEM/PCAD/0 - Riassunto.md",
     "Unige/Anno III/2-SEM/PCAD/1 - Programmazione Concorrente.md",
-    "Unige/Anno III/2-SEM/ECA/Senza nome.md",
-    "Unige/Anno III/2-SEM/ECA/_res",
-    "Unige/Anno III/2-SEM/CLS2/1 - Polinomio di Taylor.md",
-    "Unige/Anno III/2-SEM/FCQ/_res",
-    "Unige/Anno III/2-SEM/IDS/_res",
-    "Unige/Anno III/2-SEM/PCAD/_res",
-    "Unige/Anno III/2-SEM/Orario.png",
-    "Unige/Anno III/2-SEM/CLS2/_res",
-    "Unige/Anno III/1-SEM/Orario.png",
-    "Unige/Anno III/2-SEM/2024-02-25_14-54-42.png",
-    "Unige/Anno III/1-SEM/SAW/_ref/25_javascript8.pdf",
-    "Unige/Anno III/1-SEM/SAW/_ref/24_javascript7.pdf",
-    "Unige/Anno III/1-SEM/SAW/_ref/23_javascript6.pdf",
-    "Unige/Anno III/1-SEM/SAW/_ref/22_javascript5.pdf",
-    "Unige/Anno III/1-SEM/SAW/_ref/21_javascript4.pdf",
-    "Unige/Anno III/1-SEM/TAC/0 - Riassunto.md",
-    "Unige/Anno III/1-SEM/SAW/0 - Riassunto.md",
-    "Unige/Anno III/1-SEM/FIS/0 - Riassunto.md",
-    "Unige/Anno III/1-SEM/SAW/_ref/Esami SAW/test230606.jpeg",
-    "Unige/Anno III/1-SEM/SAW/_ref/Esami SAW/2024-01-16_16-01-23.png",
-    "Unige/Anno III/1-SEM/SAW/_ref/Esami SAW/2024-01-13_14-26-08.png",
-    "Unige/Anno III/1-SEM/SAW/_ref/Esami SAW/2024-01-13_14-25-05.png",
-    "Unige/Anno III/1-SEM/FIS/_ref/Esami FIS/FIS/Teams.PNG",
-    "Unige/Anno III/1-SEM/FIS/_ref/Esami FIS/FIS/Sort.PNG",
-    "Unige/Anno III/1-SEM/FIS/_ref/Esami FIS/FIS/Modello a spirale.PNG",
+    "Unige/Anno III/2-SEM/PCAD/2 - Processi e Thread in Unix.md",
+    "Unige/Anno III/2-SEM/PCAD/3 - Mutua Esclusione.md",
+    "Unige/Anno III/2-SEM/FCQ/8 - Quantum Games.md",
+    "Unige/Anno III/2-SEM/FCQ/9 - Bomb Tester.md",
+    "Unige/Anno III/2-SEM/FCQ/7 - Correzione Bit.md",
+    "Unige/Anno III/2-SEM/FCQ/6 - Crittografia Quantistica.md",
+    "Unige/Anno I/Calculus 1/Insiemi Numerici e Funzioni.md",
+    "Unige/Anno I/Calculus 1/Funzioni Trigonometriche Inverse.md",
+    "Unige/Anno I/Calculus 1/Funzioni Trigonometriche.md",
+    "Unige/Anno I/Calculus 1/Continuità.md",
+    "Unige/Anno I/Calculus 1/Biettività, Operazioni e Inverse.md",
+    "Unige/Anno I/Calculus 1/Funzioni Elementari.md",
+    "Unige/Anno I/Calculus 1/Teoremi sui Limiti.md",
+    "Unige/Anno I/Calculus 1/Successioni.md",
     "Unige/Anno III/1-SEM/CS/0 - Summary.md",
-    "Unige/Anno III/1-SEM/FESI/9 - Colori.md",
-    "Unige/Anno III/1-SEM/FESI/8 - Immagini Digitali.md",
-    "Unige/Anno III/1-SEM/FESI/7 - Serie Temporali.md",
-    "Unige/Anno III/1-SEM/FESI/6 - Segnali Audio.md",
-    "Unige/Anno III/1-SEM/FESI/5 - Filtri.md",
-    "Unige/Anno III/1-SEM/FESI/4 - DFT.md",
-    "Unige/Anno III/1-SEM/FESI/3 - Campionamento e Fourier.md",
-    "Unige/Anno III/1-SEM/FESI/2 - Trasformata di Fourier e Convoluzione.md",
-    "Unige/Anno III/1-SEM/FESI/1 - Introduzione.md",
-    "Unige/Anno II/1-SEM/RC/19 - Riassunto.md",
-    "Unige/Anno III/1-SEM/FESI/10 - Trasformazioni su Variabili Dipendenti.md",
-    "Unige/Anno III/1-SEM/FESI/11 - Trasformazioni Geometriche.md",
-    "Unige/Anno III/1-SEM/TAC/1 - Stringhe e Linguaggi.md",
-    "Unige/Anno II/2-SEM/TII/0 - Riassunto.md",
-    "Unige/Anno III/1-SEM/FIS/13 - Component, Deployment and Package Diagram.md",
-    "Unige/Anno III/1-SEM/FIS/14 - Design Patterns.md",
-    "Unige/Anno III/1-SEM/FIS/15 - Refactoring.md",
-    "Unige/Anno III/1-SEM/FIS/16 - Testing.md",
-    "Unige/Anno III/1-SEM/FIS/17 - Extreme Programming.md",
+    "Unige/Anno II/2-SEM/APA/0 - Riassunto.md",
+    "Unige/Anno II/2-SEM/APA/8 - Ordinamento Topologico.md",
+    "Unige/Anno III/2-SEM/FCQ/_ref/grover_geometry.png",
+    "Unige/Anno III/2-SEM/FCQ/_res/grover.png",
+    "Unige/Anno III/2-SEM/FCQ/_res/simon.png",
+    "Unige/Anno III/2-SEM/FCQ/_res/bernstein-vazirani.png",
+    "Unige/Anno III/2-SEM/FCQ/_res/Bernstein-Vazirani_quantum_circuit.png",
+    "Unige/Anno III/2-SEM/FCQ/_res/deutsch.png",
+    "Unige/Anno III/2-SEM/FCQ/_res/2024-04-26_11-22-36.png",
+    "Unige/Anno III/2-SEM/FCQ/_res/NumNelGraf.png",
     "Senza nome.canvas",
+    "Unige/Anno III/1-SEM/Orario.png",
     "Senza nome 1.canvas"
   ]
 }

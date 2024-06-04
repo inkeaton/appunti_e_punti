@@ -324,7 +324,7 @@ Esse possono essere trasformate in $\varepsilon$-NFA che riconoscono stringhe ap
 		+ $z$ è lo zero
 		+ $S(e)$ è l'incremento di 1
 + Le funzioni possono essere non ricorsive o ricorsive. Ma queste ultime implementano un tipo di ricorsione molto semplice, detta **primitiva** (non mutua ricorsione)
-+ Queste vengono definite tramite due clausole di tipo:
++ Queste vengono definite tramite due clausole di tipo: 
 	+ $f(x_1, \cdots, x_n, z) = e$ 
 	+ $f(x_1, \cdots, x_n, S(y)) = e'$ 
 + Queste definiscono una funzione nel senso che, dato un programma, esso può essere ridotto, applicando le clausole necessarie, fino ad un singolo valore
@@ -362,7 +362,7 @@ Esse possono essere trasformate in $\varepsilon$-NFA che riconoscono stringhe ap
 	+ Essa viene chiamata **dimostrazione per diagonalizzazione**. Funziona per qualunque formalismo tale che:
 		1. I programmi/algoritmi descritti sono numerabili
 		2. Le funzioni descritte sono totali
-	+ Un esempio di funzione totale non in PR è la funzione di Ackermann:
+	+ Un esempio di funzione totale non in PR è la funzione di **Ackermann**:
 	```FORTRAN
 	f(n, m): 
 		if (m = 0)
@@ -576,7 +576,8 @@ return Mx(y)
 + Le **proprietà semantiche** di una funzione, **non** sono **decidibili**
 + Queste sono le proprietà relative all'input/output della funzione, e vengono chiamate **estensionali**
 	+ Possiamo arrivare a queste funzioni in più modi, l'importante è il risultato
-	+ Per dimostrare hce una funzione non è estenzionale, basta mostrare che esistono due funzioni differenti, dal comportamento uguale, per cui la proprietà non vale
+	+ $X : \{ x = 3\}$
+	+ Per dimostrare che una funzione non è estensionale, basta mostrare che esistono due funzioni differenti, dal comportamento uguale, per cui la proprietà non vale
 + Esse sono decidibili solo se banali. Nel nostro caso, che il sottoinsieme ottenuto è $\emptyset$ o $\mathbb{N}$ 
 + Possiamo usare questa proprietà per dimostrare la non ricorsività di un insieme: Basta dimostrare che la proprietà è estensionale, ma non banale 
 ## 2.4 - Appendici

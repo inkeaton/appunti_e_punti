@@ -10,5 +10,6 @@
   "showViewHeader": true,
   "interfaceFontFamily": "SF Pro Rounded,Cantarell",
   "textFontFamily": "SF Pro Rounded,Cantarell,Symbols Nerd Font",
-  "monospaceFontFamily": "Gintronic,JetBrainsMono Nerd Font"
+  "monospaceFontFamily": "Gintronic,JetBrainsMono Nerd Font",
+  "theme": "obsidian"
 }
