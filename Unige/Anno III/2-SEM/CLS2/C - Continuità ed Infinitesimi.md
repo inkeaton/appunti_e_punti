@@ -34,7 +34,7 @@
 
 >[!Definizione]
 > ### Funzioni Infinitesime
-> + Una funzione $\varepsilon : A \subseteq \mathbb{R}^n \to \mathbb{R}^m$ è setta **infinitesima nell'origine** se vale:
+> + Una funzione $\varepsilon : A \subseteq \mathbb{R}^n \to \mathbb{R}^m$ è detta **infinitesima nell'origine** se vale:
 > 	+ $0 \in A$
 > 	+ $\varepsilon(0) = 0 \in \mathbb{R}^m$
 > 	+ $\varepsilon$ è continua in $0 \in \mathbb{R}^n$

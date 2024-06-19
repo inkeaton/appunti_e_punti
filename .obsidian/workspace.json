@@ -4,46 +4,68 @@
     "type": "split",
     "children": [
       {
-        "id": "adf3e9e10ecc7586",
+        "id": "bc7d606a1be118bf",
         "type": "tabs",
-        "dimension": 52.18631178707224,
+        "dimension": 51.140684410646394,
         "children": [
           {
-            "id": "80ed828416e3cbcc",
+            "id": "e2c1ca36f8ee4fb8",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Unige/Anno III/2-SEM/FCQ/_ref/7-Corso_chap7.pdf"
+                "file": "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-07-23.pdf"
+              }
+            }
+          },
+          {
+            "id": "38c139340dd42762",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-07-23 soluzioni.pdf"
               }
             }
           }
         ]
       },
       {
-        "id": "f8a86694e3fbf021",
+        "id": "88a324cb23f35d03",
         "type": "tabs",
-        "dimension": 47.81368821292776,
+        "dimension": 48.859315589353606,
         "children": [
           {
-            "id": "da039dbcd6d4bd72",
+            "id": "95d934c359e5d761",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno III/2-SEM/FCQ/0 - Riassunto.md",
+                "file": "Unige/Anno III/2-SEM/CLS2/0 - Riassunto.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1c9593131b90bd3e",
+            "id": "d0a526035fdcfe29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno III/2-SEM/FCQ/5 - Algoritmi Quantistici.md",
+                "file": "Unige/Anno III/2-SEM/CLS2/A - Geometria e Topologia.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5557597dd5dbe71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno III/2-SEM/CLS2/1 - Formula di Taylor.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 326.50271224975586,
     "collapsed": true
   },
   "right": {
@@ -116,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno III/2-SEM/FCQ/0 - Riassunto.md",
+                "file": "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-07-23.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,55 +186,55 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da039dbcd6d4bd72",
+  "active": "e2c1ca36f8ee4fb8",
   "lastOpenFiles": [
-    "Unige/Anno III/2-SEM/CLS2/_ref/_ref.zip",
-    "Unige/Anno III/2-SEM/CLS2/_ref/zia3jZa6",
-    "Unige/Anno III/2-SEM/FCQ/_ref/7-Corso_chap7.pdf",
-    "Unige/Anno III/2-SEM/FCQ/_ref/6-Corso_chap6.pdf",
-    "Unige/Anno III/2-SEM/FCQ/0 - Riassunto.md",
-    "Unige/Anno III/2-SEM/FCQ/_res/rotazione_grover.png",
-    "Unige/Anno III/2-SEM/FCQ/_ref/5-Corso_chap5.pdf",
-    "Unige/Anno III/2-SEM/FCQ/5 - Algoritmi Quantistici.md",
-    "Unige/Anno III/2-SEM/FCQ/_ref/4-Corso_chap4.pdf",
-    "Unige/Anno III/2-SEM/FCQ/4 - Superdense Coding e Teletrasporti.md",
-    "Unige/Anno III/2-SEM/FCQ/_ref/3-Corso_chap3.pdf",
-    "Unige/Anno III/2-SEM/FCQ/3 - Operatori Quantistici.md",
-    "Unige/Anno III/2-SEM/FCQ/2 - Teoria della Misura.md",
-    "Unige/Anno III/2-SEM/FCQ/1 - Basi Matematiche.md",
-    "Unige/Anno III/2-SEM/FCQ/_ref/2-Corso_chap2.pdf",
-    "Unige/Anno III/2-SEM/FCQ/_ref/1-Capitolo_1.pdf",
-    "Unige/Anno III/2-SEM/FCQ/_ref/9-Corso_chap9.pdf",
-    "Unige/Anno III/2-SEM/FCQ/_ref/8-Corso_chap8.pdf",
-    "Unige/Anno III/2-SEM/PCAD/0 - Riassunto.md",
-    "Unige/Anno III/2-SEM/PCAD/1 - Programmazione Concorrente.md",
-    "Unige/Anno III/2-SEM/PCAD/2 - Processi e Thread in Unix.md",
-    "Unige/Anno III/2-SEM/PCAD/3 - Mutua Esclusione.md",
-    "Unige/Anno III/2-SEM/FCQ/8 - Quantum Games.md",
-    "Unige/Anno III/2-SEM/FCQ/9 - Bomb Tester.md",
-    "Unige/Anno III/2-SEM/FCQ/7 - Correzione Bit.md",
-    "Unige/Anno III/2-SEM/FCQ/6 - Crittografia Quantistica.md",
-    "Unige/Anno I/Calculus 1/Insiemi Numerici e Funzioni.md",
-    "Unige/Anno I/Calculus 1/Funzioni Trigonometriche Inverse.md",
-    "Unige/Anno I/Calculus 1/Funzioni Trigonometriche.md",
-    "Unige/Anno I/Calculus 1/Continuità.md",
-    "Unige/Anno I/Calculus 1/Biettività, Operazioni e Inverse.md",
-    "Unige/Anno I/Calculus 1/Funzioni Elementari.md",
-    "Unige/Anno I/Calculus 1/Teoremi sui Limiti.md",
-    "Unige/Anno I/Calculus 1/Successioni.md",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-07-23 soluzioni.pdf",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-07-23.pdf",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-06-08 soluzioni.pdf",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/21-02-22 soluzioni.pdf",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/21-02-22.pdf",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/21-01-14 soluzioni 2-4.pdf",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/21-01-14.pdf",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/21-01-14 soluzioni 1-3.pdf",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-09-07.pdf",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-06-08.pdf",
+    "Unige/Anno III/2-SEM/CLS2/0 - Riassunto.md",
+    "Unige/Anno III/2-SEM/CLS2/1 - Formula di Taylor.md",
+    "Unige/Anno III/2-SEM/CLS2/A - Geometria e Topologia.md",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-09-07 soluzioni 3-4.pdf",
+    "Unige/Anno III/2-SEM/CLS2/E - Differenziabile e Derivabile.md",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/23-01-12.jpg",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/23-06-06.jpg",
+    "Unige/Anno III/2-SEM/CLS2/D - Teorema dei Valori Intermedi.md",
+    "Unige/Anno III/2-SEM/CLS2/C - Continuità ed Infinitesimi.md",
+    "Unige/Anno III/2-SEM/CLS2/B - Funzioni Scalari e Vettoriali.md",
+    "Unige/Anno III/2-SEM/CLS2/7 - Serie di Taylor.md",
+    "Unige/Anno III/2-SEM/CLS2/6 - Serie di Potenze.md",
+    "Unige/Anno III/2-SEM/CLS2/5 - Serie di Fourier.md",
+    "Unige/Anno III/2-SEM/CLS2/4 - Serie di Funzioni.md",
+    "Unige/Anno III/2-SEM/CLS2/3 - Criteri.md",
+    "Unige/Anno III/2-SEM/CLS2/2 - Serie Numeriche.md",
+    "Unige/Anno III/1-SEM/FIS/0 - Riassunto.md",
     "Unige/Anno III/1-SEM/CS/0 - Summary.md",
-    "Unige/Anno II/2-SEM/APA/0 - Riassunto.md",
-    "Unige/Anno II/2-SEM/APA/8 - Ordinamento Topologico.md",
-    "Unige/Anno III/2-SEM/FCQ/_ref/grover_geometry.png",
-    "Unige/Anno III/2-SEM/FCQ/_res/grover.png",
-    "Unige/Anno III/2-SEM/FCQ/_res/simon.png",
-    "Unige/Anno III/2-SEM/FCQ/_res/bernstein-vazirani.png",
-    "Unige/Anno III/2-SEM/FCQ/_res/Bernstein-Vazirani_quantum_circuit.png",
-    "Unige/Anno III/2-SEM/FCQ/_res/deutsch.png",
-    "Unige/Anno III/2-SEM/FCQ/_res/2024-04-26_11-22-36.png",
-    "Unige/Anno III/2-SEM/FCQ/_res/NumNelGraf.png",
+    "Unige/Anno III/1-SEM/CS/4 - Block Ciphers.md",
+    "Unige/Anno III/2-SEM/_IDS/0 - Riassunto.md",
+    "Unige/Anno III/2-SEM/CLS2/_ref/Senza nome.md",
+    "Unige/Anno II/1-SEM/AL/Tipi di Esercizi.md",
+    "Unige/Anno II/1-SEM/AL/Riassunto Varbaro.md",
+    "Unige/Anno II/1-SEM/AL/Domande.md",
+    "Unige/Anno II/2-SEM/TII/0 - Riassunto.md",
+    "Unige/Anno II/2-SEM/APA/10 - Teoria della NP-Completezza.md",
+    "Unige/Anno II/2-SEM/APA/9 - Programmazione Dinamica.md",
+    "Unige/Anno II/2-SEM/APA/7 - Alberi minimi.md",
+    "Unige/Anno III/2-SEM/_PCAD/_res/model_checking.png",
+    "Unige/Anno III/2-SEM/_PCAD/_res/ricart_agrawala_alg_2.png",
+    "Unige/Anno III/2-SEM/_PCAD/_res/ricart_agrawala_alg_1.png",
+    "Unige/Anno III/2-SEM/_PCAD/_res/lamport_alg_2.png",
+    "Unige/Anno III/2-SEM/_PCAD/_res/lamport_alg_1.png",
+    "Unige/Anno III/2-SEM/_PCAD/_res/test_and_set_alg.png",
+    "Unige/Anno III/2-SEM/_PCAD/_res/baker_alg.png",
+    "Unige/Anno III/2-SEM/_PCAD/_res/tournament_alg.png",
     "Senza nome.canvas",
-    "Unige/Anno III/1-SEM/Orario.png",
     "Senza nome 1.canvas"
   ]
 }

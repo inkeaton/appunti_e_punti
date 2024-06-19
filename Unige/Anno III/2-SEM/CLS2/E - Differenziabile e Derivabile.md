@@ -3,7 +3,7 @@
 >[!Definizione]
 > ### Derivata
 > + La derivata di una funzione $f$ viene descritta come il seguente limite:
-> 	+ $\exists \lim_{h \to 0} f(x_0 + h) - f(x_0) = f'(x_0$
+> 	+ $\exists \lim_{h \to 0} f(x_0 + h) - f(x_0) = f'(x_0)$
 
 >[!Definizione]
 > ### Linearizzabilità
