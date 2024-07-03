@@ -14,6 +14,9 @@
 		+ Un valore per ogni variabile condivisa
 	+ Un cambio di stato è presente se si può passare allo stato successivo tramite l'istruzione puntata
 + Un modo per verificare le proprietà è usare un **invariante**, una proprietà che è sempre verificata. CI può essere utile nel verificare le proprietà discusse
++ Dei consigli:
+	+ Considerare più cicli consecutivi
+	+ Controllare che le variabili vengano resettate ad ogni ciclo
 ### Algoritmo di Dekker
 ![[dekker_alg.png]]
 Verifica:
@@ -105,9 +108,11 @@ Verifica:
 #### Safety
 + Sono un insieme di proprietà che verificano la seguente proposta:
 	+ Se una traccia non è nella proprietà allora esiste un prefisso finito tale che ogni traccia con lo stesso prefisso non è nella proprietà
+		+ "Non puoi ripararla"
 #### Liveness
 + Sono un insieme di proprietà che verificano la seguente proposta:
 	+ Per ogni sequenza finita, esiste un postfisso infinito capace di rendere l'unione delle due appartenente alla proprietà
+		+ "Puoi sempre ripararla"
 
 ### Automi di Büchi
 + Un buon modo per descrivere una proprietà lineare temporale è quella di usare un automa
@@ -126,6 +131,7 @@ Verifica:
 	+ Abbiamo che $Trace(KS)$ soddisfa $P$ se e solo se $Trace(KS) \cap \bar{P} = \emptyset$
 	+ Siccome $\bar{P}$ è regolare, possiamo costruire il suo automa $\bar{A}$
 	+ Controlleremo dunque se l'intersezione fra $Trace(KS)$ ed il linguaggio $L_{\omega}(\bar{A})$ è vuota
+		+ Ovvero, se esiste un ciclo infinito contenente lo stato finale
 + Per farlo costruiremo un nuovo grafo $KS \otimes \bar{A}$
 ### Sintassi LTL
 + La logica temporale lineare (LTL) permette di descrivere delle proprietà sulle tracce di un sistema (un sottoinsieme di $(2^{PA})^\omega$)

@@ -6,68 +6,36 @@
       {
         "id": "bc7d606a1be118bf",
         "type": "tabs",
-        "dimension": 51.140684410646394,
         "children": [
           {
             "id": "e2c1ca36f8ee4fb8",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno III/2-SEM/PCAD/0 - Riassunto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52ae511e592ae298",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
-                "file": "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-07-23.pdf"
+                "file": "Unige/Anno III/2-SEM/PCAD/_ref/11-pcad-lez11.pdf"
               }
             }
           },
           {
-            "id": "38c139340dd42762",
+            "id": "f887b92f2b42ad82",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-07-23 soluzioni.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "88a324cb23f35d03",
-        "type": "tabs",
-        "dimension": 48.859315589353606,
-        "children": [
-          {
-            "id": "95d934c359e5d761",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unige/Anno III/2-SEM/CLS2/0 - Riassunto.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0a526035fdcfe29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unige/Anno III/2-SEM/CLS2/A - Geometria e Topologia.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5557597dd5dbe71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unige/Anno III/2-SEM/CLS2/1 - Formula di Taylor.md",
-                "mode": "source",
-                "source": false
+                "file": "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/Z-pcad-esempio-esame.pdf"
               }
             }
           }
@@ -121,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.50271224975586,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -138,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-07-23.pdf",
+                "file": "Unige/Anno III/2-SEM/PCAD/0 - Riassunto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,23 +156,24 @@
   },
   "active": "e2c1ca36f8ee4fb8",
   "lastOpenFiles": [
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-07-23 soluzioni.pdf",
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-07-23.pdf",
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-06-08 soluzioni.pdf",
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/21-02-22 soluzioni.pdf",
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/21-02-22.pdf",
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/21-01-14 soluzioni 2-4.pdf",
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/21-01-14.pdf",
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/21-01-14 soluzioni 1-3.pdf",
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-09-07.pdf",
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-06-08.pdf",
+    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/Z-pcad-esempio-esame.pdf",
+    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/D-pcad-es4.pdf",
+    "Unige/Anno III/2-SEM/PCAD/_ref/11-pcad-lez11.pdf",
+    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/C-pcad-es3.pdf",
+    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/C-pcad-es3-correzione.pdf",
+    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/B-pcad-es2.pdf",
+    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/B-pcad-es2-correzione.pdf",
+    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/A-pcad-es1.pdf",
+    "Unige/Anno III/2-SEM/PCAD/_ref/13-pcad-lez13.pdf",
+    "Unige/Anno III/2-SEM/PCAD/_ref/12-pcad-lez12.pdf",
+    "Unige/Anno III/2-SEM/PCAD/_ref/10-pcad-lez10.pdf",
+    "Unige/Anno III/2-SEM/PCAD/0 - Riassunto.md",
     "Unige/Anno III/2-SEM/CLS2/0 - Riassunto.md",
-    "Unige/Anno III/2-SEM/CLS2/1 - Formula di Taylor.md",
     "Unige/Anno III/2-SEM/CLS2/A - Geometria e Topologia.md",
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/20-09-07 soluzioni 3-4.pdf",
-    "Unige/Anno III/2-SEM/CLS2/E - Differenziabile e Derivabile.md",
     "Unige/Anno III/2-SEM/CLS2/_ref/esami/23-01-12.jpg",
     "Unige/Anno III/2-SEM/CLS2/_ref/esami/23-06-06.jpg",
+    "Unige/Anno III/2-SEM/CLS2/1 - Formula di Taylor.md",
+    "Unige/Anno III/2-SEM/CLS2/E - Differenziabile e Derivabile.md",
     "Unige/Anno III/2-SEM/CLS2/D - Teorema dei Valori Intermedi.md",
     "Unige/Anno III/2-SEM/CLS2/C - Continuità ed Infinitesimi.md",
     "Unige/Anno III/2-SEM/CLS2/B - Funzioni Scalari e Vettoriali.md",
@@ -217,7 +186,7 @@
     "Unige/Anno III/1-SEM/FIS/0 - Riassunto.md",
     "Unige/Anno III/1-SEM/CS/0 - Summary.md",
     "Unige/Anno III/1-SEM/CS/4 - Block Ciphers.md",
-    "Unige/Anno III/2-SEM/_IDS/0 - Riassunto.md",
+    "Unige/Anno III/2-SEM/IDS/0 - Riassunto.md",
     "Unige/Anno III/2-SEM/CLS2/_ref/Senza nome.md",
     "Unige/Anno II/1-SEM/AL/Tipi di Esercizi.md",
     "Unige/Anno II/1-SEM/AL/Riassunto Varbaro.md",
@@ -225,15 +194,14 @@
     "Unige/Anno II/2-SEM/TII/0 - Riassunto.md",
     "Unige/Anno II/2-SEM/APA/10 - Teoria della NP-Completezza.md",
     "Unige/Anno II/2-SEM/APA/9 - Programmazione Dinamica.md",
-    "Unige/Anno II/2-SEM/APA/7 - Alberi minimi.md",
-    "Unige/Anno III/2-SEM/_PCAD/_res/model_checking.png",
-    "Unige/Anno III/2-SEM/_PCAD/_res/ricart_agrawala_alg_2.png",
-    "Unige/Anno III/2-SEM/_PCAD/_res/ricart_agrawala_alg_1.png",
-    "Unige/Anno III/2-SEM/_PCAD/_res/lamport_alg_2.png",
-    "Unige/Anno III/2-SEM/_PCAD/_res/lamport_alg_1.png",
-    "Unige/Anno III/2-SEM/_PCAD/_res/test_and_set_alg.png",
-    "Unige/Anno III/2-SEM/_PCAD/_res/baker_alg.png",
-    "Unige/Anno III/2-SEM/_PCAD/_res/tournament_alg.png",
+    "Unige/Anno III/2-SEM/PCAD/_res/model_checking.png",
+    "Unige/Anno III/2-SEM/PCAD/_res/ricart_agrawala_alg_2.png",
+    "Unige/Anno III/2-SEM/PCAD/_res/ricart_agrawala_alg_1.png",
+    "Unige/Anno III/2-SEM/PCAD/_res/lamport_alg_2.png",
+    "Unige/Anno III/2-SEM/PCAD/_res/lamport_alg_1.png",
+    "Unige/Anno III/2-SEM/PCAD/_res/test_and_set_alg.png",
+    "Unige/Anno III/2-SEM/PCAD/_res/baker_alg.png",
+    "Unige/Anno III/2-SEM/PCAD/_res/tournament_alg.png",
     "Senza nome.canvas",
     "Senza nome 1.canvas"
   ]
