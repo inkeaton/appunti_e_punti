@@ -4,38 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bc7d606a1be118bf",
+        "id": "fa651c310c4df3f8",
         "type": "tabs",
         "children": [
           {
-            "id": "e2c1ca36f8ee4fb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unige/Anno III/2-SEM/PCAD/0 - Riassunto.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52ae511e592ae298",
+            "id": "ea4009915141a237",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Unige/Anno III/2-SEM/PCAD/_ref/11-pcad-lez11.pdf"
-              }
-            }
-          },
-          {
-            "id": "f887b92f2b42ad82",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/Z-pcad-esempio-esame.pdf"
+                "file": "Unige/Tesi I/possibili_tracce/self_deleting_malware.pdf"
               }
             }
           }
@@ -106,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno III/2-SEM/PCAD/0 - Riassunto.md",
+                "file": "Unige/Tesi I/possibili_tracce/self_deleting_malware.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,19 +132,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e2c1ca36f8ee4fb8",
+  "active": "ea4009915141a237",
   "lastOpenFiles": [
-    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/Z-pcad-esempio-esame.pdf",
-    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/D-pcad-es4.pdf",
-    "Unige/Anno III/2-SEM/PCAD/_ref/11-pcad-lez11.pdf",
-    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/C-pcad-es3.pdf",
-    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/C-pcad-es3-correzione.pdf",
-    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/B-pcad-es2.pdf",
-    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/B-pcad-es2-correzione.pdf",
-    "Unige/Anno III/2-SEM/PCAD/_ref/esercizi/A-pcad-es1.pdf",
-    "Unige/Anno III/2-SEM/PCAD/_ref/13-pcad-lez13.pdf",
-    "Unige/Anno III/2-SEM/PCAD/_ref/12-pcad-lez12.pdf",
-    "Unige/Anno III/2-SEM/PCAD/_ref/10-pcad-lez10.pdf",
+    "Unige/Tesi I/s4965918_tesi_bozza3.pdf",
+    "Unige/Tesi I/lu4261141a.tmp",
+    "Unige/Tesi I/Ribaudo.jpg",
+    "Unige/Tesi I/Prime note sull'articolo.md",
+    "Unige/Tesi I/possibili_tracce/self_deleting_malware.pdf",
+    "Unige/Tesi I/lu157054z10n.tmp",
+    "Unige/Tesi I/lu157054z10k.tmp",
+    "Unige/Tesi I/lu157054z0vx.tmp",
+    "Unige/Tesi I/lu157054z0ui.tmp",
+    "Unige/Tesi I/lu157054z0ka.tmp",
+    "Unige/Tesi I/lu157054z04y.tmp",
+    "Unige/Tesi I/colorpalette.txt",
+    "Unige/Tesi I/articoli_collegati/[39] fse21_jsisolate.pdf",
     "Unige/Anno III/2-SEM/PCAD/0 - Riassunto.md",
     "Unige/Anno III/2-SEM/CLS2/0 - Riassunto.md",
     "Unige/Anno III/2-SEM/CLS2/A - Geometria e Topologia.md",
@@ -193,7 +173,6 @@
     "Unige/Anno II/1-SEM/AL/Domande.md",
     "Unige/Anno II/2-SEM/TII/0 - Riassunto.md",
     "Unige/Anno II/2-SEM/APA/10 - Teoria della NP-Completezza.md",
-    "Unige/Anno II/2-SEM/APA/9 - Programmazione Dinamica.md",
     "Unige/Anno III/2-SEM/PCAD/_res/model_checking.png",
     "Unige/Anno III/2-SEM/PCAD/_res/ricart_agrawala_alg_2.png",
     "Unige/Anno III/2-SEM/PCAD/_res/ricart_agrawala_alg_1.png",
@@ -201,7 +180,6 @@
     "Unige/Anno III/2-SEM/PCAD/_res/lamport_alg_1.png",
     "Unige/Anno III/2-SEM/PCAD/_res/test_and_set_alg.png",
     "Unige/Anno III/2-SEM/PCAD/_res/baker_alg.png",
-    "Unige/Anno III/2-SEM/PCAD/_res/tournament_alg.png",
     "Senza nome.canvas",
     "Senza nome 1.canvas"
   ]
