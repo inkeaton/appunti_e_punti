@@ -8,8 +8,8 @@
 - [x] Uncharted Collection
 - [x] Ring Fit Adventure
 - [x] Elden Ring
-- [ ] Dark Souls 2
-- [ ] Sekiro: Shadows Die Twice
+- [x] Dark Souls 2
+- [x] Sekiro: Shadows Die Twice
 - [ ] Occhiali da Vista
 - [x] RAM per Laptop (16 GiB)
 - [x] SSD per Laptop (500 GiB)

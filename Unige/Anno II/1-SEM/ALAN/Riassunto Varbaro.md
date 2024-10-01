@@ -61,7 +61,7 @@
 * $A \cdot A^* = |A| \cdot I$ 
 
 # Rango
-* Un __minore__ di ordine $r$ è una sottomatrice $r × r$ di $A$ $(ottenuta considerando $r$ righe e $r$ colonne)
+* Un __minore__ di ordine $r$ è una sottomatrice $r × r$ di $A$ (ottenuta considerando $r$ righe e $r$ colonne)
 * Il __rango__ (o la caratteristica) di $A ∈ M_{mn}(K)$, denotato con $rk(A)$ (o $ρ(A)$) è il massimo ordine di un minore con determinante $\neq$ 0.
 * ### Teorema di Kronecker
 	* Una matrice $A ∈ M_{mn}(K)$ ha rango $r$ se e solo se: 

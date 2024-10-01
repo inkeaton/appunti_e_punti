@@ -4,16 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "fa651c310c4df3f8",
+        "id": "6596ac369d9a304a",
         "type": "tabs",
         "children": [
           {
-            "id": "ea4009915141a237",
+            "id": "5d5ca1261426a3d4",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Unige/Tesi I/possibili_tracce/self_deleting_malware.pdf"
+                "file": "Unige/Anno IV/1-SEM/DSIP/_ref/math_minimalia.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c7c0909457ec9dc5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "971aa6284c913c68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno IV/1-SEM/DSIP/1 - Hints to Fourier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "910242cd466f2f62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno III/2-SEM/FCQ/0 - Riassunto.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -62,12 +92,22 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "ae9e5328c9a9b807",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno IV/1-SEM/DSIP/_ref/math_minimalia.pdf"
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 348.5069465637207,
     "collapsed": true
   },
   "right": {
@@ -84,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Tesi I/possibili_tracce/self_deleting_malware.pdf",
+                "file": "Unige/Anno IV/1-SEM/DSIP/1 - Hints to Fourier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,54 +172,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ea4009915141a237",
+  "active": "971aa6284c913c68",
   "lastOpenFiles": [
-    "Unige/Tesi I/s4965918_tesi_bozza3.pdf",
-    "Unige/Tesi I/lu4261141a.tmp",
-    "Unige/Tesi I/Ribaudo.jpg",
-    "Unige/Tesi I/Prime note sull'articolo.md",
-    "Unige/Tesi I/possibili_tracce/self_deleting_malware.pdf",
-    "Unige/Tesi I/lu157054z10n.tmp",
-    "Unige/Tesi I/lu157054z10k.tmp",
-    "Unige/Tesi I/lu157054z0vx.tmp",
-    "Unige/Tesi I/lu157054z0ui.tmp",
-    "Unige/Tesi I/lu157054z0ka.tmp",
-    "Unige/Tesi I/lu157054z04y.tmp",
-    "Unige/Tesi I/colorpalette.txt",
-    "Unige/Tesi I/articoli_collegati/[39] fse21_jsisolate.pdf",
-    "Unige/Anno III/2-SEM/PCAD/0 - Riassunto.md",
-    "Unige/Anno III/2-SEM/CLS2/0 - Riassunto.md",
-    "Unige/Anno III/2-SEM/CLS2/A - Geometria e Topologia.md",
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/23-01-12.jpg",
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/23-06-06.jpg",
+    "Unige/Anno III/2-SEM/FCQ/0 - Riassunto.md",
+    "Unige/Anno IV/1-SEM/DSIP/1 - Hints to Fourier.md",
     "Unige/Anno III/2-SEM/CLS2/1 - Formula di Taylor.md",
-    "Unige/Anno III/2-SEM/CLS2/E - Differenziabile e Derivabile.md",
-    "Unige/Anno III/2-SEM/CLS2/D - Teorema dei Valori Intermedi.md",
-    "Unige/Anno III/2-SEM/CLS2/C - Continuità ed Infinitesimi.md",
-    "Unige/Anno III/2-SEM/CLS2/B - Funzioni Scalari e Vettoriali.md",
-    "Unige/Anno III/2-SEM/CLS2/7 - Serie di Taylor.md",
-    "Unige/Anno III/2-SEM/CLS2/6 - Serie di Potenze.md",
-    "Unige/Anno III/2-SEM/CLS2/5 - Serie di Fourier.md",
-    "Unige/Anno III/2-SEM/CLS2/4 - Serie di Funzioni.md",
-    "Unige/Anno III/2-SEM/CLS2/3 - Criteri.md",
-    "Unige/Anno III/2-SEM/CLS2/2 - Serie Numeriche.md",
-    "Unige/Anno III/1-SEM/FIS/0 - Riassunto.md",
-    "Unige/Anno III/1-SEM/CS/0 - Summary.md",
-    "Unige/Anno III/1-SEM/CS/4 - Block Ciphers.md",
-    "Unige/Anno III/2-SEM/IDS/0 - Riassunto.md",
-    "Unige/Anno III/2-SEM/CLS2/_ref/Senza nome.md",
-    "Unige/Anno II/1-SEM/AL/Tipi di Esercizi.md",
-    "Unige/Anno II/1-SEM/AL/Riassunto Varbaro.md",
-    "Unige/Anno II/1-SEM/AL/Domande.md",
+    "Unige/Anno IV/1-SEM/DSIP/_ref/math_minimalia.pdf",
+    "Unige/Anno II/1-SEM/ALAN/Vettori.md",
+    "Unige/Anno II/1-SEM/ALAN/Sistemi Lineari.md",
+    "Unige/Anno II/1-SEM/ALAN/Riassunto Varbaro.md",
+    "Unige/Anno III/2-SEM/CLS2/0 - Riassunto.md",
+    "Unige/Anno II/2-SEM/BD/0 - Riassunto.md",
     "Unige/Anno II/2-SEM/TII/0 - Riassunto.md",
-    "Unige/Anno II/2-SEM/APA/10 - Teoria della NP-Completezza.md",
+    "Unige/Anno IV/background_knowledge.png",
+    "Unige/Anno IV/1-SEM/Orario.png",
+    "Unige/Anno IV/1-SEM/Screenshot 2024-09-28 111323.png",
+    "Unige/Anno IV/1-SEM/DSIP/_ref/minimalia2024 without solutions.pdf",
+    "Unige/Anno III/1-SEM/SAW/_ref/04_css.pdf",
+    "Diario/Regali.md",
+    "Unige/Anno IV/Test.png",
+    "Vari/Test.md",
+    "Vari/Il matrimonio.md",
+    "Unige/Anno I/AdC/Registri.md",
+    "Unige/Anno I/AdC/Rappresentazioni pratiche.md",
+    "Unige/Anno I/AdC/RAM Statica.md",
+    "Unige/Anno I/AdC/L'Algebra Binaria.md",
+    "Unige/Anno I/AdC/Multiplexer, Demultiplexer, Decoder.md",
+    "Unige/Anno I/AdC/Virtualizzazione della CPU.md",
+    "Unige/Anno I/AdC/28-Riassunto.md",
+    "Unige/Anno I/AdC/27-Scrivere Un Programma Per Amber 2.md",
+    "Unige/Anno I/AdC/26-Coprocessori.md",
+    "Unige/Anno I/AdC/25-Istruzioni Amber 2.md",
+    "Unige/Anno I/AdC/24-Amber 2.md",
+    "Unige/Anno I/AdC/23-Pipeline.md",
+    "Unige/Tesi I/Ribaudo.jpg",
+    "Unige/Anno II/1-SEM/SETI/1 - Internet Stack.md",
+    "Unige/Anno II/1-SEM/SETI/12 - POP3 & IMAP4.md",
+    "Unige/Anno II/1-SEM/SETI/_ref/01_intro.pdf",
+    "Unige/Anno II/1-SEM/ALAN/_ref/1-Errori.pdf",
+    "desktop.ini",
+    "Unige/Anno IV/1-SEM/Screenshot 2024-09-16 115932.png",
+    "Unige/Anno IV/1-SEM/Screenshot 2024-09-16 114903.png",
+    "Unige/Anno IV/2-SEM/TEST4/_res",
+    "Unige/Anno IV/2-SEM/TEST4/_ref",
+    "Unige/Anno IV/2-SEM/TEST3/_res",
+    "Unige/Anno IV/2-SEM/TEST2/_res",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/23-06-06.jpg",
+    "Unige/Anno III/2-SEM/CLS2/_ref/esami/23-01-12.jpg",
     "Unige/Anno III/2-SEM/PCAD/_res/model_checking.png",
-    "Unige/Anno III/2-SEM/PCAD/_res/ricart_agrawala_alg_2.png",
-    "Unige/Anno III/2-SEM/PCAD/_res/ricart_agrawala_alg_1.png",
-    "Unige/Anno III/2-SEM/PCAD/_res/lamport_alg_2.png",
-    "Unige/Anno III/2-SEM/PCAD/_res/lamport_alg_1.png",
-    "Unige/Anno III/2-SEM/PCAD/_res/test_and_set_alg.png",
-    "Unige/Anno III/2-SEM/PCAD/_res/baker_alg.png",
     "Senza nome.canvas",
     "Senza nome 1.canvas"
   ]
