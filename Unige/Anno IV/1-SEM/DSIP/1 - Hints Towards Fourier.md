@@ -79,3 +79,19 @@
 
 + To compare $f_N$ and $f$, we just need to **compare the norms** of the two functions
 + When $N \to \infty$, $||f_N - f|| \to 0$
+---
++ Finally, we can define the **Fourier Series** in the following representations:
+
+> [! Definition ] 
+>  ### Fourier Series
+>  + Given a function $f \in [-\pi, \pi]$ , this can be expanded in an infinite series, converging to $f$, writable in two ways:
+> 	 + $f(t) = \frac{a_0}{2} + \sum^{\infty}_{n=1} a_n \cos{nt} + b_n \sin{nt}$
+> 	 + $f(t) = \sum^{\infty}_{n=- \infty} c_n e^{int}$
+>  + Where:
+> 	 + $c_n = \langle f, \psi_n \rangle$
+> 	 + $c_n = \cfrac{a_n + i b_n}{2}$
+> 	 + $a_n = \cfrac{c_n + c_{-n}}{2}$
+
++ The function is normalized, to find the norm we must do $\frac{1}{2 \pi} \langle f,  f \rangle$
++ Since not all functions have period $2\pi$, we can **change** the components to adapt to the frequency $\bar{f}$ by multiplying by $2 \pi \bar{f}$ 
+	+ $\sin x \to \sin {2 \pi \bar{f} x}$
