@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "f508c9c6de69cc3e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e2f4cf6a75c84b03",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unige/Anno IV/1-SEM/DC/_ref/A03_Consensus.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "5feb9c4365ad2e2d",
         "type": "tabs",
         "children": [
@@ -29,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno IV/1-SEM/DC/2 - Consensus and Paxos.md",
+                "file": "Unige/Anno IV/1-SEM/ML/1 - Fundamentals of Statistical Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5069465637207,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -112,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno IV/1-SEM/DC/2 - Consensus and Paxos.md",
+                "file": "Unige/Anno IV/1-SEM/ML/1 - Fundamentals of Statistical Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,8 +145,10 @@
   },
   "active": "4d83c7d758810d4a",
   "lastOpenFiles": [
+    "Unige/Anno IV/1-SEM/DC/2 - Consensus.md",
+    "Unige/Anno IV/1-SEM/ML/1 - Fundamentals of Statistical Learning.md",
+    "Unige/Anno IV/1-SEM/DC/_ref/A03.1_Raft.pdf",
     "Unige/Anno IV/1-SEM/DC/_ref/A03_Consensus.pdf",
-    "Unige/Anno IV/1-SEM/DC/2 - Consensus and Paxos.md",
     "Unige/Anno IV/1-SEM/DC/_ref/A02_Transactions_ACID_and_CAP.pdf",
     "Unige/Anno IV/1-SEM/DSIP/1 - Hints Towards Fourier.md",
     "Unige/Anno III/2-SEM/CLS2/5 - Serie di Fourier.md",
@@ -181,7 +166,7 @@
     "Unige/Anno III/2-SEM/CLS2/0 - Riassunto.md",
     "Unige/Anno II/2-SEM/BD/0 - Riassunto.md",
     "Unige/Anno II/2-SEM/TII/0 - Riassunto.md",
-    "Unige/Anno IV/background_knowledge.png",
+    "Unige/Anno IV/1-SEM/background_knowledge.png",
     "Unige/Anno IV/1-SEM/Orario.png",
     "Unige/Anno IV/1-SEM/Screenshot 2024-09-28 111323.png",
     "Unige/Anno IV/1-SEM/DSIP/_ref/minimalia2024 without solutions.pdf",
@@ -201,7 +186,6 @@
     "Unige/Anno I/AdC/26-Coprocessori.md",
     "Unige/Anno I/AdC/25-Istruzioni Amber 2.md",
     "Unige/Tesi I/Ribaudo.jpg",
-    "Unige/Anno II/1-SEM/SETI/_ref/01_intro.pdf",
     "Unige/Anno IV/1-SEM/Screenshot 2024-09-16 115932.png",
     "Unige/Anno IV/1-SEM/Screenshot 2024-09-16 114903.png",
     "Unige/Anno III/2-SEM/CLS2/_ref/esami/23-06-06.jpg",
