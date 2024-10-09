@@ -8,18 +8,53 @@
         "type": "tabs",
         "children": [
           {
+            "id": "bdc21912e21dbe67",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno IV/1-SEM/DSIP/_ref/dsp-notes24.pdf"
+              }
+            }
+          },
+          {
             "id": "4d83c7d758810d4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno IV/1-SEM/ML/1 - Fundamentals of Statistical Learning.md",
+                "file": "Unige/Anno IV/1-SEM/DSIP/2 - Singular Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0d9c0c8f9ccaa95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno IV/1-SEM/DSIP/1 - Hints Towards Fourier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bdee2f982fb1232f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno IV/1-SEM/ML/2 - Nearest Neighbours.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -79,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -95,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno IV/1-SEM/ML/1 - Fundamentals of Statistical Learning.md",
+                "file": "Unige/Anno IV/1-SEM/ML/2 - Nearest Neighbours.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,21 +179,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4d83c7d758810d4a",
+  "active": "bdee2f982fb1232f",
   "lastOpenFiles": [
-    "Unige/Anno IV/1-SEM/DC/2 - Consensus.md",
+    "Unige/Anno IV/1-SEM/DSIP/2 - Singular Functions.md",
+    "Unige/Anno IV/1-SEM/DSIP/_ref/dsp-notes24.pdf",
+    "Unige/Anno IV/1-SEM/DSIP/1 - Hints Towards Fourier.md",
+    "Unige/Anno IV/1-SEM/ML/2 - Nearest Neighbours.md",
     "Unige/Anno IV/1-SEM/ML/1 - Fundamentals of Statistical Learning.md",
+    "Unige/Anno IV/1-SEM/DC/2 - Consensus.md",
     "Unige/Anno IV/1-SEM/DC/_ref/A03.1_Raft.pdf",
     "Unige/Anno IV/1-SEM/DC/_ref/A03_Consensus.pdf",
     "Unige/Anno IV/1-SEM/DC/_ref/A02_Transactions_ACID_and_CAP.pdf",
-    "Unige/Anno IV/1-SEM/DSIP/1 - Hints Towards Fourier.md",
     "Unige/Anno III/2-SEM/CLS2/5 - Serie di Fourier.md",
     "Unige/Anno IV/1-SEM/DC/1 - ACID and CAP.md",
     "Unige/Anno IV/1-SEM/ML/_ref/00_Welcome2ML.pdf",
     "Unige/Anno IV/1-SEM/ML/_ref/MLNotes.pdf",
     "Unige/Anno IV/1-SEM/DC/_ref/1 - A02_Transactions_ACID_and_CAP.pdf",
     "Unige/Anno III/2-SEM/FCQ/0 - Riassunto.md",
-    "Unige/Anno IV/1-SEM/DSIP/_ref/dsp-notes24.pdf",
     "Unige/Anno III/2-SEM/CLS2/1 - Formula di Taylor.md",
     "Unige/Anno IV/1-SEM/DSIP/_ref/math_minimalia.pdf",
     "Unige/Anno II/1-SEM/ALAN/Vettori.md",
@@ -182,9 +220,6 @@
     "Unige/Anno I/AdC/Multiplexer, Demultiplexer, Decoder.md",
     "Unige/Anno I/AdC/Virtualizzazione della CPU.md",
     "Unige/Anno I/AdC/28-Riassunto.md",
-    "Unige/Anno I/AdC/27-Scrivere Un Programma Per Amber 2.md",
-    "Unige/Anno I/AdC/26-Coprocessori.md",
-    "Unige/Anno I/AdC/25-Istruzioni Amber 2.md",
     "Unige/Tesi I/Ribaudo.jpg",
     "Unige/Anno IV/1-SEM/Screenshot 2024-09-16 115932.png",
     "Unige/Anno IV/1-SEM/Screenshot 2024-09-16 114903.png",

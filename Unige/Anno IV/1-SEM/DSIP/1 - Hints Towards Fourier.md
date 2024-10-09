@@ -92,6 +92,6 @@
 > 	 + $c_n = \cfrac{a_n + i b_n}{2}$
 > 	 + $a_n = \cfrac{c_n + c_{-n}}{2}$
 
-+ The function is normalized, to find the norm we must do $\frac{1}{2 \pi} \langle f,  f \rangle$
++ The function is **normalized**, so to find the norm we must do $\frac{1}{2 \pi} \langle f,  f \rangle$
 + Since not all functions have period $2\pi$, we can **change** the components to adapt to the frequency $\bar{f}$ by multiplying by $2 \pi \bar{f}$ 
 	+ $\sin x \to \sin {2 \pi \bar{f} x}$
