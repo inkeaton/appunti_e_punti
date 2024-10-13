@@ -1,7 +1,8 @@
 + Let's focus on an improper class of functions, the **Singular Functions**
 + This class is composed **not** of **functions**, **but** of **distributions**, which we consider like functions since it helps with some computations.
 + We'll see two functions:
-	+ $\delta(t) = \begin{cases} 0 \quad &t \neq 0 \\ 1 \quad &t = 0\end{cases}$        **Unit Pulse**
+	+ $\delta(t) = \begin{cases} 0 \quad &t \neq 0 \\ 1 \quad &t = 0\end{cases}$        **Unit Pulse** (Dirac's delta)
+		+ Works kinda like Kronecker's in the continuum
 	+ $U(t) = \begin{cases} 0 \quad &t < 0 \\ 1 \quad &t \geq 0\end{cases}$       **Unit Step**
 + If we compute the product of them with a generic $\phi(t)$ we see:
 	+ $\int^{+ \infty}_{ - \infty} \delta(t) \phi(t-t_0) dt = \phi(t_0)$
