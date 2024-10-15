@@ -56,3 +56,8 @@
 	+ In case of a **network partition** it is possible to have multiple leaders. In this case, when the partition is solved, the older leader will renounce its role and its uncommitted changes
 ---
 + It is important to manage the **growth** in size of the **log**, and its eventual **compaction** (*to be studied*)
+---
++ Generally, consensus is expensive:
+	+ Difficult to implement
+	+ Risks being a bottleneck
+	+ In organizing machines you have a trade-off between reliability and latency
