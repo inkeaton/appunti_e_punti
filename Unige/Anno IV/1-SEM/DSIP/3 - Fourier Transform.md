@@ -37,6 +37,8 @@
 	+ $h(t) = (f * g) (t) = F(\omega)G(\omega) = H(\omega)$
 	+ We just need to do two transforms, one product, and one inverse transform!
 + This will be the basis for **filters** and **linear systems**
+	+ Vale anche il contrario
+		+ $f(t)  g (t) = \frac{1}{2\pi}(F*G)(\omega)$
 ---
 + Since the transform is a linear transform, does it have a **eigenfunction**? yes!
 	+ If we transform a **Gaussian** of width $\sigma$ we will get another Gaussian of width $\frac{1}{\sigma}$
