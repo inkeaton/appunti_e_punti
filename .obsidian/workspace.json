@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno IV/1-SEM/ML/3 - Choosing K.md",
+                "file": "Unige/Anno IV/1-SEM/ML/4 - Regression and Empirical Risk Minimization.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "4 - Regression and Empirical Risk Minimization"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora risorse"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
             }
           },
           {
@@ -72,14 +80,17 @@
               "type": "pdf",
               "state": {
                 "file": "Unige/Anno IV/1-SEM/DSIP/_ref/math_minimalia.pdf"
-              }
+              },
+              "icon": "lucide-file-text",
+              "title": "math_minimalia"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 273.5069465637207,
+    "collapsed": true
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -95,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unige/Anno IV/1-SEM/ML/3 - Choosing K.md",
+                "file": "Unige/Anno IV/1-SEM/DC/_ref/A06_Erasure_Coding.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti a A06_Erasure_Coding"
             }
           },
           {
@@ -111,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -123,7 +138,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "Tutte le proprietà"
             }
           }
         ]
@@ -145,16 +162,21 @@
   },
   "active": "5f746e30d18fe398",
   "lastOpenFiles": [
+    "Unige/Anno III/2-SEM/CLS2/E - Differenziabile e Derivabile.md",
+    "Unige/Anno III/2-SEM/CLS2/A - Geometria e Topologia.md",
+    "Unige/Anno IV/1-SEM/ML/4 - Regression and Empirical Risk Minimization.md",
+    "Unige/Anno IV/1-SEM/ML/2 - Nearest Neighbour.md",
+    "Unige/Anno IV/1-SEM/ML/3 - Choosing K.md",
+    "Unige/Anno IV/1-SEM/DC/5 - Erasure Coding.md",
+    "Unige/Anno IV/1-SEM/DC/_ref/A06_Erasure_Coding.pdf",
     "Unige/Anno IV/1-SEM/DSIP/4 - Sampling and Aliasing.md",
     "Unige/Anno IV/1-SEM/DSIP/3 - Fourier Transform.md",
     "Unige/Anno IV/1-SEM/DC/_ref/A05_Google_Cloud_Spanner.pdf",
     "Unige/Anno IV/1-SEM/DC/4 - Google Cloud Spanner.md",
     "Unige/Anno IV/1-SEM/DC/3 - Apache Zookeeper.md",
-    "Unige/Anno IV/1-SEM/ML/3 - Choosing K.md",
     "Unige/Anno IV/1-SEM/DC/_ref/A04_Zookeeer.pdf",
     "Unige/Anno IV/1-SEM/DC/_res/API.png",
     "Unige/Anno IV/1-SEM/DC/2 - Consensus.md",
-    "Unige/Anno IV/1-SEM/ML/2 - Nearest Neighbour.md",
     "Unige/Anno IV/1-SEM/DSIP/2 - Singular Functions.md",
     "Unige/Anno IV/2-SEM/TEST5/_res",
     "Unige/Anno IV/2-SEM/TEST5/_ref",
@@ -166,7 +188,6 @@
     "Unige/Anno IV/1-SEM/DSIP/_ref/dsp-notes24.pdf",
     "Unige/Anno IV/1-SEM/DSIP/1 - Hints Towards Fourier.md",
     "Unige/Anno IV/1-SEM/ML/1 - Fundamentals of Statistical Learning.md",
-    "Unige/Anno IV/1-SEM/DC/_ref/A03.1_Raft.pdf",
     "Unige/Anno III/2-SEM/CLS2/5 - Serie di Fourier.md",
     "Unige/Anno IV/1-SEM/DC/1 - ACID and CAP.md",
     "Unige/Anno III/2-SEM/FCQ/0 - Riassunto.md",
@@ -182,10 +203,6 @@
     "Unige/Anno IV/1-SEM/Screenshot 2024-09-28 111323.png",
     "Diario/Regali.md",
     "Unige/Anno IV/Test.png",
-    "Vari/Test.md",
-    "Vari/Il matrimonio.md",
-    "Unige/Anno I/AdC/Registri.md",
-    "Unige/Anno I/AdC/Rappresentazioni pratiche.md",
     "Unige/Tesi I/Ribaudo.jpg",
     "Unige/Anno IV/1-SEM/Screenshot 2024-09-16 115932.png",
     "Unige/Anno IV/1-SEM/Screenshot 2024-09-16 114903.png",
