@@ -4,53 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9e2cf4d00ed6bc08",
+        "id": "31fccf6ccf556039",
         "type": "tabs",
         "children": [
           {
-            "id": "750955219cb8ccea",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unige/Anno IV/1-SEM/DC/_ref/A10_Search_in_P2P_Systems.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "A10_Search_in_P2P_Systems"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b92470ef4ccb942a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c3d68c02ad413753",
+            "id": "357c3ccff2d86d07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno IV/1-SEM/DC/8 - Search in P2P Systems.md",
+                "file": "Unige/Anno IV/1-SEM/DSIP/7 - Wavelets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8 - Search in P2P Systems"
-            }
-          },
-          {
-            "id": "1f7f55017e33472a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unige/Anno IV/1-SEM/DSIP/6 - Kalman Filter.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6 - Kalman Filter"
+              "title": "7 - Wavelets"
             }
           }
         ]
@@ -121,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -192,44 +159,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c3d68c02ad413753",
+  "active": "357c3ccff2d86d07",
   "lastOpenFiles": [
-    "Unige/Anno IV/1-SEM/DC/_ref/A10_Search_in_P2P_Systems.pdf",
-    "Unige/Anno IV/1-SEM/DC/8 - Search in P2P Systems.md",
+    "Unige/Anno IV/1-SEM/ML/6 - Feature Mapping.md",
+    "Unige/Anno IV/1-SEM/DSIP/7 - Wavelets.md",
+    "Unige/Anno IV/1-SEM/ML/5 - Logistic Regression.md",
+    "Unige/Anno IV/1-SEM/ML/4 - Empirical Risk Minimization.md",
     "Unige/Anno IV/1-SEM/DSIP/6 - Kalman Filter.md",
+    "Unige/Anno IV/1-SEM/DC/11 - MapReduce.md",
+    "Unige/Anno IV/1-SEM/DC/10 - Eventual Consistency.md",
+    "Unige/Anno IV/1-SEM/DC/9 - Bittorrent.md",
+    "Unige/Anno IV/1-SEM/DC/8 - Search in P2P Systems.md",
+    "Unige/Anno IV/1-SEM/DC/_ref/A12_Eventual_Consistency.pdf",
+    "Unige/Anno IV/1-SEM/DC/_ref/A13_MapReduce.pdf",
+    "Unige/Anno IV/1-SEM/DC/_ref/A11_Bittorrent.pdf",
+    "Unige/Anno IV/1-SEM/DC/_ref/A10.1_Bloom_Filters.pdf",
+    "Unige/Anno IV/1-SEM/DSIP/3 - Fourier Transform.md",
+    "Unige/Anno IV/1-SEM/DSIP/4 - Sampling and Aliasing.md",
+    "Unige/Anno IV/1-SEM/DSIP/2 - Singular Functions.md",
+    "Unige/Anno III/1-SEM/FESI/_ref/04_processing1D.pdf",
+    "Unige/Anno III/1-SEM/FESI/_ref/03_DFT.pdf",
+    "Unige/Anno III/1-SEM/FESI/2 - Trasformata di Fourier e Convoluzione.md",
+    "Unige/Anno III/1-SEM/FESI/1 - Introduzione.md",
+    "Unige/Anno III/1-SEM/FESI/7 - Serie Temporali.md",
+    "Unige/Anno III/1-SEM/FESI/6 - Segnali Audio.md",
+    "Unige/Anno III/1-SEM/FESI/5 - Filtri.md",
+    "Unige/Anno IV/1-SEM/DC/_ref/A10_Search_in_P2P_Systems.pdf",
     "Unige/Anno IV/1-SEM/DC/7 - Tor.md",
     "Unige/Anno IV/1-SEM/DC/_ref/A09_Tor.pdf",
-    "Unige/Anno IV/1-SEM/ML/4 - Empirical Risk Minimization.md",
     "Unige/Anno IV/1-SEM/DSIP/_ref/dsp-notes24.pdf",
     "Unige/Anno IV/1-SEM/DC/_ref/marmo.webp",
     "Unige/Anno IV/1-SEM/DC/_ref/A08_Discrete_Event_Simulations.pdf",
     "Unige/Anno IV/1-SEM/DSIP/5 - Linear Time Invariant Systems.md",
-    "Unige/Anno IV/1-SEM/DSIP/4 - Sampling and Aliasing.md",
-    "Unige/Anno IV/1-SEM/DSIP/3 - Fourier Transform.md",
-    "Unige/Anno IV/1-SEM/DSIP/2 - Singular Functions.md",
     "Unige/Anno IV/1-SEM/DC/6 - Queuing Theory.md",
-    "Unige/Anno IV/1-SEM/DC/_ref/A07_Queueing_and_Scheduling.pdf",
     "Unige/Anno IV/1-SEM/DC/5 - Erasure Coding.md",
     "Unige/Anno II/1-SEM/ALAN/Basi Particolari.md",
-    "Unige/Anno II/1-SEM/ALAN.rar",
     "Unige/Anno II/1-SEM/ALAN/Sistemi Lineari II.md",
     "Unige/Anno II/1-SEM/ALAN/Matrici.md",
     "Unige/Anno II/1-SEM/ALAN/Complementi Algebrici.md",
     "Unige/Anno II/1-SEM/ALAN/Domande.md",
-    "Unige/Anno II/1-SEM/ALAN/Matrici Invertibili.md",
-    "Unige/Anno II/1-SEM/ALAN/Sistemi Lineari.md",
-    "Unige/Anno II/1-SEM/ALAN/Riassunto Varbaro.md",
-    "Unige/Anno II/1-SEM/ALAN/Precisione di Macchina.md",
-    "Unige/Anno II/1-SEM/ALAN/Determinanti.md",
-    "Unige/Anno II/1-SEM/ALAN/Problemi.md",
-    "Unige/Anno II/1-SEM/ALAN/Tipi di Esercizi.md",
-    "Unige/Anno II/1-SEM/ALAN/Vettori.md",
-    "Unige/Anno II/1-SEM/ALAN/_ref/appunti_geom.pdf",
-    "Unige/Anno II/1-SEM/ALAN/_ref/ALAN_Esercitazione.pdf",
-    "Unige/Anno II/1-SEM/ALAN/_ref/AL.pdf",
-    "Unige/Anno I/Calculus 1/2022-Calculus 1.pdf",
-    "Unige/Anno III/2-SEM/CLS2/2 - Serie Numeriche.md",
-    "Unige/Anno III/2-SEM/CLS2/1 - Formula di Taylor.md",
     "Unige/Anno IV/1-SEM/DC/_res/API.png",
     "Unige/Anno IV/1-SEM/background_knowledge.png",
     "Unige/Anno IV/1-SEM/Orario.png",

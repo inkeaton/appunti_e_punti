@@ -18,3 +18,4 @@
 			+ This modifications greatly **improved scalability**
 ---
 + *The slides here explain what is a bloom filter and its evolution, the cuckoo filter*
++ *4/11/24 (We continue talking about bloom filters and explain the chord ring)*

@@ -27,14 +27,19 @@
 + If we consider them as matrices, we can write the **process model** $\Phi$, the updating rule of the state: $$s_{t+1} = \begin{bmatrix}x_{t+1} \\ u_{t+1} \\ y_{t+1} \\ v_{t+1}\end{bmatrix} = \underbracket{\begin{bmatrix}1 & \Delta t & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & \Delta t \\ 0 & 0 & 0 & 1\end{bmatrix}}_{\Phi} \cdot\begin{bmatrix}x_t \\ u_t \\ y_t \\ v_t\end{bmatrix}$$
 + Still, this model only works for a system where velocity is constant. But this isn't usually true, there can be a change in acceleration or direction
 + We'll consider such changes as **noise**, as follows: $$s_{t+1} = \Phi s_t + q_t$$
-+ Similar to before, we have that $\mathbb{E}[q_t] = 0$, and we get $\mathbb{E}[q_t q_t^T] = Q$, the **covariance** matrix
++ Similar to before, we have that $\mathbb{E}[q_t] = 0$, and we get $\mathbb{E}[q_t q_t^T] = Q$, the **covariance** matrix of the noise (change in acceleration)
 + Since velocity is considered constant, we do not measure it
 + As such, a measurement is defined as the following:$$m_t = \underbracket{\begin{bmatrix}1 & 0 & 0& 0 \\ 0 & 0 & 1 & 0\end{bmatrix}}_H \cdot s_t + \underbracket{\begin{bmatrix}r_{x, t} \\ r_{y, t}\end{bmatrix}}_{r_t}$$
-+ We have that $\mathbb{E}[r_t] = 0$, and we get $\mathbb{E}[r_t r_t^T] = R$, the **covariance** matrix of the singular error
++ We have that $\mathbb{E}[r_t] = 0$, and we get $\mathbb{E}[r_t r_t^T] = R$, the **covariance** matrix of the singular error on the measurement
 + Now, we get the following formula to get the optimal estimate of $s_t$ after $t$ measurements: $$\hat{s}_t = \hat{s}_t^- + k_t(m_t - H s
 +\hat{S}_t^-)$$
 + We come back to the age old question: How do we compute $k_t$?
-+ As last time! We want to minimize the error's variance: $$\begin{align}e_t &= s_t - \hat{s}_t \\ \arg_{k_t} &\min \mathbb{E}[e_te_t^T]\end{align}$$
-+ In particular, we need to minimize its **trace**, the sum of the elements on the diagonal (The variances)
++ As last time! We want to minimize the error's covariance matrix: $$\begin{align}e_t &= s_t - \hat{s}_t \\ \arg_{k_t} &\min \mathbb{E}[e_te_t^T]\end{align}$$
++ In particular, we need to minimize its **trace**, the sum of the elements on the diagonal (The actual variances)
 + Computing the complex gradient, we arrive to the following: $$k_t = p_t^-H^T(Hp_t^-H^T + R)^{-1}$$
-+ If we were to compare, we'll observe which it is completely analogous to the simpler case
+	+ If we were to compare, we'll observe which it is completely analogous to the simpler case
++ From this we can write: $$p_t^-H^T = k_t(Hp_t^-H^T + R)^{-1}$$ and substitute in the previous formula (*details in notes, 5/11/24)*, from which we obtain: $$p_t = (I - k_tH)p_t^-$$ This tells us that the error is quite big when there is a **sudden shift in the trajectory**
++ We end with the following expressions: $$\begin{align} s_{t+1}^- &= \Phi \hat{s_t} \\ p_{t+1}^- &= \Phi p_t \Phi^T + Q\end{align}$$
++ From this we understand that the **quality of our predictions** highly **depends** from the **relationship between $Q$ and $R$**, how much we believe in the measurements.
++ A greater value of $Q$ will make the prediction more stable, but slower to recover from sudden shifts in trajectory, viceversa will get a less stable function, which recovers quickly
++ We can see the Kalman filter as **a more reasonable derivative**
