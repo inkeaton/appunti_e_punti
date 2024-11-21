@@ -54,4 +54,4 @@
 				\end{bmatrix}
 		   \end{align}$$ We can choose $\lambda$ depending on the **eigenvalues**, to correct them.
 + To do this last part, we need to have a diagonal matrix. While this is not always true, the matrices we work with are always **diagonalizable** (We could use $SVD$)
-+ How do we choose $\lambda$? same as we chose $k$!
++ How do we choose $\lambda$? same as we chose $k$: **cross-validation**!
