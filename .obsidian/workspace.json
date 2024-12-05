@@ -4,21 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "31fccf6ccf556039",
+        "id": "15eb03f78e06c58b",
         "type": "tabs",
         "children": [
           {
-            "id": "357c3ccff2d86d07",
+            "id": "a1370c0e0a628ec1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno IV/1-SEM/DSIP/_ref/dsp-notes24.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "dsp-notes24"
+            }
+          }
+        ]
+      },
+      {
+        "id": "55c08007c9060742",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0b14e333c92aae2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno IV/1-SEM/ML/6 - Feature and Kernel Mapping.md",
+                "file": "Unige/Anno IV/1-SEM/DSIP/4 - Sampling and Aliasing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 - Feature and Kernel Mapping"
+              "title": "4 - Sampling and Aliasing"
             }
           }
         ]
@@ -89,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5069465637207
+    "width": 289.5069465637207,
+    "collapsed": true
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -159,54 +178,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "357c3ccff2d86d07",
+  "active": "a1370c0e0a628ec1",
   "lastOpenFiles": [
-    "Unige/Anno IV/1-SEM/ML/5 - Logistic Regression.md",
-    "Unige/Anno IV/1-SEM/ML/6 - Feature and Kernel Mapping.md",
-    "Unige/Anno IV/1-SEM/DSIP/8 - Frames.md",
-    "Unige/Anno IV/1-SEM/DSIP/7 - Wavelets.md",
-    "Unige/Anno IV/1-SEM/DSIP/_ref/dsp-notes24.pdf",
-    "Unige/Anno IV/1-SEM/DSIP/6 - Kalman Filter.md",
-    "Unige/Anno IV/1-SEM/ML/7 - Neural Networks.md",
-    "Unige/Anno IV/1-SEM/ML/4 - Empirical Risk Minimization.md",
-    "Unige/Anno IV/1-SEM/DC/10 - Eventual Consistency.md",
-    "Unige/Anno IV/1-SEM/DC/13 - The Cost of Scalability.md",
-    "Unige/Anno IV/1-SEM/DC/12 - Hadoop and Spark.md",
-    "Unige/Anno IV/1-SEM/DC/9 - Bittorrent.md",
-    "Unige/Anno IV/1-SEM/DC/8 - Search in P2P Systems.md",
-    "Unige/Anno IV/1-SEM/DC/7 - Tor.md",
-    "Unige/Anno IV/1-SEM/DC/11 - MapReduce.md",
-    "Unige/Anno IV/1-SEM/DC/_ref/A17_COST.pdf",
-    "Unige/Anno IV/1-SEM/DC/_ref/A16_GraphX.pdf",
-    "Unige/Anno IV/1-SEM/DC/_ref/A15_Spark.pdf",
-    "Unige/Anno IV/1-SEM/DC/_ref/A14_Hadoop.pdf",
-    "Unige/Anno II/2-SEM/APA/0 - Riassunto.md",
-    "Unige/Anno II/2-SEM/TII/0 - Riassunto.md",
-    "Unige/Anno IV/1-SEM/DC/_ref/A12_Eventual_Consistency.pdf",
-    "Unige/Anno IV/1-SEM/DC/_ref/A13_MapReduce.pdf",
-    "Unige/Anno IV/1-SEM/DC/_ref/A11_Bittorrent.pdf",
-    "Unige/Anno IV/1-SEM/DC/_ref/A10.1_Bloom_Filters.pdf",
-    "Unige/Anno IV/1-SEM/DSIP/3 - Fourier Transform.md",
     "Unige/Anno IV/1-SEM/DSIP/4 - Sampling and Aliasing.md",
+    "Unige/Anno II/2-SEM/APA/0 - Riassunto.md",
+    "Unige/Anno II/2-SEM/APA/16 - Accordo Bizantino.md",
+    "Unige/Anno IV/1-SEM/DSIP/_ref/dsp-notes24.pdf",
+    "Unige/Anno IV/1-SEM/DSIP/3 - Fourier Transform.md",
     "Unige/Anno IV/1-SEM/DSIP/2 - Singular Functions.md",
-    "Unige/Anno III/1-SEM/FESI/_ref/04_processing1D.pdf",
-    "Unige/Anno III/1-SEM/FESI/2 - Trasformata di Fourier e Convoluzione.md",
-    "Unige/Anno III/1-SEM/FESI/1 - Introduzione.md",
-    "Unige/Anno III/1-SEM/FESI/7 - Serie Temporali.md",
-    "Unige/Anno III/1-SEM/FESI/6 - Segnali Audio.md",
-    "Unige/Anno III/1-SEM/FESI/5 - Filtri.md",
-    "Unige/Anno IV/1-SEM/DC/_ref/marmo.webp",
-    "Unige/Anno IV/1-SEM/DSIP/5 - Linear Time Invariant Systems.md",
-    "Unige/Anno IV/1-SEM/DC/_res/API.png",
-    "Unige/Anno IV/1-SEM/background_knowledge.png",
+    "Unige/Anno IV/1-SEM/DSIP/1 - Hints Towards Fourier.md",
+    "Unige/Anno IV/1-SEM/DSIP/8 - Frames.md",
+    "Senza nome.canvas",
+    "Senza nome 1.canvas",
+    "Unige/Anno IV/1-SEM/DSIP/9 - Images.md",
+    "Unige/Anno IV/1-SEM/DSIP/7 - Wavelets.md",
+    "Unige/Anno IV/1-SEM/ML/9 - Explainable AI.md",
+    "Unige/Anno IV/1-SEM/ML/8 - Maximum Likelihood.md",
+    "Unige/Anno IV/1-SEM/ML/10 - Local Estimate.md",
+    "Unige/Anno IV/1-SEM/ML/7 - Neural Networks.md",
+    "Unige/Anno IV/1-SEM/DSIP/_ref/Cuccioli_03.jpg",
+    "Unige/Anno IV/1-SEM/ML/3 - Choosing K.md",
+    "Unige/Anno IV/1-SEM/ML/2 - Nearest Neighbour.md",
+    "Unige/Anno IV/1-SEM/ML/1 - Fundamentals of Statistical Learning.md",
+    "Unige/Anno IV/1-SEM/ML/4 - Empirical Risk Minimization.md",
+    "Unige/Anno IV/1-SEM/DSIP/_ref/feature_detection.pdf",
+    "Unige/Anno IV/1-SEM/DSIP/_ref/2D_filters.pdf",
+    "Unige/Anno IV/1-SEM/DSIP/_ref/2D_Fourier_2.pdf",
+    "Unige/Anno IV/1-SEM/DSIP/_ref/intro-images.pdf",
+    "Unige/Anno III/1-SEM/CS/0 - Summary.md",
     "Unige/Anno IV/1-SEM/Orario.png",
+    "Unige/Anno IV/1-SEM/background_knowledge.png",
+    "Unige/Anno IV/1-SEM/ML/_ref/CNN.pdf",
+    "Unige/Anno IV/1-SEM/ML/_ref/NNs.pdf",
+    "Unige/Anno IV/1-SEM/ML/_ref/RN2.pdf",
+    "Unige/Anno IV/1-SEM/ML/_ref/MLNotes.pdf",
+    "Unige/Anno IV/1-SEM/ML/_ref/00_Welcome2ML.pdf",
+    "Unige/Anno IV/1-SEM/ML/6 - Feature and Kernel Mapping.md",
+    "Unige/Anno IV/1-SEM/DC/A - Spark, Yarn, and Friends.md",
+    "Unige/Anno IV/1-SEM/DC/13 - The Cost of Scalability.md",
+    "Unige/Anno IV/1-SEM/DC/10 - Eventual Consistency.md",
+    "Unige/Anno IV/1-SEM/DC/12 - Hadoop and Spark.md",
+    "Unige/Anno II/2-SEM/APA/13 - Programmazione Lineare.md",
+    "Unige/Anno II/2-SEM/APA/17 - Test di Primalità.md",
+    "Unige/Anno IV/1-SEM/DC/_ref/marmo.webp",
+    "Unige/Anno IV/1-SEM/DC/_res/API.png",
     "Unige/Anno IV/1-SEM/Screenshot 2024-09-28 111323.png",
     "Unige/Anno IV/Test.png",
     "Unige/Tesi I/Ribaudo.jpg",
     "Unige/Anno IV/1-SEM/Screenshot 2024-09-16 115932.png",
-    "Unige/Anno IV/1-SEM/Screenshot 2024-09-16 114903.png",
-    "Unige/Anno III/2-SEM/CLS2/_ref/esami/23-06-06.jpg",
-    "Senza nome.canvas",
-    "Senza nome 1.canvas"
+    "Unige/Anno IV/1-SEM/Screenshot 2024-09-16 114903.png"
   ]
 }

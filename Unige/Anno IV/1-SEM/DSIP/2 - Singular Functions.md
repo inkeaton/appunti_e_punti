@@ -11,6 +11,7 @@
 		+ Associates $\phi$ to its integral in the positive reals
 + Those functions are **linear**:
 	+ $\int^{+ \infty}_{ - \infty} \delta(t) \cdot (a\phi_2(t) + b\phi_2(t)) dt = a\phi_2(0) + b\phi_2(0)$
++ Also, they can be freely shifted
 + Also, the two are **related** as follows:
 	+ $\cfrac{d U(t)}{dt} = \delta(t)$
 ---

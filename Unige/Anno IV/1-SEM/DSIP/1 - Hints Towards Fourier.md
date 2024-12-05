@@ -46,7 +46,7 @@
 	 + $g_2 = f_2 - \cfrac{\langle f_2, f_1 \rangle}{\langle f_1, f_1 \rangle} f_1$
 + This confirms the idea that **functions can be seen just as vectors**, in this space
 ---
-+ Let's introduce and **idea**.
++ Let's introduce an **idea**.
 + Considering the $[-\pi, \pi]$ interval, we describe the following infinite sets of functions:
 	+ $\begin{align}\phi_0 (t) &= \cfrac{1}{\sqrt{2\pi}} \\ \phi_{2n-1} (t) &= \cfrac{\sin{nt}}{\sqrt{\pi}}  \qquad n \in \mathbb{N}\\ \phi_{2n} (t) &= \cfrac{\cos{nt}}{\sqrt{\pi}}\end{align}$
 + Those functions are:

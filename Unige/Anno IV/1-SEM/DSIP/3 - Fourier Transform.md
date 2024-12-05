@@ -14,7 +14,7 @@
 		+ An example is $(P_T, 2\;\text{sinc})$
 		+ On finite signals, you just need to add a lot of 0 before and after
 	+ It's **linear**: $a_1 f_1(t) + a_2 f_2(t) \leftrightarrow a_1 F_1(\omega) + a_2 F_2(\omega)$
-	+ In case of a shift, the transform varies of a **phase**: $f(t-t_0) \leftrightarrow e^{-i \omega t_0}F(\omega)$
+	+ In case of a time shift, the transform varies of a **phase**: $f(t-t_0) \leftrightarrow e^{-i \omega t_0}F(\omega)$
 	+ In case of a **conjugate**: $f^*(t) \leftrightarrow F^*(-\omega)$ 
 	+ In case of a **derivative**: $f'(t) \leftrightarrow i\omega F'(\omega)$ 
 		+ As $\omega$ increases, the height does too: higher values of higher frequencies

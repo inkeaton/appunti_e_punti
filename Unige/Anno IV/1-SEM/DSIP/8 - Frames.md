@@ -23,8 +23,14 @@
 ---
 + Let's now see how to use a frame
 + The **Frame Operator** $S$ is the linear map $\mathbb{R}^n \to \mathbb{R}^n$ defined as: $$S(v) = F^TFv = \sum^M \langle v_i f_i\rangle f_i$$
-	+ It's symmetric, invertible and positive definite
+	+ It's symmetric, invertible and positive definite, it has full rank
 + This formula may remind us of the projection on orthonormal basis, but it is not complete ($S(v) \neq v$)
 + We need to introduce the concept of **dual frame**, $S^{-1}f_i$ 
 + So, it is true the following: $$v = SS^{-1} v = \sum^m \langle v, S^-1f_i \rangle f_i = \sum^m \langle v, f_i \rangle S^-1f_i$$
 	+ We can choose on which one project and which one reconstruct
++ An important property is that the **optimal values** of $A$ and $B$ are simply the respectively, smallest and biggest **eigenvalues** of $S$ 
+---
++ On **unit norm tight frames**, the frame operator is a diagonal matrix, with a constant value on the diagonal
++ That means that the frame is exceeding by a fixed amount, a scalar. This is called a **Parseval Frame**
+---
++ Frames seem to be more **resilient** to **noise**
