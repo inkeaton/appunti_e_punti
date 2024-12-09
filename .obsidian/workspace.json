@@ -31,12 +31,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unige/Anno IV/1-SEM/DSIP/4 - Sampling and Aliasing.md",
+                "file": "Unige/Anno IV/1-SEM/DSIP/6 - Kalman Filter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 - Sampling and Aliasing"
+              "title": "6 - Kalman Filter"
             }
           }
         ]
@@ -178,12 +178,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a1370c0e0a628ec1",
+  "active": "a0b14e333c92aae2",
   "lastOpenFiles": [
+    "Unige/Anno IV/1-SEM/DSIP/5 - Linear Time Invariant Systems.md",
     "Unige/Anno IV/1-SEM/DSIP/4 - Sampling and Aliasing.md",
+    "Unige/Anno IV/1-SEM/DSIP/_ref/dsp-notes24.pdf",
     "Unige/Anno II/2-SEM/APA/0 - Riassunto.md",
     "Unige/Anno II/2-SEM/APA/16 - Accordo Bizantino.md",
-    "Unige/Anno IV/1-SEM/DSIP/_ref/dsp-notes24.pdf",
     "Unige/Anno IV/1-SEM/DSIP/3 - Fourier Transform.md",
     "Unige/Anno IV/1-SEM/DSIP/2 - Singular Functions.md",
     "Unige/Anno IV/1-SEM/DSIP/1 - Hints Towards Fourier.md",
