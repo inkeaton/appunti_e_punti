@@ -38,7 +38,7 @@
 + So, we compute the gradient and obtain the following: $$(\hat{C} + \lambda I) w = \hat{h}$$
 + To find $\hat{w}$, we need to compute: $$\hat{w} = (\hat{C} + \lambda I)^{-1}\hat{h}$$
 + What did we **gain** from this?
-	1. We can imagine $\hat{L}(w)$ as a **flat parabola**, with multiple minimizer points. $\lambda \lambda||w||^2$ is a sharp parabola, depending on the value of $\lambda$. By summing it to $\hat{L}(w)$, we **reduce the number of solutions**!
+	1. We can imagine $\hat{L}(w)$ as a **flat parabola**, with multiple minimizer points. $\lambda||w||^2$ is a sharp parabola, depending on the value of $\lambda$. By summing it to $\hat{L}(w)$, we **reduce the number of solutions**!
 	2. By choosing the right $\lambda$, we can make the matrix **invertible**, and as such solvable: $$\begin{align}
 			\hat{C}^{-1} &\to (\hat{C} + \lambda I)^{-1} \\
 				\begin{bmatrix}

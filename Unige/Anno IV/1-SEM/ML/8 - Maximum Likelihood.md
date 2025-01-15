@@ -1,7 +1,7 @@
  #25/11/24 #27/11/24
  
 + Let's change for a bit our point of view
-+ We've always assumed a **Frequentist**point of view on our probabilities, as "random", unknowable values
++ We've always assumed a **Frequentist** point of view on our probabilities, as "random", unknowable values
 + We switch to the **Probabilistic** (Bayesian) approach.
 	+ We assume our data to be generated from a parameterized Probability $P_{\theta}$
 	+ We what to find the best possible values for $\theta$, computing its **Maximum Likelihood Estimation** (MLE)

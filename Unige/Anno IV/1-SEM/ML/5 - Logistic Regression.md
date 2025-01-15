@@ -13,3 +13,4 @@
 	+ As before, but we compute the gradient only on $b$ samples
 	+ This way we reduce the computation costs. The convergence will be noisier, but comparatively quicker 
 + *6/11/24 for details, search fro Support Vector Machines*
++ 

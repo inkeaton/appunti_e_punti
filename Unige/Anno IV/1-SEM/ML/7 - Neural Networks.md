@@ -30,7 +30,7 @@
 	+ As the number of neurons and layers grow, the **number of weights** needed **grows** at an alarming rate
 + Here comes a type of network built for avoiding these problems, in particular in the case in which we are working with images: **Convolutional Neural Networks**
 + It has the following properties:
-	+ It processes data in  a grid like manner
+	+ It processes data in a grid like manner
 	+ It has **sparse interactions**: Each neuron is connected to a smaller window of k other neurons, in a filter, and the weights of the filter are reused for multiple windows of neurons
 		+ This reduces the number of weights to learn and the number of computations needed to train the model
 + This changes the way in which the process goes:
