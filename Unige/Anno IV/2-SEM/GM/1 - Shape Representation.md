@@ -32,3 +32,4 @@
 + Another method are **Implicit Curves and Surfaces**
 + Those are defined as the **kernel of an implicit function**, the locus of the points of the solution of an equation
 + They enable determining inside and outside of a shape
++ *03/03/25*
