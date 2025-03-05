@@ -31,5 +31,15 @@
 ---
 + Another method are **Implicit Curves and Surfaces**
 + Those are defined as the **kernel of an implicit function**, the locus of the points of the solution of an equation
-+ They enable determining inside and outside of a shape
-+ *03/03/25*
++ They enable determining **inside** and **outside** of a shape
++ The normal direction to the surface (curve) is given by the gradient of the implicit function
++ This approach is limited sadly. We can't represent shapes too complicated.
++ An improvement is given by combining multiple shapes using **boolean operators** like union, intersection, difference, etc
++ The result can be smoothed using **smooth blending**, which "interpolates" between the two shapes
++ Writing the shapes in exponential format, we can use the previous operations to create meta-balls or **blobs** (*look more into this*)
+	+  A rather old method, presented in 1982
++ **Pros**:
+	+ Easy to determine inside/outside/boundary
++ **Cons**:
+	+ Hard to generate points on the curve/surface
+	+ Does not lend itself to (real-time) rendering
