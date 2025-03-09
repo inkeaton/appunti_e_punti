@@ -40,3 +40,18 @@
 	+ Ratio of edges to vertices is: $$e \approx 3v$$
 	+ Average degree of a vertex is 6
 + *5/3/25*
++ A mesh is called **Regular** if all faces have the same number of edges and all vertex degrees are equal. It si called **Quasi-Regular** if most of the faces respect the previous properties
+	+ To achieve regularity, an object must be a **thoroid**
+	+ A **Semi-Regular** mesh is a type of quasi regular mesh obtained through sub-division
++ A **sliver** is a triangle with highly different angles. We want to avoid them, as they create problems in computations, and a method to determine them is using inscribe and "coscribe" circles
+---
++ **Triangulations** are polygonal meshes which only use triangular faces
++ Those are very **useful** for **simplifying** algorithms and computations, **but** are **rarely used** for **modeling**, as quad or superior meshes have properties like **edge loops** which are helpful for editing
++ The **quality** of those shapes depends on **different** features:
+	+ Triangle meshes
+		+ Uniform Area
+		+ Angles close to 60
+	+ Quad meshes
+		+ Number of irregular vertices
+		+ Angles close to 90
+		+ Good edge flow
