@@ -18,3 +18,5 @@
 	+ **Structured Light**: Computes information from the distortion of a pattern
 		+ Very fast, but complex to implement, and prone to noise
 	+ **Passive Stereo**: Uses two cameras, simulating the human visual system
+*10/03/25*
++ *About rotation and translation, various computations...*
