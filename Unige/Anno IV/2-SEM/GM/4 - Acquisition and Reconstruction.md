@@ -20,3 +20,5 @@
 	+ **Passive Stereo**: Uses two cameras, simulating the human visual system
 *10/03/25*
 + *About rotation and translation, various computations...*
+*12/03/25*
++ *fine registration, norm estimation*
