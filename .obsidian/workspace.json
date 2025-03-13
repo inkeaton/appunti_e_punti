@@ -4,39 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "602108daa31190fc",
+        "id": "b77b0fca716fbe79",
         "type": "tabs",
         "children": [
           {
-            "id": "fbb8715d90495318",
+            "id": "bafd2d0e03d8c18d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unige/Anno IV/2-SEM/DL/_ref/03Autoencoders_GANs.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "03Autoencoders_GANs"
-            }
-          }
-        ]
-      },
-      {
-        "id": "4d5dd809fcdf1bf3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ab5199b905dbccad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unige/Anno IV/2-SEM/DL/01 - Autoencoder.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01 - Autoencoder"
+              "title": "Nuova scheda"
             }
           }
         ]
@@ -108,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.504695892334,
-    "collapsed": true
+    "width": 313.504695892334
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -179,10 +156,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ab5199b905dbccad",
+  "active": "bafd2d0e03d8c18d",
   "lastOpenFiles": [
+    "Unige/Anno IV/2-SEM/DL/01 - Autoencoder and GANs.md",
     "Unige/Anno IV/2-SEM/DL/_ref/03Autoencoders_GANs.pdf",
-    "Unige/Anno IV/2-SEM/DL/01 - Autoencoder.md",
+    "Unige/Anno IV/2-SEM/orario.png",
     "Unige/Anno IV/2-SEM/GM/4 - Acquisition and Reconstruction.md",
     "Unige/Anno IV/2-SEM/GM/_ref/03-Acquisition and registration.pdf",
     "Unige/Anno IV/2-SEM/AR/_ref/hiragana-chart-by-tofugu.jpg",
@@ -204,7 +182,6 @@
     "Unige/Anno IV/2-SEM/DL/_ref/02CNN.pdf",
     "Unige/Anno IV/2-SEM/CV/1 - Edges and Corners.md",
     "Unige/Anno IV/2-SEM/AR/2 - 3D Geometry.md",
-    "Unige/Anno IV/2-SEM/orario.png",
     "Unige/Anno IV/2-SEM/AR/1 - Definitions and Devices.md",
     "Unige/Anno IV/1-SEM/DSIP/3 - Fourier Transform.md",
     "Unige/Anno IV/1-SEM/DSIP/4 - Sampling and Aliasing.md",
