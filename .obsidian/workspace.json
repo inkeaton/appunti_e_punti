@@ -4,17 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "b77b0fca716fbe79",
+        "id": "ebf485286566eca6",
         "type": "tabs",
         "children": [
           {
             "id": "bafd2d0e03d8c18d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno IV/2-SEM/CV/_ref/02_image_matching.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "02_image_matching"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b77b0fca716fbe79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6aa5578079bb0ae2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno IV/2-SEM/CV/3 - Feature Matching.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "title": "3 - Feature Matching"
             }
           }
         ]
@@ -86,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.504695892334
+    "width": 261.504695892334,
+    "collapsed": true
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -156,8 +179,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bafd2d0e03d8c18d",
+  "active": "6aa5578079bb0ae2",
   "lastOpenFiles": [
+    "Unige/Anno IV/2-SEM/CV/_ref/02_image_matching.pdf",
+    "Unige/Anno IV/2-SEM/CV/3 - Feature Matching.md",
     "Unige/Anno IV/2-SEM/DL/01 - Autoencoder and GANs.md",
     "Unige/Anno IV/2-SEM/DL/_ref/03Autoencoders_GANs.pdf",
     "Unige/Anno IV/2-SEM/orario.png",
@@ -165,8 +190,6 @@
     "Unige/Anno IV/2-SEM/GM/_ref/03-Acquisition and registration.pdf",
     "Unige/Anno IV/2-SEM/AR/_ref/hiragana-chart-by-tofugu.jpg",
     "Unige/Anno IV/2-SEM/AR/_ref/hiragana-mnemonic-chart-by-tofugu.jpg",
-    "Unige/Anno IV/2-SEM/CV/_ref/02_image_matching.pdf",
-    "Unige/Anno IV/2-SEM/CV/3 - Feature Matching.md",
     "Unige/Anno IV/2-SEM/AR/_ref/5_AR_Lecture5.pdf",
     "Unige/Anno IV/2-SEM/GM/_ref/02-Meshes.pdf",
     "Unige/Anno IV/2-SEM/GM/3 - Data Representations.md",
