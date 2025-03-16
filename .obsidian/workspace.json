@@ -4,39 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ebf485286566eca6",
+        "id": "3e4bbed7a723df80",
         "type": "tabs",
         "children": [
           {
-            "id": "bafd2d0e03d8c18d",
+            "id": "b86d168a394dc6b7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Unige/Anno IV/2-SEM/CV/_ref/02_image_matching.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "02_image_matching"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b77b0fca716fbe79",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6aa5578079bb0ae2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unige/Anno IV/2-SEM/CV/3 - Feature Matching.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "3 - Feature Matching"
+              "title": "Nuova scheda"
             }
           }
         ]
@@ -108,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.504695892334,
-    "collapsed": true
+    "width": 261.504695892334
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -179,14 +156,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6aa5578079bb0ae2",
+  "active": "e0bff1cf136c21d0",
   "lastOpenFiles": [
-    "Unige/Anno IV/2-SEM/CV/_ref/02_image_matching.pdf",
+    "Vari/Il matrimonio.md",
+    "Vari/Test.md",
+    "Vari/Forze.md",
+    "Unige/Anno IV/2-SEM/GM/4 - Acquisition and Reconstruction.md",
+    "Unige/Anno IV/2-SEM/AR/3 - Visualization Pipeline.md",
     "Unige/Anno IV/2-SEM/CV/3 - Feature Matching.md",
+    "Unige/Anno IV/2-SEM/GM/_ref/04-Normal Estimation.pdf",
+    "Unige/Anno IV/2-SEM/GM/_ref/05-Reconstruction.pdf",
+    "Unige/Anno IV/2-SEM/CV/_ref/03_image_matching.pdf",
+    "Unige/Anno IV/2-SEM/AR/_ref/6_AR_Lecture6.pdf",
+    "Unige/Anno IV/2-SEM/CV/_ref/02_image_matching.pdf",
     "Unige/Anno IV/2-SEM/DL/01 - Autoencoder and GANs.md",
     "Unige/Anno IV/2-SEM/DL/_ref/03Autoencoders_GANs.pdf",
     "Unige/Anno IV/2-SEM/orario.png",
-    "Unige/Anno IV/2-SEM/GM/4 - Acquisition and Reconstruction.md",
     "Unige/Anno IV/2-SEM/GM/_ref/03-Acquisition and registration.pdf",
     "Unige/Anno IV/2-SEM/AR/_ref/hiragana-chart-by-tofugu.jpg",
     "Unige/Anno IV/2-SEM/AR/_ref/hiragana-mnemonic-chart-by-tofugu.jpg",
@@ -196,13 +181,8 @@
     "Unige/Anno IV/2-SEM/GM/2 - Meshes.md",
     "Unige/Anno IV/2-SEM/CV/2 - Image Segmentation.md",
     "Unige/Anno IV/2-SEM/CV/_ref/09_segmentation.pdf",
-    "Unige/Anno IV/2-SEM/AR/3 - Visualization Pipeline.md",
     "Unige/Anno IV/2-SEM/AR/_ref/cpu_PNG33.png",
-    "Unige/Anno IV/2-SEM/AR/_ref/3_AR_Lecture1.pdf",
-    "Unige/Anno IV/2-SEM/AR/_ref/4_AR_Lecture4.pdf",
     "Unige/Anno IV/2-SEM/GM/1 - Shape Representation.md",
-    "Unige/Anno IV/2-SEM/GM/_ref/01-Representation.pdf",
-    "Unige/Anno IV/2-SEM/DL/_ref/02CNN.pdf",
     "Unige/Anno IV/2-SEM/CV/1 - Edges and Corners.md",
     "Unige/Anno IV/2-SEM/AR/2 - 3D Geometry.md",
     "Unige/Anno IV/2-SEM/AR/1 - Definitions and Devices.md",
@@ -218,8 +198,6 @@
     "Unige/Anno IV/1-SEM/DC/8 - Search in P2P Systems.md",
     "Unige/Anno IV/1-SEM/DC/7 - Tor.md",
     "Unige/Anno IV/1-SEM/DC/6 - Queuing Theory.md",
-    "Unige/Anno IV/1-SEM/DC/5 - Erasure Coding.md",
-    "Unige/Anno IV/1-SEM/DC/4 - Google Cloud Spanner.md",
     "Unige/Anno IV/1-SEM/DC/_res/CAP_Proof.png",
     "Unige/Tesi I/Ribaudo.jpg",
     "Unige/Anno IV/1-SEM/background_knowledge.png",

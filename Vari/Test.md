@@ -5,10 +5,10 @@
 ##### Sottotitolo 4
 ###### Sottotitolo 5
 
-Questo è **BOLD**
+Questo è **Grassetto**
 Questo è *Corsivo*
 Questo è ***entrambi***
-Questo è `tra virgolette`
+Questo è `monospace`
 
 Questo è un [link](https://youtu.be/dQw4w9WgXcQ)
 

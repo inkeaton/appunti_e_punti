@@ -19,3 +19,5 @@
 		+ The transformation happens via a $4 \times 4$ operation: $$A = \begin{bmatrix}\frac{f}{\text{aspect ratio}} & 0 & 0 & 0 \\ 0 & f & 0 & 0 \\ 0 & 0 & \frac{\text{far} + \text{near}}{\text{near} - \text{far}} & \frac{2 \cdot \text{far} \cdot \text{near}}{\text{near} - \text{far}}\\ 0 & 0 & -1 & 0\end{bmatrix} \qquad f = \cot\left(\frac{\text{FOVy}}{2}\right)$$
 	+ **Viewport Transform**
 		+ The 3D space is transformed in a 2D image, defined by a viewport, a window
++ *10/03/25*
+	+ *Missing some part on accommodation vergence conflict and other stuff, te be recovered*
