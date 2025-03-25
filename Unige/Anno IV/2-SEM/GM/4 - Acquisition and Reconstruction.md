@@ -22,3 +22,5 @@
 + *About rotation and translation, various computations...*
 *12/03/25*
 + *fine registration, norm estimation*
+*17/03/25*
++ *About reconstruction; MLS; Marching Cubes*

@@ -11,10 +11,73 @@
             "id": "b86d168a394dc6b7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno IV/2-SEM/CV/_ref/04_motion_analysis.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "04_motion_analysis"
+            }
+          },
+          {
+            "id": "1875688d7fde511d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Unige/Anno IV/2-SEM/DL/_ref/05 Self-supervised learning .pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "05 Self-supervised learning"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "56bf0a2a5e677d3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fafa9d2ba5464a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno IV/2-SEM/DL/3 - Self-Supervised Learning.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "title": "3 - Self-Supervised Learning"
+            }
+          },
+          {
+            "id": "847909cd88cad212",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno IV/2-SEM/CV/4 - Motion Analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4 - Motion Analysis"
+            }
+          },
+          {
+            "id": "23fed255d4841533",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unige/Anno IV/2-SEM/GM/5 - Differential Geometry.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5 - Differential Geometry"
             }
           }
         ]
@@ -86,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.504695892334
+    "width": 261.504695892334,
+    "collapsed": true
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -156,31 +220,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e0bff1cf136c21d0",
+  "active": "1fafa9d2ba5464a0",
   "lastOpenFiles": [
+    "Unige/Anno IV/2-SEM/DL/_ref/05 Self-supervised learning .pdf",
+    "Unige/Anno IV/2-SEM/CV/_ref/04_motion_analysis.pdf",
+    "Unige/Anno IV/2-SEM/CV/4 - Motion Analysis.md",
+    "Unige/Anno IV/2-SEM/DL/3 - Self-Supervised Learning.md",
+    "Unige/Anno IV/2-SEM/GM/5 - Differential Geometry.md",
+    "Unige/Anno IV/2-SEM/GM/_ref/07-Surfaces.pdf",
+    "Unige/Anno IV/2-SEM/AR/4 - Spatial Display Model.md",
+    "Unige/Anno IV/2-SEM/AR/_ref/7_AR_Lecture7.pdf",
+    "Unige/Anno IV/2-SEM/GM/4 - Acquisition and Reconstruction.md",
+    "Unige/Anno IV/2-SEM/DL/_ref/04 Transfer learning.pdf",
+    "Unige/Anno IV/2-SEM/DL/2 - Transfer Learning.md",
+    "Unige/Anno IV/2-SEM/DL/1 - Autoencoder and GANs.md",
+    "Unige/Anno IV/2-SEM/GM/_ref/06-Curves.pdf",
     "Vari/Il matrimonio.md",
     "Vari/Test.md",
     "Vari/Forze.md",
-    "Unige/Anno IV/2-SEM/GM/4 - Acquisition and Reconstruction.md",
     "Unige/Anno IV/2-SEM/AR/3 - Visualization Pipeline.md",
     "Unige/Anno IV/2-SEM/CV/3 - Feature Matching.md",
     "Unige/Anno IV/2-SEM/GM/_ref/04-Normal Estimation.pdf",
     "Unige/Anno IV/2-SEM/GM/_ref/05-Reconstruction.pdf",
     "Unige/Anno IV/2-SEM/CV/_ref/03_image_matching.pdf",
     "Unige/Anno IV/2-SEM/AR/_ref/6_AR_Lecture6.pdf",
-    "Unige/Anno IV/2-SEM/CV/_ref/02_image_matching.pdf",
-    "Unige/Anno IV/2-SEM/DL/01 - Autoencoder and GANs.md",
-    "Unige/Anno IV/2-SEM/DL/_ref/03Autoencoders_GANs.pdf",
     "Unige/Anno IV/2-SEM/orario.png",
-    "Unige/Anno IV/2-SEM/GM/_ref/03-Acquisition and registration.pdf",
     "Unige/Anno IV/2-SEM/AR/_ref/hiragana-chart-by-tofugu.jpg",
     "Unige/Anno IV/2-SEM/AR/_ref/hiragana-mnemonic-chart-by-tofugu.jpg",
-    "Unige/Anno IV/2-SEM/AR/_ref/5_AR_Lecture5.pdf",
-    "Unige/Anno IV/2-SEM/GM/_ref/02-Meshes.pdf",
     "Unige/Anno IV/2-SEM/GM/3 - Data Representations.md",
     "Unige/Anno IV/2-SEM/GM/2 - Meshes.md",
     "Unige/Anno IV/2-SEM/CV/2 - Image Segmentation.md",
-    "Unige/Anno IV/2-SEM/CV/_ref/09_segmentation.pdf",
     "Unige/Anno IV/2-SEM/AR/_ref/cpu_PNG33.png",
     "Unige/Anno IV/2-SEM/GM/1 - Shape Representation.md",
     "Unige/Anno IV/2-SEM/CV/1 - Edges and Corners.md",
@@ -192,12 +261,6 @@
     "Unige/Anno IV/1-SEM/DSIP/8 - Frames.md",
     "Unige/Anno IV/1-SEM/DSIP/9 - Images.md",
     "Unige/Anno IV/1-SEM/DSIP/7 - Wavelets.md",
-    "Unige/Anno IV/1-SEM/DSIP/6 - Kalman Filter.md",
-    "Unige/Anno IV/1-SEM/ML/0 - Summary.md",
-    "Unige/Anno IV/1-SEM/DC/0 - Summary.md",
-    "Unige/Anno IV/1-SEM/DC/8 - Search in P2P Systems.md",
-    "Unige/Anno IV/1-SEM/DC/7 - Tor.md",
-    "Unige/Anno IV/1-SEM/DC/6 - Queuing Theory.md",
     "Unige/Anno IV/1-SEM/DC/_res/CAP_Proof.png",
     "Unige/Tesi I/Ribaudo.jpg",
     "Unige/Anno IV/1-SEM/background_knowledge.png",
