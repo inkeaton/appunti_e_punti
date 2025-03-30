@@ -53,3 +53,39 @@ B_{t-1}(x, y) & \text{if } |I_t(x, y) - B_{t-1}(x, y)| > \tau \\ (1-\alpha)B_{t-
 + So, if we were to consider all of the points of this neighbourhood at the same time, we'd obtain a system of equations with one equation for each point in the neighbourhood, more than enough to solve for $\overset{\rightarrow}{u}$! $$\begin{align} A \;\overset{\rightarrow}{u} &= b \\ \\\text{where } A = \begin{bmatrix} \nabla I(x_1, t)^T \\ \vdots \\ \nabla I(x_m, t)^T \end{bmatrix} & \text{and} \;  b = \begin{bmatrix} -I_t(x_1, t) \\ \vdots \\ -I_t(x_m, t) \end{bmatrix}  \end{align}$$
 + We can solve with the **pseudo-inverse**, but $AA^T$ will be full rank only on the **corners** of the image, points which are not subject to the aperture problem
 + Often the algorithm is just applied to those points
+### Fast Movements
++ All of the **temporal-derivative** based algorithms are **not meant for fast movement** (Lucas-Kanade included)
++ A disingenuous solution would be to simply increase the size of the patches, but this would also increase ambiguity
++ A better solution is given by **Multi-Resolution Lucas-Kanade**:
+	+ Given two frames, we build a pyramid for each of them, composed of smoothed and sub-sampled versions of the frames
+	+ We start from the bottom and apply LK, getting the coarsest estimation possible
+	+ We upsample the result to the next level
+	+ We build a warped version of the first frame of that level (We move the pixels by the amount estimated from the previous gradient, with the help of some interpolation)
+	+ We apply LK to the warp and the latter frame, obtaining a correction
+	+ We update LK's estimation for this layer by adding the correction
+	+ Repeat for each layer
++ It's like if we **searched** each time for the **right level** to detect the movement
+## Reconstruction
++ When creating a **2D** image, we necessarily **lose information** about the **3D** space we are capturing, most importantly **depth**
++ This is a **perspective projection**
++ Also our brain encounters a similar problem. But in this case, we do not consider just a image, but two: the two slightly different perspectives captured by our eyes
++ This is called **stereopsis** or stereo vision, the problem of inferring 3D information (structure and distances) from two or more images taken from different viewpoints
++ In the special case of a fixation point at infinity, given two coplanar views, the **depth**  $Z$ of an object can be computed as: $$Z = \frac{fT}{x_r - x_l} = \frac{\overbracket{f}^{\text{focal length }}\overbracket{T}^{\text{baseline}}}{\underbracket{d}_{\text{disparity}}}$$
++ This case can be can be **generalized** quite easily
++ So, in stereopsis, we we work as follows:
+	1. We find **corresponding elements** between images
+	2. We **reconstruct** the environment using **triangulation**
+### Correspondence Problem
++ The correspondence problem involves two decisions:
+	+ Which image elements to match
+	+ Which feature description + similarity measure to adopt
++ A method can be computing a **disparity map**, giving the relative displacement for each pixel.
++ The algorithm we'll see will require the two images to be **rectified**, namely that corresponding point are on the same line
+	+ While not always true, there exist multiple methods to rectify images algorithmically, and as such it is an **acceptable requirement**
++ A **simple first algorithm** is the following:
+	+ Given two images, we choose a size of neighbourhood
+	+ For each pixel of the first image and each value of disparity $d$ we estimate the similarity between the pixel's neighbourhood and the corresponding neighbourhood moved by $d$ in the other image
+	+ After computing all disparities, we choose the one with higher similarity as the best possible correspondence for that pixel
++ This **will not work well** in a **dense** scenario: correspondences are made more difficult by occlusions (points with no counterpart on the other image)
++ Some solutions can be working on corners on using some priors
++ Anothyer is **Left-Right consistency** (*look for it in slides...*)
