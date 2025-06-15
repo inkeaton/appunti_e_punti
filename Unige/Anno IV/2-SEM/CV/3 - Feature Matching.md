@@ -21,7 +21,7 @@
 	+ Via the properties of convolution, we can **precompute** the **Laplacian of Gaussian** $\triangledown^2 G$(LoG) and directly use that
 + This function gives us a map where the extreme points correspond to blobs
 + This method was consider **not too efficient**
-+ Using it as a basis, the **Difference of Gaussians** (DoG) method was created, on tthe basis of the following approximation:$$\triangledown^2G \approx G(., K \sigma) - G(., \sigma)$$
++ Using it as a basis, the **Difference of Gaussians** (DoG) method was created, on the basis of the following approximation:$$\triangledown^2G \approx G(., K \sigma) - G(., \sigma)$$
 + We build a multi scale representation of the image, where each of them is **smoothed** of a different amount. Then, we compute the difference of the pairs.
 + The final maps are approximations of the Laplacian applied to the image. To detect a **blob**, we need to look in both the specific map and the two adjacent (scale-space neighbourhood)
 + The amount of smoothing in which the feature is found is an encoding of the correct scale of the blob

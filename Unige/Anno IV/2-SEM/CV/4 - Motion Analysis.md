@@ -88,4 +88,48 @@ B_{t-1}(x, y) & \text{if } |I_t(x, y) - B_{t-1}(x, y)| > \tau \\ (1-\alpha)B_{t-
 	+ After computing all disparities, we choose the one with higher similarity as the best possible correspondence for that pixel
 + This **will not work well** in a **dense** scenario: correspondences are made more difficult by occlusions (points with no counterpart on the other image)
 + Some solutions can be working on corners on using some priors
-+ Anothyer is **Left-Right consistency** (*look for it in slides...*)
++ Another is **Left-Right consistency** (*look for it in slides...*)
+### 3D Reconstruction
++ When we are building our reconstruction, it is important to consider two sets of hyper-parameters, which are fundamental:
+	+ **Intrinsic** Parameters: Describe the translation of a point from camera to pixels
+		+ $f$ Focal Length 
+		+ $(s_x, s_y)$ size of a pixel in $mm$
+		+ $p = (x_0, y_0)$ central point
+			+ Those parameters can be know a priori or estimated by camera **calibration** procedures
+			+ Using those we can compute the **unit measure translation** $$\begin{align}x_{mm} &= -(x_{pix} - x_0)s_x \\ y_{mm} &= -(y_{pix} - y_0)s_y\end{align}$$
+	+ **Extrinsic** Parameters: Describe the relationship between the two cameras
+		+ $R$ rotation
+		+ $T$ translation
+		+ Those parameters can be obtained starting from **point correspondences**
+			+ Using those we can compute: $$P_r = R(P_l - T)$$
+---
++ To complete our explanation, we need to explain some geometric concepts
++ **Homogeneous coordinates** are a system to represent points, vectors and planes which supports also to infinity (*More details in slides...*)
++ All elements are in equivalences classes: $$(kx, ky, k) \equiv (x, y, 1)$$
++ This system **enables** us to write some **operations** as **linear**
++ The **perspective model** becomes as follows: $$\underbracket{\begin{pmatrix} x_{2D} \\ y_{2D} \\ 1 \end{pmatrix}}_{\text{2D point}} \equiv \begin{pmatrix} fX_{3D} \\ fY_{3D} \\ Z_{3D} \end{pmatrix} = \underbracket{\begin{bmatrix}f & 0 & 0 & 0 \\ 0 & f & 0 & 0 \\ 0 & 0 & 1 & 0 \end{bmatrix}}_{\text{projection matrix M}} \underbracket{\begin{pmatrix} X_{3D} \\ Y_{3D} \\ Z_{3D} \\ 1\end{pmatrix}}_{\text{3D point}}$$
++ We can factorize $M$ in two sections, which helps us separate **intrinsic** and **extrinsic** parameters: $$ M = \text{diag}(f, f, 1) [I_{3\times3}| \overrightarrow{0}]$$
++ The same can be done for **unit measure translation**, using the operator $K$ $$\begin{align}K &= \begin{bmatrix}
+-\frac{f}{s_x} & 0 & x_0 \\ 0 & -\frac{f}{s_y} & y_0 \\ 0 & 0 & 1 \end{bmatrix} [I_{3 \times 3} | \overrightarrow{T}] \\ p_{pix} &= KMP_{3D}\end{align}$$ (*This part does not coincide with the slides, to be understood...*)
+### Epipolar Geometry
++ Given two observation points $O_L, O_R$, stable, and a point $P$ in the real world, we can imagine a plane, called the **epipolar plane** , which goes trough them, and as such also through $p_L, p_R$, $P$'s projections on the camera planes
++ The intersections between the camera planes and the epipolar plane are two lines called **epipolar lines**. On this lines live the **epipoles**, the intersections between the baseline and the camera planes
++ The baseline is stable, as $O_L, O_R$ do not move, while the point $P$ may move. As such, the epipolar plane is **constrained** to the baseline, and the epipoles will always be on it, and the projections $p_L, p_R$ will always be on the epilines (**Epipolar Constraint**)
++ Now, epipolar **geometry** can be **estimated**, using the fact that the vectors $L_L = \overline{O_LP}, \; L_R = L_L - T = \overline{O_RP}, \; T = \overline{O_LO_R}$ are **coplanar**, and as such $$(L_L - T)^T T \times L_L = 0$$
++ From this, we can rewrite $$\begin{align} T \times L_L &= S L_L \quad \text{where} \quad S = \begin{bmatrix} 0 & -T_3 & T_2 \\ T_3 & 0 & -T_1 \\ -T_2 & T_1 & 0 \end{bmatrix} \\ (R^TL_R)^TSL_L &= 0 \\ L_R^T\underbracket{RS}_{
+\substack{\text{essential} \\ \text{matrix }E}}L_L &= 0\end{align}$$
++ Now, we can write the following $$(p_R)^TEp_L =0$$
++ This means that, **knowing** only the points (in mm), we could **compute** the **essential** matrix. And it could give us an understanding of the external parameters
++ Also, we can rewrite: $$\begin{align}(K_R^{-1} p_R^{PIX})^TE (K_Lp_L^{PIX}) &=0 \\ (p_R^{PIX})^T \underbracket{K_R^{-T}E K_L^{-1}}_{\substack{\text{fundamental} \\ \text{matrix }F}} (p_L^{PIX}) &= 0\end{align}$$
++ Using $F$, we can start directly from the points in **pixel form**
++ It is also a map between points and their epipolar lines $$l' = Fp^{PIX}$$
+	+ Using $F$, we can estimate the epipoles, and the position of the cameras
++ Sadly, there's **no** way to **factorize** $F$ to find $E$
++ Still, we can compute it starting from the points we have, using the **eight points algorithm**:
+	+ Given at least 8 point couples, we can write a linear system, in which each equation is composed of pieces of the points ($A$), and the unknowns are the nine elements which compose the $F$ matrix
+	+ This can be solved as any conventional system (with SVD)
++ If the points are more than 8, the system is **over-determined**. 
+	+ This is often a good thing, as we must consider that we may have **noisy** correspondences. 
+	+ So, we may try to approximate the problem, by **minimizing** $AF$
++ A correct $F$ matrix should have rank 2. Most probably, this matrix won't have rank 2, most likely 3
+	+ To correct this, we should compute the SVD of $F$, suppress one eigenvalue out of $\Sigma$ and recompose. The obtained matrix $F'$ will have the correct rank

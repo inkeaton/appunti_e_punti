@@ -22,4 +22,4 @@
 	+ We can compute the **auto-correlation**(?): $$E_p(d) = \sum_{p_i \in N_p}(I(p_I) - I(p_i +d))^2$$ This tells us how much is $p$ similar to its neighbours
 	+ Using Taylor's Series (and ignoring higher value derivatives, too noise-sensible) we can rewrite: $$E_p(d) \approx \sum_{p_i \in N_p} (\triangledown I(p_i) \cdot d)^2 = d^T A_c d$$ where $A_c$ is the **auto-correlation matrix**: $$\begin{bmatrix} \sum_{p_i \in N_p} I_x(p_i)^2 & \sum_{p_i \in N_p} I_x(p_i)I_y(p_i)  \\ \sum_{p_i \in N_p} I_x(p_i) I_y(p_i)  & \sum_{p_i \in N_p} I_y(p_i)^2 \end{bmatrix}$$
 	+ When $A_c$ is **diagonalized**, only a corner will have **both eigenvalues not-null**. **We found a way to detect corners**!
-+ This is the **Shi-Tumasi** method, and it is quite used
++ This is the **Shi-Tomasi** method, and it is quite used
