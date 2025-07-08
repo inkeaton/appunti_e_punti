@@ -4,84 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "56bf0a2a5e677d3a",
+        "id": "c5f430123ebc18b5",
         "type": "tabs",
-        "dimension": 71.45135566188198,
         "children": [
           {
-            "id": "8ad9cc3d716aca8a",
+            "id": "d04962a403d810ef",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Unige/Anno IV/2-SEM/AR/_ref/15_AR_Lecture_ARFoundation_ARCore.pdf"
+                "file": "Unige/Anno IV/2-SEM/GM/_ref/15-Computational-geodesics.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "15_AR_Lecture_ARFoundation_ARCore"
+              "title": "15-Computational-geodesics"
             }
           },
           {
-            "id": "adc2119953258aeb",
+            "id": "cb353a79df2da433",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Unige/Anno IV/2-SEM/CV/_ref/Szeliski_CVAABook_2ndEd.pdf"
+                "file": "Unige/Anno IV/2-SEM/GM/_ref/16-Vector-graphics.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Szeliski_CVAABook_2ndEd"
+              "title": "16-Vector-graphics"
             }
           },
           {
-            "id": "88c67f78f4384d96",
+            "id": "b61b8d4ef7a0b9df",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Unige/Anno IV/2-SEM/CV/_ref/03_image_matching.pdf"
+                "file": "Unige/Anno IV/2-SEM/GM/_ref/08-DDG1.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "03_image_matching"
+              "title": "08-DDG1"
             }
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "b3d418105af9a470",
-        "type": "tabs",
-        "dimension": 28.548644338118024,
-        "children": [
-          {
-            "id": "f1bd1020b5d138dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unige/Anno IV/2-SEM/AR/2 - 3D Geometry.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2 - 3D Geometry"
-            }
-          },
-          {
-            "id": "96094d99dfe9af62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unige/Anno IV/2-SEM/CV/4 - Motion Analysis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4 - Motion Analysis"
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50469589233398
+    "width": 280.504695892334
   },
   "right": {
     "id": "383bace37aaa2def",
@@ -220,44 +183,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "88c67f78f4384d96",
+  "active": "b61b8d4ef7a0b9df",
   "lastOpenFiles": [
-    "Unige/Anno IV/2-SEM/CV/_ref/01_image_processing.pdf",
+    "Unige/Anno IV/2-SEM/GM/_ref/09-DDG2.pdf",
+    "Unige/Anno IV/2-SEM/GM/_ref/16-Vector-graphics.pdf",
+    "Unige/Anno IV/2-SEM/GM/_ref/15-Computational-geodesics.pdf",
+    "Unige/Anno IV/2-SEM/GM/_ref/00-Introduction.pdf",
+    "Unige/Anno IV/2-SEM/GM/_ref/12-Mesh Deformation.pdf",
+    "Unige/Anno IV/2-SEM/GM/_ref/14-Geodesics.pdf",
+    "Unige/Anno IV/2-SEM/GM/_ref/13-Splines.pdf",
+    "Unige/Anno IV/2-SEM/GM/_ref/11-Parametrization.pdf",
+    "Unige/Anno IV/2-SEM/GM/_ref/10-Smoothing.pdf",
+    "Unige/Anno IV/2-SEM/GM/_ref/07-Surfaces.pdf",
+    "Unige/Anno IV/2-SEM/GM/_ref/08-DDG1.pdf",
+    "Unige/Anno IV/2-SEM/DL/1 - Autoencoder and GANs.md",
+    "Unige/Anno IV/2-SEM/DL/0 - Summary.md",
+    "Unige/Anno IV/2-SEM/DL/5 - Recurring Data.md",
+    "Unige/Anno IV/2-SEM/DL/6 - Unsupervised Learning.md",
+    "Unige/Anno IV/2-SEM/DL/4 - Domain Adaptation.md",
+    "Unige/Anno IV/2-SEM/DL/3 - Self-Supervised Learning.md",
+    "Unige/Anno IV/2-SEM/DL/2 - Transfer Learning.md",
+    "Unige/Anno III/1-SEM/TAC/1 - Stringhe e Linguaggi.md",
+    "Unige/Anno IV/2-SEM/AR/2 - 3D Geometry.md",
     "Unige/Anno IV/2-SEM/CV/1 - Edges and Corners.md",
     "Unige/Anno IV/2-SEM/AR/1 - Definitions and Devices.md",
-    "Unige/Anno IV/2-SEM/CV/_ref/04_motion_analysis.pdf",
-    "Unige/Anno IV/2-SEM/CV/_ref/Szeliski_CVAABook_2ndEd.pdf",
-    "Unige/Anno IV/2-SEM/AR/_ref/15_AR_Lecture_ARFoundation_ARCore.pdf",
-    "Unige/Anno IV/2-SEM/AR/_ref/10_AR_Lecture10.pdf",
-    "Unige/Anno IV/2-SEM/AR/_ref/14_AR_Lecture_SDK.pdf",
-    "Unige/Anno IV/2-SEM/AR/_ref/13_AR_lecture_visualcoherence.pdf",
-    "Unige/Anno IV/2-SEM/AR/_ref/12_AR_Lecture12.pdf",
-    "Unige/Anno IV/2-SEM/AR/_ref/11_AR_Lecture11.pdf",
-    "Unige/Anno IV/2-SEM/AR/_ref/9_AR_Lecture9.pdf",
-    "Unige/Anno IV/2-SEM/AR/_ref/8_AR_Lecture8.pdf",
     "Unige/Anno IV/2-SEM/CV/4 - Motion Analysis.md",
     "Unige/Anno IV/2-SEM/CV/3 - Feature Matching.md",
     "Unige/Anno IV/2-SEM/CV/2 - Image Segmentation.md",
     "Unige/Anno IV/2-SEM/CV/5 - Image Semantics.md",
-    "Unige/Anno IV/2-SEM/AR/2 - 3D Geometry.md",
     "Unige/Anno IV/2-SEM/AR/3 - Visualization Pipeline.md",
     "Unige/Anno IV/2-SEM/AR/6 - Calibration.md",
     "Unige/Anno IV/2-SEM/AR/5 - Computer Vision.md",
     "Unige/Anno IV/2-SEM/AR/4 - Spatial Display Model.md",
     "Unige/Anno IV/2-SEM/AR/0 - Summary.md",
     "Unige/Anno IV/2-SEM/CV/0 - Summary.md",
-    "Unige/Anno IV/2-SEM/DL/0 - Summary.md",
     "Unige/Anno IV/2-SEM/GM/0 - Summary.md",
     "Unige/Anno IV/2-SEM/GM/2 - Meshes.md",
     "Unige/Anno IV/2-SEM/GM/1 - Shape Representation.md",
-    "Unige/Anno IV/2-SEM/DL/6 - Unsupervised Learning.md",
-    "Unige/Anno IV/2-SEM/DL/5 - Recurring Data.md",
-    "Unige/Anno IV/2-SEM/DL/4 - Domain Adaptation.md",
-    "Unige/Anno IV/2-SEM/DL/3 - Self-Supervised Learning.md",
-    "Unige/Anno IV/2-SEM/DL/2 - Transfer Learning.md",
     "Unige/Anno IV/2-SEM/GM/6 - Smoothing.md",
-    "Unige/Anno IV/2-SEM/GM/5 - Differential Geometry.md",
-    "Unige/Anno II/2-SEM/BD/0 - Riassunto.md",
     "Unige/Anno IV/2-SEM/orario.png",
     "Unige/Anno IV/2-SEM/AR/_ref/hiragana-chart-by-tofugu.jpg",
     "Unige/Anno IV/2-SEM/AR/_ref/hiragana-mnemonic-chart-by-tofugu.jpg",
